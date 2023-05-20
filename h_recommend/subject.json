@@ -1,0 +1,685 @@
+[
+  {
+    "id": "1",
+    "name": "Cơ sở dữ liệu",
+    "so_tin_chi": "2",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Tin học đại cương",
+    "so_tin_chi": "3",
+    "tags": [
+      "logic",
+      "programming",
+      "C++"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Tiếng Anh chuyên ngành 1 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "tacn"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Nhập môn ngành và kỹ năng mềm IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Tiếng Anh 1",
+    "so_tin_chi": "3",
+    "tags": [
+      "english",
+      "ta"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Lập trình hướng đối tượng và Java cơ bản",
+    "so_tin_chi": "3",
+    "tags": [
+      "java",
+      "programming"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Đại số",
+    "so_tin_chi": "2",
+    "tags": [
+      "logic,math"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Nguyên lý hệ điều hành",
+    "so_tin_chi": "2",
+    "tags": [
+      "pc"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Công nghệ Web",
+    "so_tin_chi": "3",
+    "tags": [
+      "web,programming"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Đồ án cơ sở 1 - IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "web,doan"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Vật lý",
+    "so_tin_chi": "2",
+    "tags": [
+      "logic",
+      "math"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Cấu trúc dữ liệu và giải thuật",
+    "so_tin_chi": "3",
+    "tags": [
+      "programming",
+      "C++,logic"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Lập trình Java nâng cao",
+    "so_tin_chi": "2",
+    "tags": [
+      "java",
+      "programming"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Tiếng Anh chuyên ngành 2",
+    "so_tin_chi": "2",
+    "tags": [
+      "tacn",
+      "english"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Kiến trúc máy tính",
+    "so_tin_chi": "2",
+    "tags": [
+      "pc"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Tiếng Anh 2",
+    "so_tin_chi": "2",
+    "tags": [
+      "english",
+      "ta"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Đồ án cơ sở 2_IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "doan",
+      "web"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Chuyên đề 1 (IT)",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Tiếng Anh 3",
+    "so_tin_chi": "2",
+    "tags": [
+      "english",
+      "ta"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Phân tích và thiết kế hệ thống",
+    "so_tin_chi": "2",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Tiếng Anh chuyên ngành & thực hành 1",
+    "so_tin_chi": "2",
+    "tags": [
+      "english",
+      "ta"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Công nghệ web nâng cao",
+    "so_tin_chi": "3",
+    "tags": [
+      "web,programming"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Toán rời rạc",
+    "so_tin_chi": "2",
+    "tags": [
+      "logic",
+      "math"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Hệ thống số",
+    "so_tin_chi": "2",
+    "tags": [
+      "iot"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Mạng máy tính",
+    "so_tin_chi": "2",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Công nghệ phần mềm",
+    "so_tin_chi": "2",
+    "tags": [
+      "IT"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Chuyên đề 2",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Vi điều khiển",
+    "so_tin_chi": "3",
+    "tags": [
+      "IOT"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Giải tích",
+    "so_tin_chi": "2",
+    "tags": [
+      "logic",
+      "math"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Tiếng Anh chuyên ngành & thực hành 2",
+    "so_tin_chi": "2",
+    "tags": [
+      "tacn",
+      "english"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Xác suất thống kê",
+    "so_tin_chi": "2",
+    "tags": [
+      "math",
+      "logic"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Đồ án cơ sở 3 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "doan",
+      "app"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Lập trình di động",
+    "so_tin_chi": "3",
+    "tags": [
+      "app"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Thực tập doanh nghiệp IT",
+    "so_tin_chi": "1",
+    "tags": [
+      "internship"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Automat và Ngôn ngữ hình thức",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Chuyên đề 3 (IT)",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Đồ án cơ sở 4 (IT)",
+    "so_tin_chi": "2",
+    "tags": [
+      "doan"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Đồ họa máy tính",
+    "so_tin_chi": "2",
+    "tags": [
+      "AI",
+      "python"
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Lập trình mạng",
+    "so_tin_chi": "2",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Quản lý dự án",
+    "so_tin_chi": "2",
+    "tags": [
+      "IT"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Quản trị mạng",
+    "so_tin_chi": "2",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Trí tuệ nhân tạo",
+    "so_tin_chi": "2",
+    "tags": [
+      "AI",
+      "python"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Trình biên dịch",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Chuyên đề 4 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Đồ án cơ sở 5 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "python",
+      "AI"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Kiểm thử phần mềm",
+    "so_tin_chi": "2",
+    "tags": [
+      "tester"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Xử lý ảnh",
+    "so_tin_chi": "2",
+    "tags": [
+      "python",
+      "AI"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Lập trình hệ thống",
+    "so_tin_chi": "3",
+    "tags": [
+      "programming"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Phân tích và thiết kế giải thuật",
+    "so_tin_chi": "3",
+    "tags": [
+      "programming",
+      "C++,logic"
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Xử lý tín hiệu số",
+    "so_tin_chi": "2",
+    "tags": [
+      "logic",
+      "math"
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Hình họa",
+    "so_tin_chi": "3",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Triết học Mác - Lênin",
+    "so_tin_chi": "3",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Tư tưởng Hồ Chí Minh",
+    "so_tin_chi": "2",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Pháp luật đại cương",
+    "so_tin_chi": "2",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Chuyên đề 5 (IT)",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Đồ án chuyên ngành 1 (IT)",
+    "so_tin_chi": "2",
+    "tags": [
+      "doan"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Lập trình trong windows",
+    "so_tin_chi": "3",
+    "tags": [
+      "pc,programming"
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Tương tác người - máy",
+    "so_tin_chi": "3",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "id": "59",
+    "name": "Lập trình trò chơi trên máy tính",
+    "so_tin_chi": "3",
+    "tags": [
+      "game,programming"
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Thương mại điện tử",
+    "so_tin_chi": "3",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Linux & phần mềm nguồn mở",
+    "so_tin_chi": "3",
+    "tags": [
+      "pc,programming"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Xử lý ngôn ngữ tự nhiên",
+    "so_tin_chi": "3",
+    "tags": [
+      "AI",
+      "python"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Bảo mật và An toàn hệ thống thông tin",
+    "so_tin_chi": "2",
+    "tags": [
+      "english",
+      "logic"
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Kỹ thuật truyền số liệu",
+    "so_tin_chi": "2",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Thiết kế đồ họa động và hoạt hình",
+    "so_tin_chi": "3",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Kinh tế chính trị Mác - Lênin",
+    "so_tin_chi": "2",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Lịch sử Đảng Cộng sản Việt Nam",
+    "so_tin_chi": "2",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Chuyên đề 6 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Đồ án chuyên ngành 2 IT",
+    "so_tin_chi": "2",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Hệ cơ sở dữ liệu phân tán",
+    "so_tin_chi": "3",
+    "tags": [
+      "data,sql"
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Phân tích, thiết kế mạng",
+    "so_tin_chi": "3",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Mạng không dây và di động",
+    "so_tin_chi": "3",
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Điện toán đám mây",
+    "so_tin_chi": "3",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Mật mã học",
+    "so_tin_chi": "3",
+    "tags": [
+      "english",
+      "logic"
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Thiết kế và lập trình tương tác",
+    "so_tin_chi": "3",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Thiết kế đồ họa 3D",
+    "so_tin_chi": "3",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Thị giác máy tính",
+    "so_tin_chi": "3",
+    "tags": [
+      "AI",
+      "python"
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Xuất bản Truyền thông",
+    "so_tin_chi": "3",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Kỹ xảo phim ảnh - truyền hình",
+    "so_tin_chi": "3",
+    "tags": [
+      "default"
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Chủ nghĩa xã hội khoa học",
+    "so_tin_chi": "2",
+    "tags": [
+      "memorize"
+    ]
+  },
+  {
+    "id": "81",
+    "name": "Thực tập tốt nghiệp (IT)",
+    "so_tin_chi": "3",
+    "tags": [
+      "intern"
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Đồ án tốt nghiệp (IT)",
+    "so_tin_chi": "10",
+    "tags": [
+      "doan"
+    ]
+  }
+]
