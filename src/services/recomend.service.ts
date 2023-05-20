@@ -90,6 +90,7 @@ export const recommend = (hocphan: Score[]) => {
                 countSubject = tags[tags_subject[j]].count;
                 sum_difference += (sumScoreCh / countSubject - score[subject.scoreCh || '']) / Math.pow(2, j);
             }
+            sum_difference += ((subject.scoreCh == 'F') ? 10 : 0);
 
             recommendHocPhan.push({
                 name: subject.name || '',
