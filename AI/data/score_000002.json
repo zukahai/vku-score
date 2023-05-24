@@ -32,9 +32,9 @@
 			"scoreCC": 10,
 			"scoreBT": 10,
 			"scoreGK": 10,
-			"scoreCK": 10,
-			"scoreT10": 10,
-			"scoreCh": "A"
+			"scoreCK": 6,
+			"scoreT10": 8,
+			"scoreCh": "B"
 		},
 		{
 			"id": 4,
