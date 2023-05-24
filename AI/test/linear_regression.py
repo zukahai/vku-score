@@ -13,6 +13,12 @@ mymodel = list(map(myfunc, x))
 
 plt.scatter(x, y)
 plt.plot(x, mymodel)
+#title
+plt.title("THDC and CTDL&GT")
+#label
+plt.xlabel("THDC")
+plt.ylabel("CTDL&GT")
+#show
 plt.show()
 print(slope, intercept)
 
