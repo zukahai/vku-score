@@ -67,6 +67,9 @@ class Train:
         with open("result/" + str(timestr) + ".json","w", encoding='utf-8') as jsonfile:
             json.dump(self.results, jsonfile,ensure_ascii=False)
 
+        print("End train time:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.end_time)))
+        print("Result file: ", self.utils.getLocation('./result') + "\\result\\" + str(timestr) + ".json")
+
 
 train = Train()
 train.start()
