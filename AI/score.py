@@ -11,7 +11,7 @@ class Score:
             '': 0
         }
 
-        self.scores = self.read_data('data/score000001.json')
+        self.scores = self.read_data('data/score_000001.json')
         self.gpa = self.calulate_gpa()
     
     def onpen_json(self, filename):
