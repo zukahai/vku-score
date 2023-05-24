@@ -3,13 +3,11 @@ from scipy import stats
 from score import Score
 
 a = Score()
-name_subject = 'Đại số tuyến tính'
+name_subject = 'Tin học đại cương'
 a.train(name_subject)
 
 x = a.x
 y = a.y
-x = []
-y = []
 
 
 slope, intercept = 0, 0
