@@ -3,7 +3,7 @@ import json
 class Subject:
     def __init__(self):
         self.subjects = self.load_data('subject/subjects.json')
-        print(self.subjects)
+        # print(self.subjects)
 
     def load_data(self, filename):
         with open(filename, 'r', encoding="utf8") as myfile:

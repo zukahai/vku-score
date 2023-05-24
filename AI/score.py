@@ -40,14 +40,15 @@ class Score:
     def train(self, subject_name):
         dir_path = 'data'
         number_of_file = (len([entry for entry in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, entry))]))
+        self.number_of_file = number_of_file
         for i in range(1, number_of_file + 1):
-            print("=====> " + str(i) + " / " + str(number_of_file))
+            # print("=====> " + str(i) + " / " + str(number_of_file))
             indexFile = "0" * (6 - len(str(i))) + str(i);
             filename = 'data/score_' + indexFile + '.json'
 
             self.onpen_json(filename)
             score_subject = self.get_value_by_name_subject(subject_name)
-            print(self.score10, score_subject)
+            # print(self.score10, score_subject)
             if score_subject == 0:
                 continue
             self.x.append(self.score10)
