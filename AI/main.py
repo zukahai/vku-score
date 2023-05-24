@@ -1,9 +1,6 @@
 from score import Score
 
-score = Score()
-print(score.count_scoreCh())
-print(score.gpa)
+score = {}
+score['Tin học đại cương'] = Score()
 
-score.onpen_json('data/score_000002.json')
-print(score.count_scoreCh())
-print(score.gpa)
+score['Tin học đại cương'].train('Tin học đại cương')

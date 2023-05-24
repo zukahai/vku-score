@@ -1,8 +1,9 @@
 import json
+import os
 
 class Score:
     def __init__(self):
-        self.value = {
+        self.valueCh = {
             'A': 4,
             'B': 3,
             'C': 2,
@@ -10,6 +11,8 @@ class Score:
             'F': 0,
             '': 0
         }
+        self.x = []
+        self.y = []
 
         self.scores = self.read_data('data/score_000001.json')
         self.gpa = self.calulate_gpa()
@@ -49,7 +52,25 @@ class Score:
         sumTC, sumScore = 0, 0
         for key in count:
             sumTC += count[key]
-            sumScore += count[key] * self.value[key]
+            sumScore += count[key] * self.valueCh[key]
         return sumScore / sumTC
+    
+    def get_value_by_name_subject(self, name):
+        for subject in self.scores:
+            if subject['name'] == name:
+                return self.valueCh[subject['scoreCh']]
+        return 0
+    
+    def train(self, subject_name):
+        dir_path = 'data'
+        number_of_file = (len([entry for entry in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, entry))]))
+        for i in range(1, number_of_file + 1):
+            indexFile = "0" * (6 - len(str(i))) + str(i);
+            filename = 'data/score_' + indexFile + '.json'
+
+            self.onpen_json(filename)
+            print(self.gpa, self.get_value_by_name_subject(subject_name))
+            self.x.append(self.gpa)
+            self.y.append(self.get_value_by_name_subject(subject_name))
 
     
