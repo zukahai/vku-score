@@ -41,7 +41,7 @@ class Train:
             self.results['data'].append({
                 'name': name_subject,
                 'slope': slope,
-                'intercept': intercept
+                'intercept': intercept,
             })
 
             # print(self.results)

@@ -55,7 +55,9 @@ class Train:
                     'name_subject_x': name_subject_x,
                     'name_subject_y': name_subject_y,
                     'slope': slope,
-                    'intercept': intercept
+                    'intercept': intercept,
+                    'x': x,
+                    'y': y
                 })
 
                 self.index_progress += 1
