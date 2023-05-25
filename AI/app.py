@@ -12,8 +12,8 @@ def load_data(filename):
     obj = json.loads(data)
     return obj
 
-data = load_data('../result/20230525-171908.json')['data']
-subject_json = load_data('../subject/subjects.json')
+data = load_data('./result/20230525-171908.json')['data']
+subject_json = load_data('./subject/subjects.json')
 subjects = [subject['name'] for subject in subject_json]
 
 # sort subjects ignore utf8
