@@ -51,7 +51,7 @@ def handle_selection():
     fig = plt.figure(figsize=(5, 4), dpi=100)
     plt.scatter(x, y)
     plt.plot(x, mymodel)
-    plt.title(selected_subject_1 + "and" + selected_subject_2)
+    plt.title(selected_subject_1 + " và " + selected_subject_2)
     plt.xlabel(selected_subject_2)
     plt.ylabel(selected_subject_1)
     
