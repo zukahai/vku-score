@@ -5,19 +5,18 @@
 
 ## Mục lục
 
-1. [Giới thiệu](#gioi-thieu)
-   1.1. [Giới thiệu về Machine learning](#machine-learning)
-   1.2. [Giới thiệu về Linear regression](#linear-regression)
+1. [Giới thiệu](1-giới-thiêu)<br>
+   1.1. [Giới thiệu về Machine learning](#11-giới-thiệu-về-machine-learning) <br>
+   1.2. [Giới thiệu về Linear regression](#12-giới-thiệu-về-linear-regression)
+2. [Áp dụng Machine Learning vào việc gợi ý học cải thiện](#2-áp-dụng-machine-learning-vào-việc-gợi-ý-học-cải-thiện)<br>
+   2.1. [Cái nhìn tổng quan về học cải thiện](#21-cái-nhìn-tổng-quan-về-học-cải-thiện) <br>
+   2.2. [Ý tưởng dùng Linear regression](#22-ý-tưởng-dùng-linear-regression) <br>
+   2.3. [Triển khai](#23-triển-khai) 
+3. [Kết luận](#3-kết-luận)
 
-2. [Áp dụng Machine Learning vào việc gợi ý học cải thiện](#ap-dung-machine-learning)
-   2.1. [Cái nhìn tổng quan về học cải thiện](#nhin-tong-quan)
-   2.2. [Ý tưởng dùng Linear regression](#y-tuong-linear-regression)
-   2.3. [Triển khai](#trien-khai)
+---------------------------------------
 
-3. [Kết luận](#ket-luan)
-
-
-## 1. Giới thiêu
+## 1. Giới thiệu
 ### 1.1. Giới thiệu về Machine learning
 Machine learning (học máy) là một lĩnh vực trong trí tuệ nhân tạo (AI) tập trung vào việc phát triển các hệ thống có khả năng học hỏi và cải thiện hiệu suất từ dữ liệu mà không cần lập trình cụ thể. Thay vì được lập trình để thực hiện một nhiệm vụ cụ thể, các hệ thống máy học được huấn luyện trên dữ liệu và kinh nghiệm để tự động tìm ra các quy tắc, mẫu và mối quan hệ trong dữ liệu.
 
@@ -59,6 +58,7 @@ Ví dụ dưới đây là sự phụ thuộc của điểm học phần THDC (t
   <img align="center" src= "./demo/demo.png" />
 </div>
 <br>
+
 ### 2.3. Triển khai
 
 Nếu ta có rất nhiều bảng điểm thực tế của N sinh viên, dựa vào đó ta sẽ tìm được tính phụ thuộc của điểm từng cặp học phần mà sinh viên phải học.
