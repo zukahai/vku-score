@@ -1,0 +1,27 @@
+.floating-button {
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    height: auto;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fed014;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    animation: floatingAnimation 1s cubic-bezier(0.42, 0, 0.58, 1) infinite alternate;
+}
+@keyframes floatingAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
