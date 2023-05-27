@@ -70,6 +70,7 @@ class Train:
                     'name_subject_y': name_subject_y,
                     'slope': slope,
                     'intercept': intercept,
+                    'static': True if (slope != 0 or intercept != 0) else False,
                     'x': x,
                     'y': y
                 }
