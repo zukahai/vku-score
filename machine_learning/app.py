@@ -12,7 +12,7 @@ def load_data(filename):
     obj = json.loads(data)
     return obj
 
-data = load_data('./result/20230525-171908.json')['data']
+data = load_data('./result/20230527-092221.json')['results']
 subject_json = load_data('./subject/subjects.json')
 subjects = [subject['name'] for subject in subject_json]
 
@@ -20,22 +20,20 @@ subjects = [subject['name'] for subject in subject_json]
 subjects.sort(key=lambda x: unidecode(x))
 
 def search_data(data, name_subject_x, name_subject_y):
-    for i in range(len(data)):
-        if data[i]['name_subject_x'] == name_subject_x and data[i]['name_subject_y'] == name_subject_y:
-            return data[i]
+    return data[name_subject_y][name_subject_x]
 
 
 def handle_selection():
-    selected_subject_1 = subject1_combobox.get()
-    selected_subject_2 = subject2_combobox.get()
-    print("Ngôn ngữ được chọn:", selected_subject_1)
-    print("Tên được chọn:", selected_subject_2)
+    selected_subject_y = subject_y_combobox.get()
+    selected_subject_x = subject_x_combobox.get()
+    print("Ngôn ngữ được chọn:", selected_subject_y)
+    print("Tên được chọn:", selected_subject_x)
     
     # Dữ liệu mẫu
     x = [10, 8, 10, 9.6, 10, 10, 5, 6]
     y = [9.3, 9.3, 8.6, 9.8, 8.9, 10, 6, 7]
 
-    dependent = search_data(data, selected_subject_2, selected_subject_1)
+    dependent = search_data(data, selected_subject_x, selected_subject_y)
     if (dependent != None):
         x = dependent['x']
         y = dependent['y']
@@ -51,9 +49,9 @@ def handle_selection():
     fig = plt.figure(figsize=(5, 4), dpi=100)
     plt.scatter(x, y)
     plt.plot(x, mymodel)
-    plt.title(selected_subject_1 + " và " + selected_subject_2)
-    plt.xlabel(selected_subject_2)
-    plt.ylabel(selected_subject_1)
+    plt.title(selected_subject_y + " và " + selected_subject_x)
+    plt.xlabel(selected_subject_x)
+    plt.ylabel(selected_subject_y)
     
     canvas = FigureCanvasTkAgg(fig, master=root)
     canvas.draw()
@@ -63,18 +61,20 @@ root = tk.Tk()
 root.title("Recommed")
 
 # Tạo Combobox cho lựa chọn môn học 1
-subject1_label = ttk.Label(root, text="Môn học 1:")
-subject1_label.grid(row=0, column=0, padx=5, pady=5, sticky=tk.W)
+subject_y_label = ttk.Label(root, text="Môn học 1:")
+subject_y_label.grid(row=0, column=0, padx=5, pady=5, sticky=tk.W)
 
-subject1_combobox = ttk.Combobox(root, values=subjects)
-subject1_combobox.grid(row=0, column=1, padx=5, pady=5)
+subject_y_combobox = ttk.Combobox(root, values=subjects)
+subject_y_combobox.grid(row=0, column=1, padx=5, pady=5)
+subject_y_combobox.current(68)
 
 # Tạo Combobox cho lựa môn học 2
-subject2_label = ttk.Label(root, text="Môn học 2:")
-subject2_label.grid(row=1, column=0, padx=5, pady=5, sticky=tk.W)
+subject_x_label = ttk.Label(root, text="Môn học 2:")
+subject_x_label.grid(row=1, column=0, padx=5, pady=5, sticky=tk.W)
 
-subject2_combobox = ttk.Combobox(root, values=subjects)
-subject2_combobox.grid(row=1, column=1, padx=5, pady=5)
+subject_x_combobox = ttk.Combobox(root, values=subjects)
+subject_x_combobox.grid(row=1, column=1, padx=5, pady=5)
+subject_x_combobox.current(2)
 
 # Tạo nút để xử lý sự kiện khi người dùng chọn ngôn ngữ và tên
 select_button = ttk.Button(root, text="Chọn", command=handle_selection)

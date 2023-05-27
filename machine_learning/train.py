@@ -13,15 +13,20 @@ warnings.filterwarnings("ignore")
 
 class Train:
     def __init__(self):
-        subject = Subject()
         # get all subjects
-        self.subjects = subject.subjects
+        self.subjects = Subject().subjects
         # print(self.subjects)
         self.results = {
             "data": [],
+            "results": {},
             "number_of_data": 0,
             "time_train": 0
         }
+
+        #init result
+        for subject_name in self.subjects:
+            self.results['results'][subject_name] = {}
+
         #current time
         self.start_time = time.time()
         print("Start train time:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.start_time)))
@@ -59,6 +64,15 @@ class Train:
                     'x': x,
                     'y': y
                 })
+
+                self.results['results'][name_subject_y][name_subject_x] = {
+                    'name_subject_x': name_subject_x,
+                    'name_subject_y': name_subject_y,
+                    'slope': slope,
+                    'intercept': intercept,
+                    'x': x,
+                    'y': y
+                }
 
                 self.index_progress += 1
                 self.utils.printProgressBar(self.index_progress, self.number_of_progress, prefix = ' Progress:', suffix = 'Complete', length = 50)
