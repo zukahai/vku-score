@@ -1,40 +1,14 @@
 # Hỗ trợ tính điểm GPA và gợi ý học cải thiện cho sinh viên VKU
 
-<style>
-.table-of-contents {
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.sub-item {
-    margin-left: 20px;
-}
-</style>
+## Mục lục
 
-<div class="table-of-contents">
-
-# Mục lục
-1. [Giới thiệu](#tieude1)
-    1.1. [Giới thiệu VKU Score](#tieude1.1)
-    1.2. [Các chức năng của VKU Score](#tieude1.2)
-2. [Hướng dẫn sử dụng](#tieude2)
-    2.1. [Cách lấy danh sách điểm](#tieude2.1)
-        <span class="sub-item">2.1.1. [Đăng nhập vào hệ thống đào tạo của sinh viên VKU](#tieude2.1.1)</span>
-        <span class="sub-item">2.1.2. [Truy cập vào trang điểm của sinh viên VKU](#tieude2.1.2)</span>
-        <span class="sub-item">2.1.3. [Sao chép mã hỗ trợ lấy danh sách điểm học phần](#tieude2.1.2)</span>
-        <span class="sub-item">2.1.4. [Sử dụng Developer Tools để tải file điem.json](#tieude2.1.2)</span>
-    2.2. [Sử dụng VKU Score](#tieude2.2)
-        <span class="sub-item">2.2.1. [Tải dữ liệu điểm lên hệ thống](#tieude2.1.1)</span>
-        <span class="sub-item">2.2.2. [Tính GPA của sinh viên](#tieude2.1.1)</span>
-        <span class="sub-item">2.2.3. [Xem điểm sau khi cải thiện](#tieude2.1.1)</span>
-        <span class="sub-item">2.2.4. [Gợi ý đánh giá học phần](#tieude2.1.1)</span>
-    2.3. [Tiện ích bổ sung cho VKU SCORE](#tieude2.2)
-        <span class="sub-item">2.3.1. [Đánh giá lớp học phần](#tieude2.1.1)</span>
-        <span class="sub-item">2.3.2. [Đánh giá sự cần thiết của học phần](#tieude2.1.1)</span>
-
-</div>
-
+- [Câu 1. Delay setTimeout](#câu-1-delay-settimeout)
+* [Câu 2. Tối ưu 20 sự kiện bất đồng bộ](#câu-2-tối-ưu-20-sự-kiện-bất-đồng-bộ)
+* [Câu 3. Vấn đề của event loop](#câu-3-vấn-đề-của-event-loop)
+* [Câu 4. Cải thiện performance](#câu-4-cải-thiện-performance)
+* [Câu 5. For thường và forEach](#câu-5-khác-nhau-giữa-for-thường-và-foreach)
+* [Câu 6. Các cách clone object](#câu-6-các-cách-clone-object)
+* [Câu 7. Thay thế forEach](#câu-5-khác-nhau-giữa-for-thường-và-foreach)
 
 
 ## 1. Giới thiệu
