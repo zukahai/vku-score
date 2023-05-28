@@ -2,23 +2,23 @@
 
 ## Mục lục
 
-- [1. Giới thiệu VKU Score](#tieude1.1)
-    - [1.1. Giới thiệu VKU Score](#tieude1.1)
-    - [1.2. Các chức năng của VKU Score](#tieude1.2)
-- [2. Hướng dẫn sử dụng](#tieude2)
-    - [2.1. Cách lấy danh sách điểm](#tieude2.1)
-        - [2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU](#tieude2.1.1)
-        - [2.1.2. Truy cập vào trang điểm của sinh viên VKU](#tieude2.1.2)
-        - [2.1.3. Sao chép mã hỗ trợ lấy danh sách điểm học phần](#tieude2.1.2)
-        - [2.1.3. Sử dụng Developer Tools để tải file điem.json](#tieude2.1.2)
-    - [2.2. Sử dụng VKU Score](#tieude2.2)
-        - [2.2.1. Tải dữ liệu điểm lên hệ thống](#tieude2.1.1)
-        - [2.2.2. Tính GPA của sinh viên](#tieude2.1.1)
-        - [2.2.3. Xem điểm sau khi cải thiện](#tieude2.1.1)
-        - [2.2.3. Gợi ý đánh giá học phần](#tieude2.1.1)
+- [1. Giới thiệu](#1-giới-thiệu)
+    - [1.1. Giới thiệu VKU Score](#11-giới-thiệu-vku-score)
+    - [1.2. Các chức năng của VKU Score](#12-các-chức-năng-của-vku-score)
+- [2. Hướng dẫn sử dụng](#2-hướng-dẫn-sử-dụng)
+    - [2.1. Cách lấy danh sách điểm](#21-cách-lấy-danh-sách-điểm)
+        - [2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU](#211-đăng-nhập-vào-hệ-thống-đào-tạo-của-sinh-viên-vku)
+        - [2.1.2. Truy cập vào trang điểm của sinh viên VKU](#212-truy-cập-vào-trang-điểm-của-sinh-viên-vku)
+        - [2.1.3. Sao chép mã hỗ trợ lấy danh sách điểm học phần](#213-sao-chép-mã-hỗ-trợ-lấy-danh-sách-điểm-học-phần)
+        - [2.1.4. Sử dụng Developer Tools để tải file điem.json](#214-sử-dụng-developer-tools-để-tải-file-điemjson)
+    - [2.2. Sử dụng VKU Score](#22-sử-dụng-vku-score)
+        - [2.2.1. Tải dữ liệu điểm lên hệ thống](#221-tải-dữ-liệu-điểm-lên-hệ-thống)
+        - [2.2.2. Tính GPA của sinh viên]()
+        - [2.2.3. Xem điểm sau khi cải thiện]()
+        - [2.2.3. Gợi ý đánh giá học phần]()
     - [2.3. Tiện ích bổ sung cho VKU SCORE](#tieude2.2)
-        - [2.3.1. Đánh giá lớp học phần](#tieude2.1.1)
-        - [2.3.2. Đánh giá sự cần thiết của học phần](#tieude2.1.1)
+        - [2.3.1. Đánh giá lớp học phần]()
+        - [2.3.2. Đánh giá sự cần thiết của học phần]()
 <hr>
 
 ## 1. Giới thiệu
@@ -191,6 +191,7 @@ Sau khi xong dữ liệu điểm sẽ được hiển thị trên trang web.
 <img src="https://i.ibb.co/m9f2XQB/image.png" alt="image" border="0">
 </div>
 
+#### 2.2.2. Tính điểm GPA
 
 #### 2.2.2. Xem điểm sau khi cải thiện
 
