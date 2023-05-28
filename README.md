@@ -5,6 +5,9 @@
 - [1. Giới thiệu](#1-giới-thiệu)
     - [1.1. Giới thiệu VKU Score](#11-giới-thiệu-vku-score)
     - [1.2. Các chức năng của VKU Score](#12-các-chức-năng-của-vku-score)
+        - [1.2.1 Tính GPA của sinh viên](#121-tính-gpa-của-sinh-viên)
+        - [1.2.2 Tính điểm sau khi học cải thiện](#122-tính-điểm-sau-khi-học-cải-thiện)
+        - [1.2.3 Gợi ý những học phần nên cải thiện](#123-gợi-ý-những-học-phần-nên-cải-thiện)
 - [2. Hướng dẫn sử dụng](#2-hướng-dẫn-sử-dụng)
     - [2.1. Cách lấy danh sách điểm](#21-cách-lấy-danh-sách-điểm)
         - [2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU](#211-đăng-nhập-vào-hệ-thống-đào-tạo-của-sinh-viên-vku)
@@ -13,29 +16,47 @@
         - [2.1.4. Sử dụng Developer Tools để tải file điem.json](#214-sử-dụng-developer-tools-để-tải-file-điemjson)
     - [2.2. Sử dụng VKU Score](#22-sử-dụng-vku-score)
         - [2.2.1. Tải dữ liệu điểm lên hệ thống](#221-tải-dữ-liệu-điểm-lên-hệ-thống)
-        - [2.2.2. Tính GPA của sinh viên]()
-        - [2.2.3. Xem điểm sau khi cải thiện]()
-        - [2.2.3. Gợi ý đánh giá học phần]()
-    - [2.3. Tiện ích bổ sung cho VKU SCORE](#tieude2.2)
-        - [2.3.1. Đánh giá lớp học phần]()
-        - [2.3.2. Đánh giá sự cần thiết của học phần]()
+        - [2.2.2. Tính GPA của sinh viên](#222-tính-điểm-gpa)
+        - [2.2.3. Xem điểm sau khi cải thiện](#223-xem-điểm-sau-khi-cải-thiện)
+        - [2.2.4. Gợi ý đánh giá học phần](#224-gợi-ý-đánh-giá-học-phần)
+    - [2.3. Tiện ích bổ sung cho VKU SCORE](#23-tiện-ích-bổ-sung-cho-vku-score)
+        - [2.3.1. Đánh giá lớp học phần](#231-đánh-giá-lớp-học-phần)
+        - [2.3.2. Đánh giá sự cần thiết của học phần](#232-đánh-giá-sự-cần-thiết-của-học-phần)
 <hr>
 
 ## 1. Giới thiệu
 ### 1.1. Giới thiệu VKU Score
-### 1.2. Các chức năng của VKU Score
 
+
+Hiện nay, một số sinh viên tại Trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng (VKU) đang gặp khó khăn khi tính toán điểm trung bình tích luỹ (GPA) của mình. Nhiều sinh viên mong muốn cải thiện GPA, nhưng chưa biết chính xác điểm GPA sẽ thay đổi như thế nào sau khi họ nỗ lực cải thiện. Nhận thấy nhược điểm này, nhóm sinh viên VKU-GomChoi đã phát triển một công cụ có tên gọi "VKU Score" nhằm hỗ trợ sinh viên trong việc quản lý điểm số của mình.
+
+Đặc biệt, công cụ "VKU Score" sử dụng kiến thức và công nghệ học máy (Machine Learning) để cung cấp gợi ý cho sinh viên về những học phần nên học cải thiện. Bằng cách phân tích dữ liệu điểm số và tín chỉ của sinh viên, công cụ có khả năng đưa ra đề xuất về những môn học có tiềm năng tăng điểm GPA cao nhất khi được cải thiện. Điều này giúp sinh viên có một hướng dẫn cụ thể và hiệu quả để lập kế hoạch học tập của mình.
+
+Công cụ "VKU Score" không chỉ giúp sinh viên tính toán và dự đoán điểm GPA sau khi cải thiện, mà còn giúp họ hiểu rõ hơn về quá trình tính điểm và quy trình đánh giá học tập tại Trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng. Điều này cho phép sinh viên có cái nhìn tổng quan về tình hình học tập của mình và đưa ra các quyết định thông minh để nâng cao điểm số và GPA.
+
+Công cụ "VKU Score" là một giải pháp hữu ích và tiện lợi cho sinh viên VKU. Nhóm VKU-GomChoi đã tạo công cụ này không chỉ giúp tính toán điểm GPA một cách chính xác, mà còn cung cấp gợi ý và hướng dẫn cho sinh viên về cách cải thiện kết quả học tập của mình.
+
+### 1.2. Các chức năng của VKU Score
+#### 1.2.1 Tính GPA của sinh viên
+Công cụ "VKU Score" là một giải pháp đáng tin cậy để tính toán điểm GPA của sinh viên tại Trường Đại học Văn Lang (VKU) với độ chính xác 100%. Các thao tác cực kì đơn giản, tất cả sinh viên VKU có thể thực hiện nhanh chóng và dễ dàng.
+
+#### 1.2.2 Tính điểm sau khi học cải thiện
+Nếu bạn đang có nhu cầu học cải thiện nhưng chưa biết được GPA sau khi cải thiện là bao nhiều, hãy cho chúng tôi biết mong muốn của bạn, VKU Score sẽ giúp bạn tính GPA sau khi cải thiện. Bạn chỉ cần chon điểm bạn mong muốn mà bạn muốn cải thiện của mỗi học phần.
+#### 1.2.3 Gợi ý những học phần nên cải thiện
+Công cụ VKU Score sẽ xem xét các thông tin từ bảng điểm của bạn, chẳng hạn như điểm số hiện tại của các học phần, số tín chỉ, và điểm GPA hiện tại. Bằng cách phân tích và xử lý dữ liệu này, VKU Score sẽ xây dựng một mô hình linear regression để dự đoán điểm GPA sau khi cải thiện.
+
+Mô hình linear regression có thể tìm ra một mối quan hệ tuyến tính giữa các yếu tố đầu vào và điểm GPA. Dựa vào mô hình này, VKU Score sẽ đưa ra gợi ý cho bạn về những học phần có tiềm năng cao để cải thiện điểm GPA của bạn.
 ## 2. Hướng dẫn sử dụng
 ### 2.1. Cách lấy danh sách điểm
 
 #### 2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU
-Truy cập vào trang [đăng nhập](https://daotao.vku.udn.vn/sv) của VKU. Bạn cần có tài khoản của sinh viên trường VKU để thực hiện bước này.
+Truy cập vào trang [đăng nhập](https://daotao.vku.udn.vn/sv) của VKU. Người dùng cần có tài khoản của sinh viên trường VKU để thực hiện bước này.
 <div align="center">
     <img src="https://i.ibb.co/hmghpT6/image.png" alt="image" border="0">
 </div>
 
 #### 2.1.2. Truy cập vào trang điểm của sinh viên VKU
-Sau khi đăng nhập thành công, truy cập vào trang [điểm](https://daotao.vku.udn.vn/sv/diem) của VKU
+Sau khi đăng nhập thành công, truy cập vào trang [điểm](https://daotao.vku.udn.vn/sv/diem) của VKU. Tiếp theo người dùng cần đánh giá học phần và đánh giá sự cần thiết của tẩt cảp học phần.
 
 <div align="center">
 <img src="https://i.ibb.co/CzBqD45/image.png" alt="image" border="0">
@@ -45,7 +66,7 @@ Sau khi đăng nhập thành công, truy cập vào trang [điểm](https://daot
 
 <i  class="text-danger" > Chúng tôi cam kết 100% không thu thập dữ liệu người dùng. Đoạn code này mục đích chỉ lấy thông tin điểm của người dùng ở phía frontend và không can thiệp vào hệ thống của trường. </i>
 
-Bạn cần sao chép đoạn mã phía dưới để làm bước tiếp theo.
+người dùng cần sao chép đoạn mã phía dưới để làm bước tiếp theo.
 <details>
 <summary> 🔴 Hiện thị mã tại đây 🔽 </summary>
 <p>
@@ -165,7 +186,7 @@ Sau khi mở `Developer Tools` thành công, chọn tab `Console`, dán đoạn 
 <img src="https://i.ibb.co/j9tcg4b/image.png" alt="image" border="0">
 </div>
 
-Ngay lập tức, file điểm sẽ được tải xuống máy tính của bạn với tên là `diem.json`
+Ngay lập tức, file điểm sẽ được tải xuống máy tính của người dùng với tên là `diem.json`
 
 <div align="center">
 <img src="https://i.ibb.co/QCzyV7y/image.png" alt="image" border="0">
@@ -191,18 +212,26 @@ Sau khi xong dữ liệu điểm sẽ được hiển thị trên trang web.
 <img src="https://i.ibb.co/m9f2XQB/image.png" alt="image" border="0">
 </div>
 
-#### 2.2.2. Tính điểm GPA
+#### 2.2.1. Tính điểm GPA
+Sau khi bằm vào trang web, và chọn file `diem.json` vừa tải xuống ở bước trên hođc kéo thả file `diem.json` vào ô chọn file, điểm GPA của bạn lập tức được tính ở phần GPA cũ.
+<div align="center">
+<img src="https://i.ibb.co/m9f2XQB/image.png" alt="image" border="0">
+</div>
+Điểm GPA này được tính dựa trên những học phần mà bạn đã có điểm (Những học phần trường VKU chưa vào điểm sẽ không được tính).
+
+
+Bạn cũng có thể thêm những học phần chưa vào điểm, hoặc những học phần của học kì tiếp theo vào, VKU Score sẽ tính điểm GPA cho bạn.
 
 #### 2.2.2. Xem điểm sau khi cải thiện
 
-Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2), bạn có thể xem điểm sau khi cải thiện bằng cách
+Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2), người dùng có thể xem điểm sau khi cải thiện bằng cách
 đổi các điểm ở mỗi hàng ở cột `Thay đổi` 
 
 <div align="center">
 <img src="https://i.ibb.co/YBPvycv/image.png" alt="image" border="0">
 </div>
 
-Sau khi thay đổi giá trị thì hệ thống sẽ tự động tính toán điểm của bạn và hiển thị `GPA Mới`
+Sau khi thay đổi giá trị thì hệ thống sẽ tự động tính toán điểm của người dùng và hiển thị `GPA Mới`
 
 <div align="center">
 <img src="https://i.ibb.co/4p5L0y8/image.png" alt="image" border="0">
@@ -210,14 +239,14 @@ Sau khi thay đổi giá trị thì hệ thống sẽ tự động tính toán �
 
 #### 2.2.3. Gợi ý đánh giá học phần
 
-Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2) bạn có thể xem gợi ý đánh giá học phần bằng cách nhấn vào nút `Gợi ý cải thiện học phần` 
+Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2) người dùng có thể xem gợi ý đánh giá học phần bằng cách nhấn vào nút `Gợi ý cải thiện học phần` 
 ở góc dưới bên phải của trang web.
  
 <div align="center">
 <img src="https://i.ibb.co/qkr8nXD/image.png" alt="image" border="0">
 </div>
 
-Công cụ này sẽ dựa trên dữ liệu điểm của bạn sau đó tự động tính toán các thế mạnh của bạn và đưa ra gợi ý đánh giá học phần. 
+Công cụ này sẽ dựa trên dữ liệu điểm của người dùng sau đó tự động tính toán các thế mạnh của người dùng và đưa ra gợi ý đánh giá học phần. 
 
 Sau khi đã tính toán xong một `Popup` sẽ hiện ra. Với một bảng là dữ liệu các học phần gợi ý cải thiện. Được hiển thị theo độ ưu tiên từ trên xuống dưới.
 
@@ -225,7 +254,7 @@ Sau khi đã tính toán xong một `Popup` sẽ hiện ra. Với một bảng l
 <img src="https://i.ibb.co/0tgFhf2/image.png" alt="image" border="0">
 </div>
 
-Bạn cũng có thể thay đổi các giá trị điểm của các học phần ở cột `Thay đổi` để xem điểm của bạn sẽ thay đổi như thế nào khi bạn cải thiện điểm của các học phần đó.
+Người dùng cũng có thể thay đổi các giá trị điểm của các học phần ở cột `Thay đổi` để xem điểm của người dùng sẽ thay đổi như thế nào khi người dùng cải thiện điểm của các học phần đó.
 
 <div align="center">
 <img src="https://i.ibb.co/GJVzFNd/image.png" alt="image" border="0">
