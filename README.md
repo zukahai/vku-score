@@ -52,7 +52,7 @@ Mô hình linear regression có thể tìm ra một mối quan hệ tuyến tín
 #### 2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU
 Truy cập vào trang [đăng nhập](https://daotao.vku.udn.vn/sv) của VKU. Người dùng cần có tài khoản của sinh viên trường VKU để thực hiện bước này.
 <div align="center">
-    <img src="https://i.ibb.co/hmghpT6/image.png" alt="image" border="0">
+   <img src="https://i.ibb.co/RgvZjzh/image.png" alt="image" border="0">
 </div>
 
 #### 2.1.2. Truy cập vào trang điểm của sinh viên VKU
@@ -212,7 +212,7 @@ Sau khi xong dữ liệu điểm sẽ được hiển thị trên trang web.
 <img src="https://i.ibb.co/m9f2XQB/image.png" alt="image" border="0">
 </div>
 
-#### 2.2.1. Tính điểm GPA
+#### 2.2.2. Tính điểm GPA
 Sau khi bằm vào trang web, và chọn file `diem.json` vừa tải xuống ở bước trên hođc kéo thả file `diem.json` vào ô chọn file, điểm GPA của bạn lập tức được tính ở phần GPA cũ.
 <div align="center">
 <img src="https://i.ibb.co/m9f2XQB/image.png" alt="image" border="0">
@@ -222,7 +222,7 @@ Sau khi bằm vào trang web, và chọn file `diem.json` vừa tải xuống �
 
 Bạn cũng có thể thêm những học phần chưa vào điểm, hoặc những học phần của học kì tiếp theo vào, VKU Score sẽ tính điểm GPA cho bạn.
 
-#### 2.2.2. Xem điểm sau khi cải thiện
+#### 2.2.3. Xem điểm sau khi cải thiện
 
 Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2), người dùng có thể xem điểm sau khi cải thiện bằng cách
 đổi các điểm ở mỗi hàng ở cột `Thay đổi` 
@@ -237,7 +237,7 @@ Sau khi thay đổi giá trị thì hệ thống sẽ tự động tính toán �
 <img src="https://i.ibb.co/4p5L0y8/image.png" alt="image" border="0">
 </div>       
 
-#### 2.2.3. Gợi ý đánh giá học phần
+#### 2.2.4. Gợi ý đánh giá học phần
 
 Ở giao diện chính của [VKU SCORE](https://nam077.github.io/vku-score-v2) người dùng có thể xem gợi ý đánh giá học phần bằng cách nhấn vào nút `Gợi ý cải thiện học phần` 
 ở góc dưới bên phải của trang web.
@@ -276,4 +276,4 @@ Mở file <a href=https://github.com/Nam077/VKU_ToolAuto_Danh_Gia_Hoc_Phan/blob/
 #### 2.3.2 Đánh giá sự cần thiết của học phần
 Mở file <a href=https://github.com/Nam077/VKU_ToolAuto_Danh_Gia_Hoc_Phan/blob/master/toolDanhGiaSuCanThiet.js>`toolDanhGiaSuCanThiet.js`</a>sau đó copy nội dung. Quay trở lại trình duyệt ở DevTool bấm vào mục Console sau đó dán nội dụng vào. Tiến hành nhấn nút `Enter` để tool tiến hành quét các học phần, sau đó  sẽ tự động đánh giá các học phần chưa đánh giá.
 
- > :warning: Lưu ý mọi người không được spam quá nhiều lần tránh việc web trường quá tải, xin cảm ơn
+ > ⚠️: Lưu ý mọi người không được spam quá nhiều lần tránh việc web trường quá tải, xin cảm ơn
