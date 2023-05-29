@@ -23,9 +23,9 @@
     - [2.3. Tiện ích bổ sung cho VKU SCORE](#23-tiện-ích-bổ-sung-cho-vku-score)
         - [2.3.1. Đánh giá lớp học phần](#231-đánh-giá-lớp-học-phần)
         - [2.3.2. Đánh giá sự cần thiết của học phần](#232-đánh-giá-sự-cần-thiết-của-học-phần)
-- [3. Góp ý và hợp tác](#3-góp-ý-và-hợp-tác)
+- [3. Góp ý và hợp tác](#3-góp-ý-và-hợp-tác)
     - [3.1. Góp ý](#31-góp-ý)
-    - [3.2. Liên hệ hợp tác](#32-liên-hệ-hợp-tác)
+    - [3.2. Liên hệ hợp tác](#32-liên-hệ-hợp-tác)
 - [4. Phần kết](#4-phần-kết)
 
 <hr>
