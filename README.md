@@ -8,6 +8,7 @@
         - [1.2.1 Tính GPA của sinh viên](#121-tính-gpa-của-sinh-viên)
         - [1.2.2 Tính điểm sau khi học cải thiện](#122-tính-điểm-sau-khi-học-cải-thiện)
         - [1.2.3 Gợi ý những học phần nên cải thiện](#123-gợi-ý-những-học-phần-nên-cải-thiện)
+    - [1.3. Giới thiệu nhóm nghiên cứu VKU-GomChoi](#13-giới-thiệu-nhóm-nghiên-cứu-vku-gomchoi)
 - [2. Hướng dẫn sử dụng](#2-hướng-dẫn-sử-dụng)
     - [2.1. Cách lấy danh sách điểm](#21-cách-lấy-danh-sách-điểm)
         - [2.1.1. Đăng nhập vào hệ thống đào tạo của sinh viên VKU](#211-đăng-nhập-vào-hệ-thống-đào-tạo-của-sinh-viên-vku)
@@ -22,11 +23,15 @@
     - [2.3. Tiện ích bổ sung cho VKU SCORE](#23-tiện-ích-bổ-sung-cho-vku-score)
         - [2.3.1. Đánh giá lớp học phần](#231-đánh-giá-lớp-học-phần)
         - [2.3.2. Đánh giá sự cần thiết của học phần](#232-đánh-giá-sự-cần-thiết-của-học-phần)
+- [3. Góp ý và hợp tác](#3-góp-ý-và-hợp-tác)
+    - [3.1. Góp ý](#31-góp-ý)
+    - [3.2. Liên hệ hợp tác](#32-liên-hệ-hợp-tác)
+- [4. Phần kết](#4-phần-kết)
+
 <hr>
 
 ## 1. Giới thiệu
 ### 1.1. Giới thiệu VKU Score
-
 
 Hiện nay, một số sinh viên tại Trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng (VKU) đang gặp khó khăn khi tính toán điểm trung bình tích luỹ (GPA) của mình. Nhiều sinh viên mong muốn cải thiện GPA, nhưng chưa biết chính xác điểm GPA sẽ thay đổi như thế nào sau khi họ nỗ lực cải thiện. Nhận thấy nhược điểm này, nhóm sinh viên VKU-GomChoi đã phát triển một công cụ có tên gọi "VKU Score" nhằm hỗ trợ sinh viên trong việc quản lý điểm số của mình.
 
@@ -45,7 +50,20 @@ Nếu bạn đang có nhu cầu học cải thiện nhưng chưa biết được
 #### 1.2.3 Gợi ý những học phần nên cải thiện
 Công cụ VKU Score sẽ xem xét các thông tin từ bảng điểm của bạn, chẳng hạn như điểm số hiện tại của các học phần, số tín chỉ, và điểm GPA hiện tại. Bằng cách phân tích và xử lý dữ liệu này, VKU Score sẽ xây dựng một mô hình linear regression để dự đoán điểm GPA sau khi cải thiện.
 
-Mô hình linear regression có thể tìm ra một mối quan hệ tuyến tính giữa các yếu tố đầu vào và điểm GPA. Dựa vào mô hình này, VKU Score sẽ đưa ra gợi ý cho bạn về những học phần có tiềm năng cao để cải thiện điểm GPA của bạn.
+Mô hình linear regression có thể tìm ra một mối quan hệ tuyến tính giữa các yếu tố đầu vào và điểm GPA. Dựa vào mô hình này, VKU Score sẽ đưa ra gợi ý cho bạn về những học phần có tiềm năng cao để cải thiện 
+điểm GPA của bạn.
+
+### 1.3. Giới thiệu nhóm nghiên cứu VKU-GomChoi
+VKU-GomChoi là một nhóm được thành lập vào tháng 2 năm 2023, gồm ba thành viên là Phan Đức Hải, Nguyễn Văn Nam và Phan Việt Long, đều là sinh viên khoá 18 của trường Đại học Vinh.
+
+Nhóm VKU-GomChoi được hình thành với mục tiêu chính là nghiên cứu và áp dụng kiến thức đã học để tạo ra những sản phẩm hữu ích đến người dùng. Ba thành viên của nhóm đều có đam mê với lĩnh vực công nghệ thông tin và mong muốn ứng dụng những kỹ năng và kiến thức đã tích lũy được trong quá trình học tập vào việc thực tế.
+
+Với mục tiêu này, nhóm VKU-GomChoi đã đặt ra những dự án nghiên cứu và phát triển. Các thành viên cùng nhau tìm hiểu, thảo luận và triển khai các ý tưởng để tạo ra những sản phẩm mới và đột phá. Sự đa dạng trong thành phần thành viên cũng mang lại sự phong phú trong quan điểm và góc nhìn, giúp nhóm có thể đưa ra các giải pháp sáng tạo và đáp ứng nhu cầu của người dùng.
+
+Đối với VKU-GomChoi, việc áp dụng kiến thức vào thực tế không chỉ là mục tiêu cá nhân mà còn là sự đóng góp tích cực vào cộng đồng. Nhóm luôn quan tâm đến những vấn đề xã hội và nỗ lực tìm ra những giải pháp công nghệ để cải thiện cuộc sống của mọi người. Qua quá trình nghiên cứu và phát triển, VKU-GomChoi hy vọng có thể đưa ra những sản phẩm hữu ích và tiện ích, từ ứng dụng di động cho đến phần mềm máy tính, giúp tối ưu hóa công việc và mang lại lợi ích cho cộng đồng.
+
+Từ việc thành lập vào tháng 2 năm 2023, VKU-GomChoi đã bắt đầu tiến hành nghiên cứu và phát triển các dự án. Nhóm sẽ không ngừng cải tiến, học hỏi và áp dụng những kỹ năng mới nhất để tạo ra những sản phẩm chất lượng cao và góp phần vào sự phát triển của ngành công nghệ thông tin.
+
 ## 2. Hướng dẫn sử dụng
 ### 2.1. Cách lấy danh sách điểm
 
@@ -277,3 +295,36 @@ Mở file <a href=https://github.com/Nam077/VKU_ToolAuto_Danh_Gia_Hoc_Phan/blob/
 Mở file <a href=https://github.com/Nam077/VKU_ToolAuto_Danh_Gia_Hoc_Phan/blob/master/toolDanhGiaSuCanThiet.js>`toolDanhGiaSuCanThiet.js`</a>sau đó copy nội dung. Quay trở lại trình duyệt ở DevTool bấm vào mục Console sau đó dán nội dụng vào. Tiến hành nhấn nút `Enter` để tool tiến hành quét các học phần, sau đó  sẽ tự động đánh giá các học phần chưa đánh giá.
 
  > ⚠️: Lưu ý mọi người không được spam quá nhiều lần tránh việc web trường quá tải, xin cảm ơn
+
+ ## 3. Góp ý và hợp tác
+ ### 3.1. Góp ý
+Nhóm VKU_GomChoi xin gửi lời cảm ơn chân thành đến mọi người vì sự quan tâm và sẵn lòng góp ý tích cực cho chúng tôi. Chúng tôi rất trân trọng mỗi ý kiến đóng góp, bởi vì nó giúp chúng tôi cải thiện và phát triển phần mềm của mình theo hướng tốt nhất.
+
+Chúng tôi hiểu rằng không có phần mềm nào hoàn hảo từ đầu, và sự phát triển không bao giờ dừng lại. Đó là lý do tại sao chúng tôi rất trân trọng mọi ý kiến đóng góp từ người dùng như bạn. Mỗi góp ý tích cực mang lại một cơ hội để chúng tôi tiếp thu, phân tích và cải thiện sản phẩm của mình.
+
+Với mỗi góp ý tích cực, chúng tôi có thể khắc phục các lỗi, cải thiện giao diện người dùng, tăng cường tính năng và tối ưu hóa hiệu suất. Những ý kiến và phản hồi của bạn giúp chúng tôi hiểu rõ nhu cầu và mong muốn của người dùng, và từ đó tạo ra một trải nghiệm tốt hơn cho mọi người.
+
+Vì vậy, xin hãy tiếp tục gửi cho chúng tôi những góp ý xây dựng, những ý tưởng sáng tạo, và những khó khăn mà bạn gặp phải khi sử dụng phần mềm của chúng tôi. Chúng tôi cam kết lắng nghe và đánh giá mỗi ý kiến của bạn và sử dụng chúng để nâng cao sản phẩm của chúng tôi.
+
+Nhóm VKU_GomChoi rất trân trọng sự ủng hộ và lòng tin của mọi người. Chúng tôi sẽ luôn lắng nghe và nỗ lực để mang đến cho bạn một phần mềm tốt nhất có thể. Hãy cùng nhau xây dựng và phát triển để tạo ra những trải nghiệm tuyệt vời hơn cho cộng đồng người dùng.
+
+### 3.2. Liên hệ hợp tác
+Nhóm VKU_GomChoi muốn chia sẻ rằng chúng tôi đang rất nhiệt huyết và tìm kiếm những thành viên mới đầy đam mê để tham gia cùng chúng tôi vào các dự án tương tự. Chúng tôi hiểu rằng sự đa dạng và sự đóng góp của các thành viên mới sẽ mang lại sự phong phú và tiến bộ cho nhóm.
+
+Nếu bạn là một người đam mê tìm hiểu và mong muốn tham gia vào những dự án thú vị, VKU_GomChoi chào đón bạn vào đội ngũ của chúng tôi. Chúng tôi tin rằng mỗi thành viên đều có khả năng và ý tưởng riêng, và chúng tôi tôn trọng sự đóng góp của mỗi cá nhân.
+
+Tham gia cùng chúng tôi không chỉ mang lại cơ hội để học hỏi và phát triển kỹ năng, mà còn tạo ra một môi trường cởi mở và hỗ trợ, nơi mọi người có thể chia sẻ ý tưởng, tương tác và hợp tác với nhau.
+
+Chúng tôi khuyến khích bạn liên hệ với chúng tôi và chia sẻ về sở thích và kinh nghiệm của bạn. Đội ngũ VKU_GomChoi sẽ rất vui mừng được đón tiếp bạn và khám phá những cơ hội hợp tác mới.
+
+Cùng nhau, chúng ta có thể đạt được những thành công tuyệt vời và tạo ra những sản phẩm đáng tự hào. Hãy cùng VKU_GomChoi tạo nên tương lai sáng tạo và đầy thách thức!
+
+## 4. Phần kết
+
+Nhóm VKU_GomChoi xin chân thành cảm ơn sự quan tâm và sự góp ý tích cực từ mọi người. Chúng tôi hiểu rằng không có phần mềm nào hoàn hảo và luôn tồn tại những lỗi và điều cần cải thiện.
+
+Tuy nhiên, với sự hỗ trợ và đóng góp từ cộng đồng, chúng tôi sẽ không ngừng nỗ lực để cải thiện phần mềm của mình. Những ý kiến đóng góp của bạn là nguồn động lực to lớn để chúng tôi tiếp tục phát triển và mang lại một sản phẩm tốt hơn cho người dùng.
+
+Chúng tôi cam kết lắng nghe mọi ý kiến đóng góp và phản hồi từ bạn và xem chúng là cơ hội để hoàn thiện sản phẩm của mình. Chúng tôi sẽ cân nhắc và áp dụng những góp ý tích cực để nâng cao chất lượng phần mềm và đáp ứng tốt hơn nhu cầu của người dùng.
+
+Một lần nữa, chúng tôi xin chân thành cảm ơn sự ủng hộ và góp ý từ bạn. Chúng tôi sẽ không ngừng phấn đấu để cung cấp một phần mềm tốt nhất có thể và tạo ra trải nghiệm tốt nhất cho người dùng.
