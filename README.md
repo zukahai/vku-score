@@ -38,7 +38,7 @@ Công cụ "VKU Score" là một giải pháp hữu ích và tiện lợi cho si
 
 ### 1.2. Các chức năng của VKU Score
 #### 1.2.1 Tính GPA của sinh viên
-Công cụ "VKU Score" là một giải pháp đáng tin cậy để tính toán điểm GPA của sinh viên tại Trường Đại học Văn Lang (VKU) với độ chính xác 100%. Các thao tác cực kì đơn giản, tất cả sinh viên VKU có thể thực hiện nhanh chóng và dễ dàng.
+Công cụ "VKU Score" là một giải pháp đáng tin cậy để tính toán điểm GPA của sinh viên tại Trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng với độ chính xác 100%. Các thao tác cực kì đơn giản, tất cả sinh viên VKU có thể thực hiện nhanh chóng và dễ dàng.
 
 #### 1.2.2 Tính điểm sau khi học cải thiện
 Nếu bạn đang có nhu cầu học cải thiện nhưng chưa biết được GPA sau khi cải thiện là bao nhiều, hãy cho chúng tôi biết mong muốn của bạn, VKU Score sẽ giúp bạn tính GPA sau khi cải thiện. Bạn chỉ cần chon điểm bạn mong muốn mà bạn muốn cải thiện của mỗi học phần.
