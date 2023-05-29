@@ -31,7 +31,7 @@
 <hr>
 
 ## 1. Giới thiệu
-### 1.1. Giới thiệu VKU Score
+### 1.1. Giới thiệu VKU Score 
 
 Hiện nay, một số sinh viên tại Trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng (VKU) đang gặp khó khăn khi tính toán điểm trung bình tích luỹ (GPA) của mình. Nhiều sinh viên mong muốn cải thiện GPA, nhưng chưa biết chính xác điểm GPA sẽ thay đổi như thế nào sau khi họ nỗ lực cải thiện. Nhận thấy nhược điểm này, nhóm sinh viên VKU-GomChoi đã phát triển một công cụ có tên gọi "VKU Score" nhằm hỗ trợ sinh viên trong việc quản lý điểm số của mình.
 
@@ -54,7 +54,7 @@ Mô hình linear regression có thể tìm ra một mối quan hệ tuyến tín
 điểm GPA của bạn.
 
 ### 1.3. Giới thiệu nhóm nghiên cứu VKU-GomChoi
-VKU-GomChoi là một nhóm được thành lập vào tháng 2 năm 2023, gồm ba thành viên là Phan Đức Hải, Nguyễn Văn Nam và Phan Việt Long, đều là sinh viên khoá 18 của trường Đại học Vinh.
+VKU-GomChoi là một nhóm được thành lập vào tháng 2 năm 2023, gồm ba thành viên là [Phan Đức Hải](https://www.facebook.com/chiatayde/), [Nguyễn Văn Nam](https://www.facebook.com/Nam077.me) và [Phan Việt Long](https://www.facebook.com/profile.php?id=100009419306698), đều là sinh viên khoá 18 của trường Đại học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn.
 
 Nhóm VKU-GomChoi được hình thành với mục tiêu chính là nghiên cứu và áp dụng kiến thức đã học để tạo ra những sản phẩm hữu ích đến người dùng. Ba thành viên của nhóm đều có đam mê với lĩnh vực công nghệ thông tin và mong muốn ứng dụng những kỹ năng và kiến thức đã tích lũy được trong quá trình học tập vào việc thực tế.
 
