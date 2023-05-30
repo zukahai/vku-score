@@ -1,12 +1,11 @@
-import matplotlib.pyplot as plt
 import json
 import time
 
 import numpy as np
 from scipy import stats
-from score import Score
 from subject import Subject
 from utils import Utils
+from linear_regression import LinearRegression
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -15,11 +14,12 @@ class Train:
     def __init__(self):
         # get all subjects
         self.subjects = Subject().subjects
-        # print(self.subjects)
+        #linear regression
+        self.lnr = LinearRegression()
         self.results = {
             "data": [],
             "results": {},
-            "number_of_data": 0,
+            "number_of_data": self.lnr.number_of_file,
             "time_train": 0
         }
 
@@ -39,11 +39,10 @@ class Train:
     def start(self):
         for name_subject_y in self.subjects:
             for name_subject_x in self.subjects:
-                a = Score()
-                a.train(name_subject_x, name_subject_y)
-                self.results['number_of_data'] = a.number_of_file;
-                x = a.x
-                y = a.y
+                
+                self.lnr.solve_relationship_subject(name_subject_x, name_subject_y)
+                x = self.lnr.x
+                y = self.lnr.y
                 
                 slope, intercept = 0, 0
                 try:
