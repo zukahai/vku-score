@@ -7,6 +7,7 @@ interface OwnProps {
     scores: IScore[];
     scoreModified: IScore[];
     changeModified: (score: IScore) => void;
+    deleteScore: (id: number) => void;
 }
 
 interface ColorType {
@@ -153,6 +154,16 @@ const TableScore: FunctionComponent<Props> = (props) => {
                     </div>
                 );
             },
+        },
+        {
+            title: 'Hành động',
+            key: 'action',
+            dataIndex: 'index',
+            render: (index, record) => (
+                <Button danger={true} type={'primary'} onClick={() => props.deleteScore(record.id)}>
+                    Xóa
+                </Button>
+            ),
         },
     ];
     const [isShowExtraColumn, setIsShowExtraColumn] = React.useState(true);

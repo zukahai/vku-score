@@ -11,12 +11,15 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@uiw/react-markdown-preview": "^4.1.13",
     "antd": "^5.5.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dropzone": "^14.2.3",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-markdown": "^8.0.7",
+    "react-syntax-highlighter": "^15.5.0",
+    "swiper": "^9.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -1,0 +1,330 @@
+[
+    {
+        "name": "Cơ sở dữ liệu",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tin học đại cương",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Tiếng Anh chuyên ngành 1 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Nhập môn ngành và kỹ năng mềm IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh 1",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Lập trình hướng đối tượng và Java cơ bản",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Đại số",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Nguyên lý hệ điều hành",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Công nghệ Web",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Đồ án cơ sở 1 - IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Vật lý",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Lập trình Java nâng cao",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh chuyên ngành 2",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Kiến trúc máy tính",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh 2",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án cơ sở 2_IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 1 (IT)",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh 3",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Phân tích và thiết kế hệ thống",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh chuyên ngành & thực hành 1",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Công nghệ web nâng cao",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Toán rời rạc",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Hệ thống số",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Mạng máy tính",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Công nghệ phần mềm",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 2",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Vi điều khiển",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Giải tích",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Tiếng Anh chuyên ngành & thực hành 2",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Xác suất thống kê",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án cơ sở 3 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Lập trình di động",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Thực tập doanh nghiệp IT",
+        "so_tin_chi": "1"
+    },
+    {
+        "name": "Automat và Ngôn ngữ hình thức",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 3 (IT)",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án cơ sở 4 (IT)",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ họa máy tính",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Lập trình mạng",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Quản lý dự án",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Quản trị mạng",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Trí tuệ nhân tạo",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Trình biên dịch",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 4 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án cơ sở 5 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Kiểm thử phần mềm",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Xử lý ảnh",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Lập trình hệ thống",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Phân tích và thiết kế giải thuật",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Xử lý tín hiệu số",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Hình họa",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Triết học Mác - Lênin",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Tư tưởng Hồ Chí Minh",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Pháp luật đại cương",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 5 (IT)",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án chuyên ngành 1 (IT)",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Lập trình trong windows",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Tương tác người - máy",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Lập trình trò chơi trên máy tính",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Thương mại điện tử",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Linux & phần mềm nguồn mở",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Xử lý ngôn ngữ tự nhiên",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Bảo mật và An toàn hệ thống thông tin",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Kỹ thuật truyền số liệu",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Thiết kế đồ họa động và hoạt hình",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Chuyên đề 6 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Đồ án chuyên ngành 2 IT",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Hệ cơ sở dữ liệu phân tán",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Phân tích, thiết kế mạng",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Mạng không dây và di động",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Điện toán đám mây",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Mật mã học",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Thiết kế và lập trình tương tác",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Thiết kế đồ họa 3D",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Thị giác máy tính",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Xuất bản Truyền thông",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Kỹ xảo phim ảnh - truyền hình",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Chủ nghĩa xã hội khoa học",
+        "so_tin_chi": "2"
+    },
+    {
+        "name": "Thực tập tốt nghiệp (IT)",
+        "so_tin_chi": "3"
+    },
+    {
+        "name": "Đồ án tốt nghiệp (IT)",
+        "so_tin_chi": "10"
+    }
+]

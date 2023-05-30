@@ -7,15 +7,12 @@ import { ScoreService } from '../../services/score.service.ts';
 import GPAView from '../../components/GPAView.tsx';
 import { useNotification } from '../../contexts/Notification.tsx';
 import FloatingButton from '../../components/FloatingButton.tsx';
-import { Button, Collapse, FloatButton, Modal, Skeleton, Typography } from 'antd';
+import { Button, FloatButton, Modal, Skeleton } from 'antd';
 import TableRecommend from '../../components/TableRecommend.tsx';
 import { recommend } from '../../services/recomend.service.ts';
-import CodeDisplay from '../../components/CodeDisplay.tsx';
-import data from '../../datas/data.json';
 import { PlusOutlined } from '@ant-design/icons';
 import AddScore from '../../components/AddScore.tsx';
-
-const { Panel } = Collapse;
+import Tutorial from '../../components/Tutorial.tsx';
 
 export interface IScore {
     value: string;
@@ -155,6 +152,15 @@ const Score: FunctionComponent = () => {
         setScoreData([...scoreData.slice(0, index), ...scoreData.slice(index + 1)]);
     };
 
+    const deleteScore = (id: number) => {
+        const index = scoreData.findIndex((s) => s.id === id);
+        if (index === -1) {
+            return;
+        }
+        setScoreData([...scoreData.slice(0, index), ...scoreData.slice(index + 1)]);
+        setScoreModified([...scoreModified.slice(0, index), ...scoreModified.slice(index + 1)]);
+    };
+
     const updateScoreModified = (score: IScore) => {
         setScoreModified(
             scoreModified.map((s) => {
@@ -186,6 +192,7 @@ const Score: FunctionComponent = () => {
                         <div style={{ marginTop: '20px' }}>
                             <GPAView GPA={currentGPA} GPAChange={newGPA} />
                             <TableScore
+                                deleteScore={deleteScore}
                                 scores={scoreData}
                                 changeModified={updateScoreModified}
                                 scoreModified={scoreModified}
@@ -215,6 +222,7 @@ const Score: FunctionComponent = () => {
                                 title={'Thêm học phần'}
                                 open={isModalAdd}
                                 onOk={handleOkAdd}
+                                okButtonProps={{ disabled: true }}
                                 onCancel={handleCancelAdd}
                                 width={800}
                             >
@@ -222,17 +230,8 @@ const Score: FunctionComponent = () => {
                             </Modal>
                         </div>
                     ) : (
-                        <div style={{ marginTop: '10px' }}>
-                            <Collapse accordion>
-                                <Panel header="Code lấy dữ liệu học phần" style={{ fontWeight: 'bold' }} key="1">
-                                    <Typography.Text type="danger">
-                                        Chúng tôi cam kết 100% không thu thập dữ liệu người dùng. Đoạn code này mục đích
-                                        chỉ lấy thông tin điểm của người dùng ở phía frontend và không can thiệp vào hệ
-                                        thống của trường.
-                                    </Typography.Text>
-                                    <CodeDisplay content={data.code2} language={'javascript'} />
-                                </Panel>
-                            </Collapse>
+                        <div style={{ marginTop: '40px' }}>
+                            <Tutorial />
                         </div>
                     )}
                 </>

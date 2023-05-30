@@ -119,7 +119,15 @@ const TableRecommend: FunctionComponent<Props> = (props) => {
                         Chúng tôi đã phân tích thế mạnh của bạn. Bạn nên ưu tiên học cải thiện những môn dưới đây, theo
                         thứ tự ưu tiên trừ trên xuống.
                     </Typography.Text>
-                    <Table columns={columns} dataSource={filteredRecommendsWithKey} pagination={false} />
+                    <Table
+                        columns={columns}
+                        dataSource={filteredRecommendsWithKey}
+                        pagination={false}
+                        style={{
+                            fontWeight: 'bold',
+                            marginTop: '10px',
+                        }}
+                    />
                 </div>
             )}
         </div>
