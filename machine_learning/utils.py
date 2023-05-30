@@ -1,4 +1,5 @@
 import os
+import json
 
 class Utils:
     def printProgressBar (self,iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
@@ -25,6 +26,10 @@ class Utils:
     def getLocation(self, path):
         local_path = os.path.dirname(os.path.abspath(path=path))
         return local_path
+    
+    def load_json(path):
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
     
 util = Utils()
 print(util.getLocation('./a'))
