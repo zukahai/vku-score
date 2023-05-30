@@ -3,7 +3,6 @@ import time
 
 import numpy as np
 from scipy import stats
-from subject import Subject
 from utils import Utils
 from linear_regression import LinearRegression
 import warnings
@@ -13,7 +12,7 @@ warnings.filterwarnings("ignore")
 class Train:
     def __init__(self):
         # get all subjects
-        self.subjects = Subject().subjects
+        self.subjects = Utils.get_all_name_subjects('./subject/subjects.json')
         #linear regression
         self.lnr = LinearRegression()
         self.results = {
@@ -44,22 +43,23 @@ class Train:
                 x = self.lnr.x
                 y = self.lnr.y
                 
-                slope, intercept = 0, 0
+                slope, intercept, mse = 0, 0, 0
                 try:
                     slope, intercept, r, p, std_err = stats.linregress(x, y)
                     # check slope is Nan
                     if np.isnan(slope) or np.isnan(intercept):
                         slope, intercept = 0, 0
+                    #get MSE of linear regression
+                    mse = np.mean((np.array(y) - slope * np.array(x) - intercept) ** 2)
                 except:
                     slope, intercept = 0, 0
-                # if name_subject_x == "Tin học đại cương" and name_subject_y == "Cấu trúc dữ liệu và giải thuật":
-                #     print(x, y)
-                #     print(slope, intercept)
+               
                 self.results['data'].append({
                     'name_subject_x': name_subject_x,
                     'name_subject_y': name_subject_y,
                     'slope': slope,
                     'intercept': intercept,
+                    'mse': mse,
                     'x': x,
                     'y': y
                 })

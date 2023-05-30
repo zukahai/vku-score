@@ -30,6 +30,10 @@ class Utils:
     def load_json(path):
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
+        
+    def get_all_name_subjects(path):
+        obj = Utils.load_json(path)
+        return [x['name'] for x in obj]
     
 util = Utils()
 print(util.getLocation('./a'))

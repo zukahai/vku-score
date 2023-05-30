@@ -12,7 +12,7 @@ def load_data(filename):
     obj = json.loads(data)
     return obj
 
-data = load_data('./result/20230527-092221.json')['results']
+data = load_data('./result/20230531-003218.json')['results']
 subject_json = load_data('./subject/subjects.json')
 subjects = [subject['name'] for subject in subject_json]
 
