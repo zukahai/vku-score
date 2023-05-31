@@ -15,16 +15,11 @@ class Train:
         self.subjects = Utils.get_all_name_subjects('./subject/subjects.json')
         #linear regression
         self.lnr = LinearRegression()
-        self.results = {
-            "data": [],
-            "results": {},
-            "number_of_data": self.lnr.number_of_file,
-            "time_train": 0
-        }
+        self.results = {}
 
         #init result
         for subject_name in self.subjects:
-            self.results['results'][subject_name] = {}
+            self.results[subject_name] = {}
 
         #current time
         self.start_time = time.time()
@@ -54,34 +49,41 @@ class Train:
                 except:
                     slope, intercept = 0, 0
                
-                self.results['data'].append({
-                    'name_subject_x': name_subject_x,
-                    'name_subject_y': name_subject_y,
-                    'slope': slope,
-                    'intercept': intercept,
-                    'mse': mse,
-                    'x': x,
-                    'y': y
-                })
-
-                self.results['results'][name_subject_y][name_subject_x] = {
+              
+               
+                self.results[name_subject_y][name_subject_x] = {
                     'name_subject_x': name_subject_x,
                     'name_subject_y': name_subject_y,
                     'slope': slope,
                     'intercept': intercept,
                     'static': True if (slope != 0 or intercept != 0) else False,
-                    'x': x,
-                    'y': y
+                    # 'x': x,
+                    # 'y': y
                 }
-
                 self.index_progress += 1
                 self.utils.printProgressBar(self.index_progress, self.number_of_progress, prefix = ' Progress:', suffix = 'Complete', length = 50)
         #current time
         self.end_time = time.time()
-        self.results['time_train'] = self.end_time - self.start_time
+        self.save_result()
+    
+    def save_result(self):
+        #calculate time
+        time_train = self.end_time - self.start_time
+        #inital info train
+        self.info_train = {
+            "number_of_data_train": self.lnr.number_of_file,
+            "number_of_subject_train": len(self.subjects),
+            "time_train": time_train
+        }
+        
         timestr = time.strftime("%Y%m%d-%H%M%S")
-        with open("result/" + str(timestr) + ".json","w", encoding='utf-8') as jsonfile:
+        #create folder name is timestr
+        Utils.create_forder("./result/" + str(timestr))
+        #save result
+        with open("result/" + str(timestr) + "/result_model.json","w", encoding='utf-8') as jsonfile:
             json.dump(self.results, jsonfile,ensure_ascii=False)
+        with open("result/" + str(timestr) + "/info_train.json","w", encoding='utf-8') as jsonfile:
+            json.dump(self.info_train, jsonfile,ensure_ascii=False)
 
         print("End train time:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.end_time)))
         print("Result file: ", self.utils.getLocation('./result') + "\\result\\" + str(timestr) + ".json")

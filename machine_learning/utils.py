@@ -2,7 +2,8 @@ import os
 import json
 
 class Utils:
-    def printProgressBar (self,iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
+    # print progress
+    def printProgressBar (self,iteration, total, prefix = '', suffix = '', decimals = 2, length = 100, fill = '█', printEnd = "\r"):
         """
         Call in a loop to create terminal progress bar
         @params:
@@ -23,17 +24,29 @@ class Utils:
         if iteration == total: 
             print()
 
+    # get location
     def getLocation(self, path):
         local_path = os.path.dirname(os.path.abspath(path=path))
         return local_path
     
+    # load json
     def load_json(path):
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
-        
+    
+    # get all name subjects
     def get_all_name_subjects(path):
         obj = Utils.load_json(path)
         return [x['name'] for x in obj]
     
-util = Utils()
-print(util.getLocation('./a'))
+    # get all name files
+    def get_all_name_files_in_fordel(dir_path):
+        return [entry for entry in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, entry))]
+    
+    def create_forder(dir_path):
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+
+# test
+# print(Utils.get_all_name_files_in_fordel('./result'))
+# Utils.create_forder('./result/abc')
