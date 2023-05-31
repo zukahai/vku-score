@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 from scipy import stats
 import numpy as np
 
-x = [10, 8, 10, 9.6, 10, 10, 5, 7.5, 3.5] 
-y = [9.3, 9.3, 8.6, 9.8, 8.9, 7.7, 5.3, 8, 4]
+y = [10.0, 8.0, 10.0, 9.6, 10.0, 10.0, 5.0, 7.5, 3.5]
+x = [9.3, 9.3, 8.6, 9.8, 8.9, 7.7, 5.3, 8.0, 4.0] 
 
 slope, intercept, r, p, std_err = stats.linregress(x, y)
 #mse
-mse = np.mean((y - slope * x - intercept) ** 2)
+mse = np.mean((np.array(y) - slope * np.array(x) - intercept) ** 2)
 print(mse)
 
 def myfunc(x):

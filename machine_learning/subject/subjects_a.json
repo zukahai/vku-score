@@ -1,0 +1,4972 @@
+[
+    {
+        "id": "1",
+        "name": "Tiếng Anh chuyên ngành 1 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce",
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Nhập môn ngành và kỹ năng mềm CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce",
+            ""
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Tiếng Anh 1",
+        "so_tin_chi": "3",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Tin học đại cương",
+        "so_tin_chi": "3",
+        "tags": [
+            "it",
+            "c",
+            "computer-science",
+            "programing",
+            ""
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Đại số",
+        "so_tin_chi": "2",
+        "tags": [
+            "logic",
+            "math"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Cơ sở dữ liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "sql",
+            "dbms",
+            "data-modeling",
+            "databases"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Lập trình hướng đối tượng và Java cơ bản",
+        "so_tin_chi": "3",
+        "tags": [
+            "java",
+            "programing",
+            "object-oriented-programming"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Tiếng Anh chuyên ngành 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Đồ án cơ sở 1 - CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Tiếng Anh 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Vật lý",
+        "so_tin_chi": "2",
+        "tags": [
+            "logic",
+            "math"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "so_tin_chi": "3",
+        "tags": [
+            "logic",
+            "c",
+            "programing",
+            "data-structures",
+            "algorithms"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Nguyên lý hệ điều hành",
+        "so_tin_chi": "2",
+        "tags": [
+            "system-architecture",
+            "computer-science"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Kiến trúc máy tính",
+        "so_tin_chi": "2",
+        "tags": [
+            "system-architecture",
+            "microarchitecture"
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Công nghệ Web",
+        "so_tin_chi": "3",
+        "tags": [
+            "web",
+            "back-end-development",
+            "programing"
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Lập trình Java nâng cao",
+        "so_tin_chi": "2",
+        "tags": [
+            "java",
+            "programing",
+            "multithreading",
+            "java-networking"
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Chuyên đề 1 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Đồ án cơ sở 2_CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Tiếng Anh 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Toán rời rạc",
+        "so_tin_chi": "2",
+        "tags": [
+            "logic",
+            "propositional-calculus",
+            "combinatorics",
+            "graph-theory"
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Mạng máy tính",
+        "so_tin_chi": "2",
+        "tags": [
+            "computer-networking",
+            "network-administration",
+            "network-protocols"
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Phân tích và thiết kế hệ thống",
+        "so_tin_chi": "2",
+        "tags": [
+            "system-analysis",
+            "system-design",
+            "use-case-modeling",
+            "system-architecture",
+            "data-modeling",
+            "uml"
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Tiếng Anh chuyên ngành & thực hành 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Công nghệ web nâng cao",
+        "so_tin_chi": "3",
+        "tags": [
+            "back-end-development",
+            "web",
+            "programing"
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Hệ thống số",
+        "so_tin_chi": "2",
+        "tags": [
+            "number-systems",
+            "conversion-between-number-systems",
+            "binary-arithmetic",
+            "boolean-algebra"
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Chuyên đề 2 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Đồ án cơ sở 3 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "28",
+        "name": "Thực tập doanh nghiệp CE",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "29",
+        "name": "Giải tích",
+        "so_tin_chi": "2",
+        "tags": [
+            "calculus",
+            "limits-and-continuity",
+            "differential-equations"
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Xác suất thống kê",
+        "so_tin_chi": "2",
+        "tags": [
+            "probability-theory",
+            "statistical-inference",
+            "random-variables"
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Công nghệ phần mềm",
+        "so_tin_chi": "2",
+        "tags": [
+            "software-engineering",
+            "sdlc",
+            "desgin",
+            "software-testing",
+            "software-quality-assurance"
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Tiếng Anh chuyên ngành & thực hành 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Vi điều khiển",
+        "so_tin_chi": "3",
+        "tags": [
+            "programing",
+            "microcontrollers",
+            "microcontroller-architecture"
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Lập trình di động",
+        "so_tin_chi": "3",
+        "tags": [
+            "mobile-programming",
+            "android-development",
+            "ui",
+            "programing",
+            "kotlin",
+            "mobile"
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Chuyên đề 3 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Đồ án cơ sở 4 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Lập trình mạng",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "network-programming",
+            "network-protocols"
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Quản trị mạng",
+        "so_tin_chi": "2",
+        "tags": [
+            "network-administration",
+            "network-protocols",
+            "vpns"
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Trí tuệ nhân tạo",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "ai"
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Đồ họa máy tính",
+        "so_tin_chi": "2",
+        "tags": [
+            "graphics",
+            "rendering-techniques",
+            "2d",
+            "3d"
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Automat và Ngôn ngữ hình thức",
+        "so_tin_chi": "2",
+        "tags": [
+            "automata-theory",
+            "formal-languages"
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Quản lý dự án",
+        "so_tin_chi": "2",
+        "tags": [
+            "project-management"
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Chuyên đề 4 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Đồ án cơ sở 5 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Xử lý tín hiệu số",
+        "so_tin_chi": "2",
+        "tags": [
+            "dsp",
+            "dft",
+            "fft",
+            "discrete-time-signals"
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Vi xử lý",
+        "so_tin_chi": "3",
+        "tags": [
+            "microprocessors",
+            "programing",
+            "isa",
+            "assembly"
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Lập trình trò chơi trên máy tính",
+        "so_tin_chi": "3",
+        "tags": [
+            "programing",
+            "game",
+            "graphics",
+            "physics-simulation"
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Lập trình hệ thống",
+        "so_tin_chi": "3",
+        "tags": [
+            "programing",
+            "system",
+            "process-management"
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Bảo mật và An toàn hệ thống thông tin",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "security",
+            "network"
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Phân tích và thiết kế giải thuật",
+        "so_tin_chi": "3",
+        "tags": [
+            "programing",
+            "logic",
+            "algorithms"
+        ]
+    },
+    {
+        "id": "51",
+        "name": "Kiểm thử phần mềm",
+        "so_tin_chi": "2",
+        "tags": [
+            "software-testing",
+            "tdd",
+            "test-case-design"
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Lý thuyết mạch",
+        "so_tin_chi": "3",
+        "tags": [
+            "circuit-theory",
+            "electric-circuits"
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Kỹ thuật truyền số liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-transmission-techniques",
+            "modulation-techniques"
+        ]
+    },
+    {
+        "id": "54",
+        "name": "Kỹ thuật điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "electronics-engineering",
+            "electronic-components"
+        ]
+    },
+    {
+        "id": "55",
+        "name": "Trình biên dịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "compiler-design",
+            "lexical-analysis",
+            "syntax-analysis"
+        ]
+    },
+    {
+        "id": "56",
+        "name": "Xử lý ảnh",
+        "so_tin_chi": "2",
+        "tags": [
+            "image-processing",
+            "image",
+            "computer-vision"
+        ]
+    },
+    {
+        "id": "57",
+        "name": "Triết học Mác - Lênin",
+        "so_tin_chi": "3",
+        "tags": [
+            "marxist-leninist",
+            "historical-materialism",
+            "dialectical-materialism",
+            "history"
+        ]
+    },
+    {
+        "id": "58",
+        "name": "Tư tưởng Hồ Chí Minh",
+        "so_tin_chi": "2",
+        "tags": [
+            "vietnamese-revolution",
+            "marxist-leninist",
+            "history"
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Pháp luật đại cương",
+        "so_tin_chi": "2",
+        "tags": [
+            "general-law",
+            "constitutional-law",
+            "legal-rights-and-responsibilities"
+        ]
+    },
+    {
+        "id": "60",
+        "name": "Hệ thống nhúng",
+        "so_tin_chi": "3",
+        "tags": [
+            "ir",
+            "iot",
+            "programing",
+            "logic"
+        ]
+    },
+    {
+        "id": "61",
+        "name": "Chuyên đề 5 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "62",
+        "name": "Đồ án chuyên ngành 1 (CE)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "63",
+        "name": "Cấu kiện điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "ir",
+            "logic"
+        ]
+    },
+    {
+        "id": "64",
+        "name": "Công nghệ Internet of thing",
+        "so_tin_chi": "3",
+        "tags": [
+            "ir",
+            "iot"
+        ]
+    },
+    {
+        "id": "65",
+        "name": "Tương tác người - máy",
+        "so_tin_chi": "3",
+        "tags": [
+            "hci",
+            "ux",
+            "ui",
+            "interaction-design"
+        ]
+    },
+    {
+        "id": "66",
+        "name": "Đồ án chuyên ngành 2 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "67",
+        "name": "Chuyên đề 6 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "68",
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "so_tin_chi": "2",
+        "tags": [
+            "marxist-leninist",
+            "historical-materialism",
+            "socialist-economics",
+            "history"
+        ]
+    },
+    {
+        "id": "69",
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "so_tin_chi": "2",
+        "tags": [
+            "history",
+            "communist-party-of-vietnam",
+            "vietnam-war"
+        ]
+    },
+    {
+        "id": "70",
+        "name": "Hệ thống di động và cảm biến",
+        "so_tin_chi": "3",
+        "tags": [
+            "mobile",
+            "mobile-computing",
+            "sensor-technology",
+            "iot"
+        ]
+    },
+    {
+        "id": "71",
+        "name": "Lý thuyết điều khiển tự động",
+        "so_tin_chi": "3",
+        "tags": [
+            "automatic-control-theory",
+            "control-systems",
+            "iot"
+        ]
+    },
+    {
+        "id": "72",
+        "name": "Kỹ thuật robot",
+        "so_tin_chi": "3",
+        "tags": [
+            "iot",
+            "robot-control",
+            "robotics",
+            "robot-kinematics"
+        ]
+    },
+    {
+        "id": "73",
+        "name": "Điều khiển Robot",
+        "so_tin_chi": "3",
+        "tags": [
+            "iot",
+            "robot-control",
+            "robotics"
+        ]
+    },
+    {
+        "id": "74",
+        "name": "Thị giác máy tính",
+        "so_tin_chi": "3",
+        "tags": [
+            "computer-vision",
+            "image-processing",
+            "visual-perception"
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Hệ thống thời gian thực",
+        "so_tin_chi": "3",
+        "tags": [
+            "real-time",
+            "task-scheduling",
+            "deadline-enforcement"
+        ]
+    },
+    {
+        "id": "76",
+        "name": "Hệ cơ sở dữ liệu phân tán",
+        "so_tin_chi": "3",
+        "tags": [
+            "distributed-databases",
+            "databases",
+            "data-fragmentation"
+        ]
+    },
+    {
+        "id": "77",
+        "name": "Linux & phần mềm mã nguồn mở",
+        "so_tin_chi": "3",
+        "tags": [
+            "linux",
+            "programing",
+            "open-source"
+        ]
+    },
+    {
+        "id": "78",
+        "name": "Chủ nghĩa xã hội khoa học",
+        "so_tin_chi": "2",
+        "tags": [
+            "history",
+            "scientific-socialism",
+            "marxist-leninist"
+        ]
+    },
+    {
+        "id": "79",
+        "name": "Thực tập tốt nghiệp (CE)",
+        "so_tin_chi": "3",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "80",
+        "name": "Đồ án tốt nghiệp (CE)",
+        "so_tin_chi": "10",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "81",
+        "name": "Nhập môn ngành và kỹ năng mềm IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "82",
+        "name": "Tiếng Anh chuyên ngành 1 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "83",
+        "name": "Chuyên đề 1 (IT)",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Chuyên đề 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "85",
+        "name": "Thực tập doanh nghiệp IT",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "86",
+        "name": "Chuyên đề 4 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "87",
+        "name": "Giải tích 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "calculu",
+            "limits-and-continuity",
+            "math"
+        ]
+    },
+    {
+        "id": "88",
+        "name": "Khởi nghiệp và đổi mới sáng tạo",
+        "so_tin_chi": "2",
+        "tags": [
+            "entrepreneurship",
+            "startup-management",
+            "business-model-innovation"
+        ]
+    },
+    {
+        "id": "89",
+        "name": "Tiếng Anh chuyên ngành 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "ta",
+            "language"
+        ]
+    },
+    {
+        "id": "90",
+        "name": "Cấu kiện điện tử K20",
+        "so_tin_chi": "2",
+        "tags": [
+            "resistors",
+            "electronic-components"
+        ]
+    },
+    {
+        "id": "91",
+        "name": "Đồ án cơ sở 2_CE_K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "92",
+        "name": "Giải tích 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "calculus",
+            "improper-integrals"
+        ]
+    },
+    {
+        "id": "93",
+        "name": "Kỹ thuật mạch điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "electronic-circuits",
+            "iot",
+            "circuit-design"
+        ]
+    },
+    {
+        "id": "94",
+        "name": "Tiếng Anh chuyên ngành 4 CE",
+        "so_tin_chi": "2",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "95",
+        "name": "Tiếng Hàn 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "korean",
+            "language"
+        ]
+    },
+    {
+        "id": "96",
+        "name": "Điện tử ứng dụng",
+        "so_tin_chi": "2",
+        "tags": [
+            "applied",
+            "electronic",
+            "iot"
+        ]
+    },
+    {
+        "id": "97",
+        "name": "Kiến trúc và giao thức IoT",
+        "so_tin_chi": "2",
+        "tags": [
+            "wireless-sensor-networks",
+            "iot"
+        ]
+    },
+    {
+        "id": "98",
+        "name": "Thiết kế mạch điện tử với sự trợ giúp của máy tính",
+        "so_tin_chi": "2",
+        "tags": [
+            "cad",
+            "drc",
+            "dfm",
+            "electronic-circuit-design",
+            "iot"
+        ]
+    },
+    {
+        "id": "99",
+        "name": "Lập trình hệ thống nhúng",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "c",
+            "computer"
+        ]
+    },
+    {
+        "id": "100",
+        "name": "Truyền số liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-transmission",
+            "communication-protocols"
+        ]
+    },
+    {
+        "id": "101",
+        "name": "Đồ án cơ sở 4 CE K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce",
+            "do-an"
+        ]
+    },
+    {
+        "id": "102",
+        "name": "Tiếng Hàn 2",
+        "so_tin_chi": "3",
+        "tags": [
+            "korean",
+            "language"
+        ]
+    },
+    {
+        "id": "103",
+        "name": "Hệ điều hành nhúng",
+        "so_tin_chi": "2",
+        "tags": [
+            "computer",
+            "rtos",
+            "task-scheduling"
+        ]
+    },
+    {
+        "id": "104",
+        "name": "Chương trình dịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "lexical-analysis",
+            "compiler"
+        ]
+    },
+    {
+        "id": "105",
+        "name": "Thiết kế VLSI",
+        "so_tin_chi": "2",
+        "tags": [
+            "desgin",
+            "rtl",
+            "cmos"
+        ]
+    },
+    {
+        "id": "106",
+        "name": "Lập trình Python cho hệ thống nhúng",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "python"
+        ]
+    },
+    {
+        "id": "107",
+        "name": "Thiết kế IC tương tự",
+        "so_tin_chi": "3",
+        "tags": [
+            "plls",
+            "adcs",
+            "dacs",
+            "op-amps",
+            "analog-ic-design"
+        ]
+    },
+    {
+        "id": "108",
+        "name": "Linux và phần mềm nguồn mở",
+        "so_tin_chi": "2",
+        "tags": [
+            "cli",
+            "linux",
+            "open-source-software"
+        ]
+    },
+    {
+        "id": "109",
+        "name": "Thiết kế số",
+        "so_tin_chi": "2",
+        "tags": [
+            "fsms",
+            "plds",
+            "digital-design",
+            "boolean-algebra"
+        ]
+    },
+    {
+        "id": "110",
+        "name": "Đồ án chuyên ngành 3 (CE) K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "111",
+        "name": "Thiết kế FPGA/ASIC với Verilog",
+        "so_tin_chi": "2",
+        "tags": [
+            "desgin",
+            "dft",
+            "fpga",
+            "asic",
+            "verilog"
+        ]
+    },
+    {
+        "id": "112",
+        "name": "Đồ án cơ sở 1 - IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it",
+            "project1",
+            "programing",
+            "web",
+            "html"
+        ]
+    },
+    {
+        "id": "113",
+        "name": "Đồ án cơ sở 2_IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it",
+            "project2",
+            "programing",
+            "web",
+            "php",
+            "game"
+        ]
+    },
+    {
+        "id": "114",
+        "name": "Đồ án cơ sở 3 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it",
+            "project3",
+            "programing",
+            "android",
+            "game"
+        ]
+    },
+    {
+        "id": "115",
+        "name": "Chuyên đề 3 (IT)",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "116",
+        "name": "Đồ án cơ sở 4 (IT)",
+        "so_tin_chi": "2",
+        "tags": [
+            "it",
+            "project4",
+            "programing"
+        ]
+    },
+    {
+        "id": "117",
+        "name": "Đồ án cơ sở 5 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it",
+            "project5",
+            "programing"
+        ]
+    },
+    {
+        "id": "118",
+        "name": "Lập trình trong windows",
+        "so_tin_chi": "3",
+        "tags": [
+            "it",
+            "programing",
+            "computer"
+        ]
+    },
+    {
+        "id": "119",
+        "name": "Hình họa",
+        "so_tin_chi": "3",
+        "tags": [
+            "art",
+            "da",
+            "mc"
+        ]
+    },
+    {
+        "id": "120",
+        "name": "Chuyên đề 5 (IT)",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "121",
+        "name": "Đồ án chuyên ngành 1 (IT)",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "122",
+        "name": "Linux & phần mềm nguồn mở",
+        "so_tin_chi": "3",
+        "tags": [
+            "open-source-software",
+            "linux",
+            "cli"
+        ]
+    },
+    {
+        "id": "123",
+        "name": "Xử lý ngôn ngữ tự nhiên",
+        "so_tin_chi": "3",
+        "tags": [
+            "logic",
+            "programing",
+            "ai"
+        ]
+    },
+    {
+        "id": "124",
+        "name": "Phân tích, thiết kế mạng",
+        "so_tin_chi": "3",
+        "tags": [
+            "logic",
+            "computer"
+        ]
+    },
+    {
+        "id": "125",
+        "name": "Mạng không dây và di động",
+        "so_tin_chi": "3",
+        "tags": [
+            "moblie",
+            "networks",
+            "wlan",
+            "mdm"
+        ]
+    },
+    {
+        "id": "126",
+        "name": "Thiết kế đồ họa động và hoạt hình",
+        "so_tin_chi": "3",
+        "tags": [
+            "art",
+            "da",
+            "mc"
+        ]
+    },
+    {
+        "id": "127",
+        "name": "Chuyên đề 6 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "128",
+        "name": "Đồ án chuyên ngành 2 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "129",
+        "name": "Thương mại điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "e-commerce",
+            "digital-marketplaces",
+            "m-commerce"
+        ]
+    },
+    {
+        "id": "130",
+        "name": "Điện toán đám mây",
+        "so_tin_chi": "3",
+        "tags": [
+            "cloud-computing",
+            "iaas",
+            "paas",
+            "saas",
+            "virtualization"
+        ]
+    },
+    {
+        "id": "131",
+        "name": "Mật mã học",
+        "so_tin_chi": "3",
+        "tags": [
+            "logic",
+            "math"
+        ]
+    },
+    {
+        "id": "132",
+        "name": "Thiết kế và lập trình tương tác",
+        "so_tin_chi": "3",
+        "tags": [
+            "interactive-design",
+            "programming"
+        ]
+    },
+    {
+        "id": "133",
+        "name": "Thiết kế đồ họa 3D",
+        "so_tin_chi": "3",
+        "tags": [
+            "da",
+            "math",
+            "3d",
+            "design",
+            "computer-graphics"
+        ]
+    },
+    {
+        "id": "134",
+        "name": "Xuất bản Truyền thông",
+        "so_tin_chi": "3",
+        "tags": [
+            "media-publishing",
+            "digital-media",
+            "content-creation"
+        ]
+    },
+    {
+        "id": "135",
+        "name": "Kỹ xảo phim ảnh - truyền hình",
+        "so_tin_chi": "3",
+        "tags": [
+            "vfx",
+            "cgi",
+            "3d-animation"
+        ]
+    },
+    {
+        "id": "136",
+        "name": "Thực tập tốt nghiệp (IT)",
+        "so_tin_chi": "3",
+        "tags": [
+            "internship",
+            "it"
+        ]
+    },
+    {
+        "id": "137",
+        "name": "Đồ án tốt nghiệp (IT)",
+        "so_tin_chi": "10",
+        "tags": [
+            "project",
+            "it",
+            "programing"
+        ]
+    },
+    {
+        "id": "138",
+        "name": "Công nghệ và lập trình web",
+        "so_tin_chi": "3",
+        "tags": [
+            "web",
+            "programing"
+        ]
+    },
+    {
+        "id": "139",
+        "name": "Đồ án cơ sở 2_IT_K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "it",
+            "project",
+            "programing"
+        ]
+    },
+    {
+        "id": "140",
+        "name": "Tiếng Anh chuyên ngành 4 IT",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "it",
+            "technical-english",
+            "language"
+        ]
+    },
+    {
+        "id": "141",
+        "name": "Đồ án cơ sở 3 IT K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "it",
+            "project",
+            "programing"
+        ]
+    },
+    {
+        "id": "142",
+        "name": "Cơ sở tạo hình",
+        "so_tin_chi": "2",
+        "tags": [
+            "da",
+            "mc",
+            "art"
+        ]
+    },
+    {
+        "id": "143",
+        "name": "Đồ án cơ sở 4 IT K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "project",
+            "it",
+            "programing"
+        ]
+    },
+    {
+        "id": "144",
+        "name": "Đồ họa máy tính IT K20",
+        "so_tin_chi": "3",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "145",
+        "name": "Thiết kế và xây dựng hệ thống mạng",
+        "so_tin_chi": "2",
+        "tags": [
+            "lan",
+            "wan",
+            "vpn",
+            "network-design",
+            "network-security"
+        ]
+    },
+    {
+        "id": "146",
+        "name": "Chuyển mạch và định tuyến",
+        "so_tin_chi": "3",
+        "tags": [
+            "switching",
+            "routing",
+            "vlans",
+            "stp",
+            "qos",
+            "nat"
+        ]
+    },
+    {
+        "id": "147",
+        "name": "Kịch bản truyền thông",
+        "so_tin_chi": "2",
+        "tags": [
+            "scriptwriting",
+            "screenwriting",
+            "character-development"
+        ]
+    },
+    {
+        "id": "148",
+        "name": "Lập trình web nâng cao",
+        "so_tin_chi": "3",
+        "tags": [
+            "web",
+            "back-end",
+            "programing",
+            "database-integration"
+        ]
+    },
+    {
+        "id": "149",
+        "name": "Học máy",
+        "so_tin_chi": "3",
+        "tags": [
+            "ai",
+            "machine-learning",
+            "nlp",
+            "supervised-learning"
+        ]
+    },
+    {
+        "id": "150",
+        "name": "Đồ án chuyên ngành 1 (IT) K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "151",
+        "name": "Giám sát hệ thống mạng",
+        "so_tin_chi": "3",
+        "tags": [
+            "network-monitoring",
+            "system-monitoring",
+            "network-traffic-analysis"
+        ]
+    },
+    {
+        "id": "152",
+        "name": "Kỹ thuật chụp ảnh và quay phim",
+        "so_tin_chi": "2",
+        "tags": [
+            "photography",
+            "videography",
+            "lighting-techniques"
+        ]
+    },
+    {
+        "id": "153",
+        "name": "Xử lý ảnh cơ bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "photography",
+            "image-processing",
+            "image-filtering"
+        ]
+    },
+    {
+        "id": "154",
+        "name": "Nghệ thuật chữ",
+        "so_tin_chi": "2",
+        "tags": [
+            "typography",
+            "type-design",
+            "font-design"
+        ]
+    },
+    {
+        "id": "155",
+        "name": "Thiết kế nhân vật 2 chiều",
+        "so_tin_chi": "2",
+        "tags": [
+            "2d",
+            "character-design",
+            "illustration",
+            "digital-art"
+        ]
+    },
+    {
+        "id": "156",
+        "name": "Lập trình Game",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "game",
+            "game-mechanics",
+            "game-audio",
+            "sound-effects"
+        ]
+    },
+    {
+        "id": "157",
+        "name": "Kho dữ liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "etl-processes",
+            "data-warehousing",
+            "data-integration"
+        ]
+    },
+    {
+        "id": "158",
+        "name": "Phát triển ứng dụng di động đa nền tảng",
+        "so_tin_chi": "2",
+        "tags": [
+            "moblie",
+            "programing",
+            "cross-platform-development",
+            "ui",
+            "ux"
+        ]
+    },
+    {
+        "id": "159",
+        "name": "Đảm bảo chất lượng và kiểm thử phần mềm",
+        "so_tin_chi": "3",
+        "tags": [
+            "software-quality-assurance",
+            "software-testing",
+            "test-case-design",
+            "test-planning-and-strategy"
+        ]
+    },
+    {
+        "id": "160",
+        "name": "Đồ án chuyên ngành 2 (IT) K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "it",
+            "k20"
+        ]
+    },
+    {
+        "id": "161",
+        "name": "Kỹ thuật Robot",
+        "so_tin_chi": "2",
+        "tags": [
+            "robot"
+        ]
+    },
+    {
+        "id": "162",
+        "name": "Thiết kế nhân vật 3 chiều",
+        "so_tin_chi": "2",
+        "tags": [
+            "3d",
+            "character-design",
+            "digital-sculpting",
+            "rigging",
+            "animation"
+        ]
+    },
+    {
+        "id": "163",
+        "name": "Học sâu",
+        "so_tin_chi": "3",
+        "tags": [
+            "deep-learning",
+            "ai",
+            "cnn",
+            "rnn",
+            "gan",
+            "nlp"
+        ]
+    },
+    {
+        "id": "164",
+        "name": "Lập trình C++",
+        "so_tin_chi": "2",
+        "tags": [
+            "c",
+            "programing",
+            "logic"
+        ]
+    },
+    {
+        "id": "165",
+        "name": "Mạng SDN (Software-Defined Networking)",
+        "so_tin_chi": "2",
+        "tags": [
+            "software-defined-networking",
+            "network-virtualization",
+            "sdn-controllers"
+        ]
+    },
+    {
+        "id": "166",
+        "name": "Kiểm thử xâm nhập",
+        "so_tin_chi": "2",
+        "tags": [
+            "tester",
+            "penetration-testing",
+            "ethical-hacking",
+            "vulnerability-assessment"
+        ]
+    },
+    {
+        "id": "167",
+        "name": "Truyền thông đại chúng ứng dụng",
+        "so_tin_chi": "2",
+        "tags": [
+            "mass-communication",
+            "media-studies",
+            "digital-media"
+        ]
+    },
+    {
+        "id": "168",
+        "name": "Thiết kế Poster quảng cáo",
+        "so_tin_chi": "2",
+        "tags": [
+            "design",
+            "poster",
+            "commercial"
+        ]
+    },
+    {
+        "id": "169",
+        "name": "Thiết kế nhận diện thương hiệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "design",
+            "branding",
+            "logo-design",
+            "visual-identity"
+        ]
+    },
+    {
+        "id": "170",
+        "name": "Thiết kế phông nền phim Hoạt hình",
+        "so_tin_chi": "2",
+        "tags": [
+            "background-design",
+            "environment-design",
+            "visual-development",
+            "color-theory"
+        ]
+    },
+    {
+        "id": "171",
+        "name": "Quản trị dự án phần mềm",
+        "so_tin_chi": "2",
+        "tags": [
+            "project-managemen",
+            "sdlc",
+            "agile-methodologies"
+        ]
+    },
+    {
+        "id": "172",
+        "name": "Đồ án chuyên ngành 3",
+        "so_tin_chi": "1",
+        "tags": [
+            "security",
+            "malware"
+        ]
+    },
+    {
+        "id": "173",
+        "name": "Phân tích mã độc",
+        "so_tin_chi": "2",
+        "tags": [
+            "malware-analysis",
+            "reverse-engineering",
+            "code-analysis"
+        ]
+    },
+    {
+        "id": "174",
+        "name": "An toàn ứng dụng Web và CSDL",
+        "so_tin_chi": "2",
+        "tags": [
+            "web",
+            "database",
+            "programing",
+            "security",
+            "secure-coding-practices"
+        ]
+    },
+    {
+        "id": "175",
+        "name": "Robot di động",
+        "so_tin_chi": "2",
+        "tags": [
+            "iot",
+            "robot-design",
+            "sensor-integration"
+        ]
+    },
+    {
+        "id": "176",
+        "name": "Hệ thống thực tế ảo",
+        "so_tin_chi": "2",
+        "tags": [
+            "virtual-reality",
+            "3d",
+            "immersive-technology",
+            "programing"
+        ]
+    },
+    {
+        "id": "177",
+        "name": "Thiết kế hình hiệu (TV intro)",
+        "so_tin_chi": "2",
+        "tags": [
+            "motion-graphics",
+            "branding",
+            "animation",
+            "logo-design",
+            "typography"
+        ]
+    },
+    {
+        "id": "178",
+        "name": "Lập trình game nâng cao",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "game",
+            "physics",
+            "logic",
+            "math"
+        ]
+    },
+    {
+        "id": "179",
+        "name": "Biên tập phim kỹ thuật số",
+        "so_tin_chi": "2",
+        "tags": [
+            "video-editing",
+            "non-linear-editing",
+            "color-grading"
+        ]
+    },
+    {
+        "id": "180",
+        "name": "Thiết kế UX/UI",
+        "so_tin_chi": "2",
+        "tags": [
+            "ui",
+            "ux",
+            "desgin"
+        ]
+    },
+    {
+        "id": "181",
+        "name": "Lập trình Python",
+        "so_tin_chi": "3",
+        "tags": [
+            "python",
+            "programing"
+        ]
+    },
+    {
+        "id": "182",
+        "name": "Lập trình C#",
+        "so_tin_chi": "3",
+        "tags": [
+            "c",
+            "programing"
+        ]
+    },
+    {
+        "id": "183",
+        "name": "Thu thập và phân tích thông tin an ninh mạng",
+        "so_tin_chi": "2",
+        "tags": [
+            "network-security",
+            "information-gathering",
+            "network-traffic-analysis",
+            "log-analysis"
+        ]
+    },
+    {
+        "id": "184",
+        "name": "Giao thức an toàn mạng",
+        "so_tin_chi": "2",
+        "tags": [
+            "network-securit",
+            "tls",
+            "ssh",
+            "ipsec",
+            "ssl",
+            "vpn",
+            "sftp",
+            "srtp"
+        ]
+    },
+    {
+        "id": "185",
+        "name": "Mạng cảm biến không dây",
+        "so_tin_chi": "2",
+        "tags": [
+            "wireless-sensor-networks",
+            "sensor-nodes",
+            "data-aggregation"
+        ]
+    },
+    {
+        "id": "186",
+        "name": "Thiết kế truyện tranh",
+        "so_tin_chi": "2",
+        "tags": [
+            "comic-art",
+            "storyboarding",
+            "character-design"
+        ]
+    },
+    {
+        "id": "187",
+        "name": "Thiết kế ấn phẩm báo chí",
+        "so_tin_chi": "2",
+        "tags": [
+            "graphic-design",
+            "layout-design",
+            "typography",
+            "color-theory",
+            "editorial-design"
+        ]
+    },
+    {
+        "id": "188",
+        "name": "Tin học đại cương (BA)",
+        "so_tin_chi": "3",
+        "tags": [
+            "ba",
+            "programing",
+            "c",
+            "word"
+        ]
+    },
+    {
+        "id": "189",
+        "name": "Nhập môn kinh doanh",
+        "so_tin_chi": "3",
+        "tags": [
+            "marketing",
+            "ba",
+            "management"
+        ]
+    },
+    {
+        "id": "190",
+        "name": "Quản trị học",
+        "so_tin_chi": "3",
+        "tags": [
+            "management-theory",
+            "organizational-behavior",
+            "leadership"
+        ]
+    },
+    {
+        "id": "191",
+        "name": "Đề án 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "192",
+        "name": "Giao tiếp kinh doanh",
+        "so_tin_chi": "3",
+        "tags": [
+            "business-communication",
+            "verbal-communication",
+            "presentation-skills"
+        ]
+    },
+    {
+        "id": "193",
+        "name": "Marketing căn bản",
+        "so_tin_chi": "3",
+        "tags": [
+            "marketing-strategy",
+            "marketing",
+            "market-research",
+            "consumer-behavior"
+        ]
+    },
+    {
+        "id": "194",
+        "name": "Luật kinh doanh",
+        "so_tin_chi": "3",
+        "tags": [
+            "law",
+            "business-law"
+        ]
+    },
+    {
+        "id": "195",
+        "name": "Kinh tế học",
+        "so_tin_chi": "4",
+        "tags": [
+            "microeconomics",
+            "macroeconomics",
+            "economic-theory"
+        ]
+    },
+    {
+        "id": "196",
+        "name": "Đề án 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "197",
+        "name": "Quản trị nguồn nhân lực",
+        "so_tin_chi": "3",
+        "tags": [
+            "recruitment",
+            "selection",
+            "employee-training"
+        ]
+    },
+    {
+        "id": "198",
+        "name": "Kỹ thuật đồ họa ứng dụng",
+        "so_tin_chi": "3",
+        "tags": [
+            "computer-graphics",
+            "3d",
+            "animation-techniques",
+            "vr",
+            "ar",
+            "ui"
+        ]
+    },
+    {
+        "id": "199",
+        "name": "Nhập môn thương mại điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "e-commerce-basics",
+            "e-commerce",
+            "e-commerce-platforms"
+        ]
+    },
+    {
+        "id": "200",
+        "name": "Đề án 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "201",
+        "name": "Hành vi tổ chức",
+        "so_tin_chi": "3",
+        "tags": [
+            "leadership",
+            "behavior",
+            "organizational-structure",
+            "design"
+        ]
+    },
+    {
+        "id": "202",
+        "name": "Thiết kế website KT",
+        "so_tin_chi": "2",
+        "tags": [
+            "ui",
+            "ux",
+            "desgin",
+            "font-end",
+            "web",
+            "programing"
+        ]
+    },
+    {
+        "id": "203",
+        "name": "Đề án 4",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "204",
+        "name": "Quản trị tài chính",
+        "so_tin_chi": "3",
+        "tags": [
+            "financial-management",
+            "budgeting",
+            "investment-analysis"
+        ]
+    },
+    {
+        "id": "205",
+        "name": "Đề án 5",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "206",
+        "name": "Hệ thống thông tin quản lý",
+        "so_tin_chi": "2",
+        "tags": [
+            "mis",
+            "data-management",
+            "decision-support",
+            "information-technology",
+            "business-intelligence"
+        ]
+    },
+    {
+        "id": "207",
+        "name": "Kế toán doanh nghiệp",
+        "so_tin_chi": "2",
+        "tags": [
+            "accounting",
+            "tax",
+            "audit",
+            "management",
+            "law"
+        ]
+    },
+    {
+        "id": "208",
+        "name": "Toán ứng dụng trong kinh tế",
+        "so_tin_chi": "2",
+        "tags": [
+            "math",
+            "economic",
+            "optimization",
+            "analytics"
+        ]
+    },
+    {
+        "id": "209",
+        "name": "Quản trị chuỗi cung ứng",
+        "so_tin_chi": "3",
+        "tags": [
+            "scm",
+            "logistics",
+            "inventory",
+            "forecasting",
+            "supplier-management"
+        ]
+    },
+    {
+        "id": "210",
+        "name": "Chiến lược kinh doanh điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "e-commerce",
+            "digital-marketing",
+            "online-platforms",
+            "customer-experience",
+            "competitive-advantage"
+        ]
+    },
+    {
+        "id": "211",
+        "name": "Đề án 6",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "212",
+        "name": "Phương pháp nghiên cứu khoa học trong kinh tế",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-analysis",
+            "statistical-methods",
+            "e-analysis",
+            "stata",
+            "spss"
+        ]
+    },
+    {
+        "id": "213",
+        "name": "Thanh toán điện tử",
+        "so_tin_chi": "2",
+        "tags": [
+            "electronic-payments",
+            "online-payments",
+            "digital-wallets",
+            "payment-security"
+        ]
+    },
+    {
+        "id": "214",
+        "name": "Đề án 7",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "215",
+        "name": "Thống kê kinh doanh",
+        "so_tin_chi": "2",
+        "tags": [
+            "business-statistics",
+            "data-analysis",
+            "quantitative-methods",
+            "forecasting",
+            "market-research"
+        ]
+    },
+    {
+        "id": "216",
+        "name": "Quản trị quá trình đổi mới sáng tạo",
+        "so_tin_chi": "2",
+        "tags": [
+            "creative",
+            "management",
+            "leadership",
+            "ba",
+            ""
+        ]
+    },
+    {
+        "id": "217",
+        "name": "Quản trị tác nghiệp thương mại điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "e-commerce",
+            "online-business-strategy",
+            "management",
+            "ba"
+        ]
+    },
+    {
+        "id": "218",
+        "name": "Marketing điện tử",
+        "so_tin_chi": "3",
+        "tags": [
+            "da",
+            "online-marketing",
+            "social-media-marketing",
+            "seo"
+        ]
+    },
+    {
+        "id": "219",
+        "name": "Quảng cáo xúc tiến bán hàng (MCI)",
+        "so_tin_chi": "3",
+        "tags": [
+            "advertising",
+            "communication",
+            "search-advertising",
+            "strategy",
+            "imc",
+            "measure-effectiveness",
+            "creative"
+        ]
+    },
+    {
+        "id": "220",
+        "name": "Quản trị bán hàng",
+        "so_tin_chi": "3",
+        "tags": [
+            "crm",
+            "sale-management",
+            "sale-forecasting"
+        ]
+    },
+    {
+        "id": "221",
+        "name": "Đạo đức trong kinh doanh",
+        "so_tin_chi": "2",
+        "tags": [
+            "ethics-in-business",
+            "ethical-management",
+            "communication"
+        ]
+    },
+    {
+        "id": "222",
+        "name": "Khóa luận tốt nghiệp (BA)",
+        "so_tin_chi": "10",
+        "tags": [
+            "ba",
+            "finnal"
+        ]
+    },
+    {
+        "id": "223",
+        "name": "Kĩ năng thuyết trình",
+        "so_tin_chi": "2",
+        "tags": [
+            "presentitation",
+            "speaking",
+            "storytelling",
+            "visual-aids"
+        ]
+    },
+    {
+        "id": "224",
+        "name": "Quản trị chiến lược",
+        "so_tin_chi": "3",
+        "tags": [
+            "management",
+            "analysis",
+            "strategy",
+            "customer-approach"
+        ]
+    },
+    {
+        "id": "225",
+        "name": "Hành vi người tiêu dùng",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing-awareness",
+            "symptoms",
+            "psychological-factors",
+            "customer-interaction",
+            "analytics"
+        ]
+    },
+    {
+        "id": "226",
+        "name": "Ứng dụng tin học trong kinh doanh",
+        "so_tin_chi": "3",
+        "tags": [
+            "mis",
+            "data-management",
+            "analytics",
+            "ecommerce",
+            "management",
+            "online-collaboration"
+        ]
+    },
+    {
+        "id": "227",
+        "name": "Kỹ năng làm việc nhóm",
+        "so_tin_chi": "2",
+        "tags": [
+            "teamwork",
+            "collaboration",
+            "communication",
+            "conflict-resolution",
+            "task-delegation"
+        ]
+    },
+    {
+        "id": "228",
+        "name": "Kỹ năng soạn thảo văn bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "word",
+            "editing",
+            "formatting",
+            "writing"
+        ]
+    },
+    {
+        "id": "229",
+        "name": "Kỹ năng sử dụng phần mềm power point",
+        "so_tin_chi": "2",
+        "tags": [
+            "powerpoint",
+            "slide-design",
+            "presentation",
+            "animation"
+        ]
+    },
+    {
+        "id": "230",
+        "name": "Kỹ năng giải quyết vấn đề",
+        "so_tin_chi": "2",
+        "tags": [
+            "problem-solving",
+            "critical-thinking",
+            "analytical-skills",
+            "decision-making",
+            "creativity"
+        ]
+    },
+    {
+        "id": "231",
+        "name": "Thị trường và các định chế tài chính",
+        "so_tin_chi": "3",
+        "tags": [
+            "financial",
+            "monetary-policy"
+        ]
+    },
+    {
+        "id": "232",
+        "name": "Kinh doanh quốc tế",
+        "so_tin_chi": "3",
+        "tags": [
+            "international-business",
+            "global-market",
+            "cross-cultural-management",
+            "global-trade",
+            "foreign-market-entry"
+        ]
+    },
+    {
+        "id": "233",
+        "name": "Quản trị sản xuất",
+        "so_tin_chi": "3",
+        "tags": [
+            "management",
+            "logicstic",
+            "optimizing-production"
+        ]
+    },
+    {
+        "id": "234",
+        "name": "Quản trị marketing",
+        "so_tin_chi": "3",
+        "tags": [
+            "management",
+            "market-research",
+            "marketing-strategy",
+            "digital-marketing"
+        ]
+    },
+    {
+        "id": "235",
+        "name": "Quản trị thương hiệu",
+        "so_tin_chi": "3",
+        "tags": [
+            "management",
+            "define-the-brand",
+            "marketing-campaign",
+            ""
+        ]
+    },
+    {
+        "id": "236",
+        "name": "Quản trị rủi ro trong TMĐT",
+        "so_tin_chi": "2",
+        "tags": [
+            "management",
+            "information-security",
+            "risk-management"
+        ]
+    },
+    {
+        "id": "237",
+        "name": "Phân tích và thiết kế hệ thống thông tin",
+        "so_tin_chi": "3",
+        "tags": [
+            "system",
+            "analysis",
+            "system-design",
+            "requirements-gathering",
+            "data-modeling"
+        ]
+    },
+    {
+        "id": "238",
+        "name": "Kỹ năng tìm kiếm việc làm và tuyển dụng",
+        "so_tin_chi": "2",
+        "tags": [
+            "job",
+            "search",
+            "resume-writing",
+            "cover-letter",
+            "interview",
+            "networking"
+        ]
+    },
+    {
+        "id": "239",
+        "name": "Kỹ năng thực hiện Khóa luận tốt nghiệp",
+        "so_tin_chi": "2",
+        "tags": [
+            "study",
+            "analytics",
+            "planning-and-time-management",
+            "deductive",
+            "writing-and-editing"
+        ]
+    },
+    {
+        "id": "240",
+        "name": "Kinh tế vi mô",
+        "so_tin_chi": "2",
+        "tags": [
+            "analytics",
+            "measure-and-forecast-changes"
+        ]
+    },
+    {
+        "id": "241",
+        "name": "Kinh tế vĩ mô",
+        "so_tin_chi": "2",
+        "tags": [
+            "economic-growth",
+            "gdp",
+            "measure",
+            "fiscal-policy",
+            "currency"
+        ]
+    },
+    {
+        "id": "242",
+        "name": "Nhập môn ngành và kỹ năng mềm BA",
+        "so_tin_chi": "2",
+        "tags": [
+            "requirements-analysis",
+            "modeling",
+            "management",
+            "testing",
+            "communication",
+            "analytics"
+        ]
+    },
+    {
+        "id": "243",
+        "name": "Tiếng Anh chuyên ngành 1 BA",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba",
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "244",
+        "name": "Tiếng Anh chuyên ngành 2 (BA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba",
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "245",
+        "name": "Nguyên lý kế toán",
+        "so_tin_chi": "3",
+        "tags": [
+            "gaap",
+            "financial"
+        ]
+    },
+    {
+        "id": "246",
+        "name": "Phương pháp NCKH trong kinh doanh",
+        "so_tin_chi": "2",
+        "tags": [
+            "analytics",
+            "survey",
+            "interview",
+            "da",
+            "modeling",
+            "literature-review"
+        ]
+    },
+    {
+        "id": "247",
+        "name": "Tiếng Anh chuyên ngành 3 (BA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba",
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "248",
+        "name": "Hành vi người tiêu dùng K20",
+        "so_tin_chi": "3",
+        "tags": [
+            "marketing-awareness",
+            "symptoms",
+            "psychological-factors",
+            "customer-interaction",
+            "analytics"
+        ]
+    },
+    {
+        "id": "249",
+        "name": "Truyền thông Marketing tích hợp cơ bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "imc",
+            "analytics",
+            "content",
+            "communication",
+            "measure",
+            "management"
+        ]
+    },
+    {
+        "id": "250",
+        "name": "Quản trị Marketing",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing-management",
+            "marketing-strategy",
+            "market-research",
+            "consumer-behavior",
+            "brand-management"
+        ]
+    },
+    {
+        "id": "251",
+        "name": "Kinh doanh quốc tế cơ bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "international-trade",
+            "business-ethics",
+            "international-marketing",
+            "management",
+            "law",
+            "business-strategy"
+        ]
+    },
+    {
+        "id": "252",
+        "name": "Thống kê kinh doanh K20",
+        "so_tin_chi": "3",
+        "tags": [
+            "business-statistics",
+            "data-analysis",
+            "statistical-methods",
+            "descriptive-statistics",
+            "inferential-statistics"
+        ]
+    },
+    {
+        "id": "253",
+        "name": "Digital Marketing",
+        "so_tin_chi": "2",
+        "tags": [
+            "digital-marketing",
+            "online-marketing",
+            "internet-marketing",
+            "social-media-marketing",
+            "seo",
+            "sem"
+        ]
+    },
+    {
+        "id": "254",
+        "name": "Nghiên cứu marketing",
+        "so_tin_chi": "3",
+        "tags": [
+            "market-research",
+            "research-design",
+            "data-collection",
+            "da",
+            "consumer-behavior",
+            "digital-marketing",
+            "business-ethics",
+            "marketing-strategy"
+        ]
+    },
+    {
+        "id": "255",
+        "name": "Marketing bằng công cụ tìm kiếm (Search Engine Marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "search-engine-marketing",
+            "sem",
+            "seo",
+            "pay-per-click-advertising",
+            "google-ads"
+        ]
+    },
+    {
+        "id": "256",
+        "name": "Tiếng Anh chuyên ngành 4 BA",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba",
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "257",
+        "name": "Quản trị bán hàng K20",
+        "so_tin_chi": "2",
+        "tags": [
+            "sales-management",
+            "sales-strategy",
+            "sales-planning",
+            "sales-forecasting",
+            "crm"
+        ]
+    },
+    {
+        "id": "258",
+        "name": "Chiến lược Marketing",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing-strategy",
+            "strategic-marketing-planning",
+            "target-market-analysis",
+            "competitive-analysis",
+            "positioning-strategy",
+            "marketing"
+        ]
+    },
+    {
+        "id": "259",
+        "name": "Marketing dịch vụ",
+        "so_tin_chi": "2",
+        "tags": [
+            "service-marketing",
+            "service-design",
+            "service-quality",
+            "customer-experience",
+            "service-differentiation",
+            "marketing"
+        ]
+    },
+    {
+        "id": "260",
+        "name": "Phát triển sản phẩm mới",
+        "so_tin_chi": "2",
+        "tags": [
+            "market-research",
+            "product-design",
+            "testing-and-validation",
+            "product-lifecycle-management",
+            "commercialization"
+        ]
+    },
+    {
+        "id": "261",
+        "name": "Thương mại điện tử cơ bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "e-commerce-basics",
+            "online-business",
+            "digital-commerce",
+            "online-shopping",
+            "electronic-transactions",
+            "online-payment-systems"
+        ]
+    },
+    {
+        "id": "262",
+        "name": "Quản trị chuỗi cung ứng K20",
+        "so_tin_chi": "2",
+        "tags": [
+            "supply-chain-management",
+            "logistics-management",
+            "procurement",
+            "inventory-management",
+            "demand-forecasting"
+        ]
+    },
+    {
+        "id": "263",
+        "name": "Thiết kế Website Thương mại điện tử 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "website-design",
+            "e-commerce",
+            "ux",
+            "ui",
+            "payment-integration"
+        ]
+    },
+    {
+        "id": "264",
+        "name": "Truyền thông Marketing tích hợp (IMC)",
+        "so_tin_chi": "3",
+        "tags": [
+            "imc",
+            "marketing-communication-strategy",
+            "brand-consistency",
+            "advertising",
+            "public-relations",
+            "sales-promotions",
+            "direct-marketing",
+            "marketing"
+        ]
+    },
+    {
+        "id": "265",
+        "name": "Marketing nội dung (Content marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "content-marketing",
+            "content-marketing",
+            "strategy",
+            "audience-research",
+            "content-distribution",
+            "seo",
+            "content-distribution",
+            "content-measurement-and-analytics"
+        ]
+    },
+    {
+        "id": "266",
+        "name": "Khởi sự kinh doanh",
+        "so_tin_chi": "3",
+        "tags": [
+            "business-startup",
+            "entrepreneurship",
+            "business-planning",
+            "market-analysis",
+            "feasibility-study"
+        ]
+    },
+    {
+        "id": "267",
+        "name": "Quản trị quan hệ khách hàng",
+        "so_tin_chi": "2",
+        "tags": [
+            "customer-relationship-management",
+            "crm",
+            "customer-satisfaction",
+            "customer-retention",
+            "customer-loyalty"
+        ]
+    },
+    {
+        "id": "268",
+        "name": "An toàn và bảo mật trong TMĐT",
+        "so_tin_chi": "2",
+        "tags": [
+            "e-commerce-security",
+            "online-payment-security",
+            "data-protection",
+            "encryption",
+            "ssl",
+            "fraud-prevention",
+            "secure-authentication"
+        ]
+    },
+    {
+        "id": "269",
+        "name": "Thiết kế Website Thương mại điện tử 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "website-design",
+            "e-commerce",
+            "ux",
+            "ui",
+            "payment-integration"
+        ]
+    },
+    {
+        "id": "270",
+        "name": "Hoạch định nguồn lực doanh nghiệp",
+        "so_tin_chi": "2",
+        "tags": [
+            "business-resource-planning",
+            "resource-allocation",
+            "budgeting",
+            "human-resource-planning",
+            "workforce-management"
+        ]
+    },
+    {
+        "id": "271",
+        "name": "Đề án 5_K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "272",
+        "name": "Phân tích Marketing số (Digital Marketing analytics)",
+        "so_tin_chi": "2",
+        "tags": [
+            "digital-marketing-analytics"
+        ]
+    },
+    {
+        "id": "273",
+        "name": "Marketing truyền thông xã hội (Social media marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "social-media-marketing"
+        ]
+    },
+    {
+        "id": "274",
+        "name": "Quảng cáo hiển thị và video (Display and video advertising)",
+        "so_tin_chi": "2",
+        "tags": [
+            "display-and-video-advertising"
+        ]
+    },
+    {
+        "id": "275",
+        "name": "Chiến lược toàn cầu trong marketing số (Global strategies in Digital Marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "global-strategies-in-digital-marketing"
+        ]
+    },
+    {
+        "id": "276",
+        "name": "Marketing thư điện tử (Email marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "email-marketing"
+        ]
+    },
+    {
+        "id": "277",
+        "name": "Web 3.0 và xu hướng mới nổi trong Marketing số",
+        "so_tin_chi": "2",
+        "tags": [
+            "web-3-0",
+            "digital-marketing-trends",
+            "emerging-marketing-trends",
+            "marketing-automation"
+        ]
+    },
+    {
+        "id": "278",
+        "name": "Chuyên đề 1 BA",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "279",
+        "name": "Thương mại di động (Mobile Commerce)",
+        "so_tin_chi": "2",
+        "tags": [
+            "mobile-commerce",
+            "m-commerce",
+            "mobile-shopping",
+            "mobile-payments",
+            "mobile-apps-for-shopping"
+        ]
+    },
+    {
+        "id": "280",
+        "name": "Thương mại qua Facebook (Facbook Commerce)",
+        "so_tin_chi": "2",
+        "tags": [
+            "facebook-commerce",
+            "facebook-shops",
+            "social-commerce",
+            "facebook-marketplace"
+        ]
+    },
+    {
+        "id": "281",
+        "name": "Hoạch định & Tích hợp chiến lược Digital Marketing (Digital Marketing: Strategic Planning & Integration)",
+        "so_tin_chi": "2",
+        "tags": [
+            "digital-marketing-strategy",
+            "strategic-planning",
+            "digital-marketing-channels",
+            "target-audience",
+            "seo",
+            "sem",
+            "crm"
+        ]
+    },
+    {
+        "id": "282",
+        "name": "Quản trị trải nghiệm khách hàng (Customer experience management)",
+        "so_tin_chi": "2",
+        "tags": [
+            "customer-experience-management",
+            "cxm",
+            "customer-journey-mapping",
+            "customer-satisfaction"
+        ]
+    },
+    {
+        "id": "283",
+        "name": "Chuyên đề 2 BA",
+        "so_tin_chi": "2",
+        "tags": [
+            "ba"
+        ]
+    },
+    {
+        "id": "284",
+        "name": "Thực tập tốt nghiệp KTS",
+        "so_tin_chi": "2",
+        "tags": [
+            "internship"
+        ]
+    },
+    {
+        "id": "285",
+        "name": "Luận văn tốt nghiệp",
+        "so_tin_chi": "8",
+        "tags": [
+            "thesis",
+            "graduation-thesis",
+            "research-paper",
+            "dissertation",
+            "final-project"
+        ]
+    },
+    {
+        "id": "286",
+        "name": "Nhập môn khoa học dữ liệu",
+        "so_tin_chi": "3",
+        "tags": [
+            "data-science-fundamentals",
+            "data-analysis",
+            "statistical-modeling",
+            "data-visualization",
+            "machine-learning"
+        ]
+    },
+    {
+        "id": "287",
+        "name": "Phân tích dữ liệu",
+        "so_tin_chi": "3",
+        "tags": [
+            "eda-data-analysis",
+            "data-visualization",
+            "data-mining"
+        ]
+    },
+    {
+        "id": "288",
+        "name": "Ngôn ngữ R",
+        "so_tin_chi": "2",
+        "tags": [
+            "program",
+            "r-language",
+            "r-packages",
+            "data-manipulation-with-r"
+        ]
+    },
+    {
+        "id": "289",
+        "name": "Xử lý dữ liệu lớn",
+        "so_tin_chi": "2",
+        "tags": [
+            "big-data-data-preprocessing-data-cleaning-data-integration"
+        ]
+    },
+    {
+        "id": "290",
+        "name": "Trực quan hóa dữ liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-visualization",
+            "data-representation",
+            "charts-and-graphs",
+            "interactive-dashboards",
+            "data-storytelling"
+        ]
+    },
+    {
+        "id": "291",
+        "name": "Hệ chuyên gia",
+        "so_tin_chi": "2",
+        "tags": [
+            "expert-systems",
+            "knowledge-based-systems",
+            "rule-based-systems",
+            "knowledge-engineering",
+            "knowledge-representation",
+            "fuzzy-logic"
+        ]
+    },
+    {
+        "id": "292",
+        "name": "Biểu diễn tri thức",
+        "so_tin_chi": "2",
+        "tags": [
+            "knowledge-representation",
+            "knowledge-modeling",
+            "knowledge-engineering",
+            "semantic-networks"
+        ]
+    },
+    {
+        "id": "293",
+        "name": "Lập trình song song",
+        "so_tin_chi": "2",
+        "tags": [
+            "multi-threading",
+            "parallel-algorithms",
+            "programing"
+        ]
+    },
+    {
+        "id": "294",
+        "name": "Đồ họa 2D",
+        "so_tin_chi": "2",
+        "tags": [
+            "2d",
+            "design"
+        ]
+    },
+    {
+        "id": "295",
+        "name": "Lịch sử mỹ thuật Việt Nam và Thế giới",
+        "so_tin_chi": "2",
+        "tags": [
+            "history",
+            "art",
+            "vietnam-and-world"
+        ]
+    },
+    {
+        "id": "296",
+        "name": "Nguyên lý thiết kế đồ họa",
+        "so_tin_chi": "2",
+        "tags": [
+            "graphic",
+            "desing",
+            "principles",
+            "typographym-color-theory",
+            "composition"
+        ]
+    },
+    {
+        "id": "297",
+        "name": "Thiết kế Logo",
+        "so_tin_chi": "3",
+        "tags": [
+            "design",
+            "logo"
+        ]
+    },
+    {
+        "id": "298",
+        "name": "Minh họa",
+        "so_tin_chi": "2",
+        "tags": [
+            "illustration",
+            "digital-art",
+            "character-design",
+            "graphic-illustration"
+        ]
+    },
+    {
+        "id": "299",
+        "name": "Thiết kế bao bì sản phẩm",
+        "so_tin_chi": "2",
+        "tags": [
+            "label-design",
+            "product-packaging-design",
+            "branding",
+            "graphic"
+        ]
+    },
+    {
+        "id": "300",
+        "name": "Thiết kế hoạt hình 2 chiều",
+        "so_tin_chi": "2",
+        "tags": [
+            "2d-animation-design",
+            "2d",
+            "animation",
+            "design",
+            "graphic"
+        ]
+    },
+    {
+        "id": "301",
+        "name": "Đồ họa 3D",
+        "so_tin_chi": "2",
+        "tags": [
+            "graphic",
+            "3d"
+        ]
+    },
+    {
+        "id": "302",
+        "name": "Thiết kế bộ ấn phẩm văn phòng",
+        "so_tin_chi": "2",
+        "tags": [
+            "office-stationery-design",
+            "corporate-identity-design",
+            "brochure-design",
+            "business-card-design",
+            "letterhead-design"
+        ]
+    },
+    {
+        "id": "303",
+        "name": "Thiết kế Poster",
+        "so_tin_chi": "2",
+        "tags": [
+            "design",
+            "poster"
+        ]
+    },
+    {
+        "id": "304",
+        "name": "Thiết kế hoạt hình 3 chiều",
+        "so_tin_chi": "2",
+        "tags": [
+            "desing",
+            "3d-animation",
+            "graphic"
+        ]
+    },
+    {
+        "id": "305",
+        "name": "Thiết kế dàn trang báo chí",
+        "so_tin_chi": "2",
+        "tags": [
+            "design",
+            "typography",
+            "grid-systems",
+            "layout-design"
+        ]
+    },
+    {
+        "id": "306",
+        "name": "Đề án 3 (K20)",
+        "so_tin_chi": "1",
+        "tags": [
+            "k20"
+        ]
+    },
+    {
+        "id": "307",
+        "name": "Quản trị thương hiệu (*)",
+        "so_tin_chi": "0",
+        "tags": [
+            "brand-strategy",
+            "brand-positioning",
+            "brand-identity",
+            "brand-image",
+            "brand-equity",
+            "brand-management"
+        ]
+    },
+    {
+        "id": "308",
+        "name": "Truyền thông marketing tích hợp (*)",
+        "so_tin_chi": "0",
+        "tags": [
+            "integrated-marketing-communication",
+            "advertising",
+            "public-relations",
+            "sales-promotion",
+            "direct-marketing"
+        ]
+    },
+    {
+        "id": "309",
+        "name": "Marketing truyền thông xã hội",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing",
+            "media"
+        ]
+    },
+    {
+        "id": "310",
+        "name": "Marketing công cụ tìm kiếm",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing",
+            "search"
+        ]
+    },
+    {
+        "id": "311",
+        "name": "Marketing lan truyền (Viral Marketing)",
+        "so_tin_chi": "2",
+        "tags": [
+            "viral-marketing"
+        ]
+    },
+    {
+        "id": "312",
+        "name": "Marketing nội dung",
+        "so_tin_chi": "2",
+        "tags": [
+            "marketing",
+            "content"
+        ]
+    },
+    {
+        "id": "313",
+        "name": "Quảng cáo hiển thị và video",
+        "so_tin_chi": "2",
+        "tags": [
+            "display-advertising",
+            "video-advertising",
+            "online-advertising",
+            "ad-banners",
+            "ad-networks",
+            "programmatic-advertising",
+            "ctr",
+            "cpc",
+            "cpm"
+        ]
+    },
+    {
+        "id": "314",
+        "name": "Phân tích marketing số",
+        "so_tin_chi": "2",
+        "tags": [
+            "digital-marketing-analysis",
+            "data-analytics",
+            "market-research",
+            "consumer-behavior-analysis"
+        ]
+    },
+    {
+        "id": "315",
+        "name": "Đại số tuyến tính",
+        "so_tin_chi": "2",
+        "tags": [
+            "math",
+            "logic",
+            "matrix",
+            "linear-algebra",
+            "vector-spaces",
+            "matrices",
+            "linear-transformations"
+        ]
+    },
+    {
+        "id": "316",
+        "name": "Lập trình hướng đối tượng",
+        "so_tin_chi": "3",
+        "tags": [
+            "java",
+            "oop",
+            "logic",
+            "destructors",
+            "methods"
+        ]
+    },
+    {
+        "id": "317",
+        "name": "Lập trình Java",
+        "so_tin_chi": "3",
+        "tags": [
+            "java",
+            "thread",
+            "i-o-stream",
+            "java-web",
+            "xml"
+        ]
+    },
+    {
+        "id": "318",
+        "name": "Đồ án cơ sở 1 IT K21",
+        "so_tin_chi": "1",
+        "tags": [
+            "it",
+            "web-front-end",
+            "java-programing"
+        ]
+    },
+    {
+        "id": "319",
+        "name": "Thiết kế web",
+        "so_tin_chi": "3",
+        "tags": [
+            "web",
+            "programing"
+        ]
+    },
+    {
+        "id": "320",
+        "name": "Đồ án cơ sở 2 IT K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "it",
+            "web-back-end",
+            "java-programing"
+        ]
+    },
+    {
+        "id": "321",
+        "name": "Tiếng Anh nâng cao 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "322",
+        "name": "Đồ án cơ sở 3",
+        "so_tin_chi": "1",
+        "tags": [
+            "project",
+            "it",
+            "programing"
+        ]
+    },
+    {
+        "id": "323",
+        "name": "Tiếng Anh nâng cao 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "324",
+        "name": "Đồ án cơ sở 4 (IT) 2TC",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "325",
+        "name": "Đồ án chuyên ngành 1_K20_IT",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "326",
+        "name": "Đồ án chuyên ngành 2_K20_IT",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "327",
+        "name": "Khai phá dữ liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "big-data-analytics",
+            "data-mining-algorithms",
+            "data-mining"
+        ]
+    },
+    {
+        "id": "328",
+        "name": "Kiến trúc và thiết kế phần mềm",
+        "so_tin_chi": "2",
+        "tags": [
+            "software-design-and-architecture"
+        ]
+    },
+    {
+        "id": "329",
+        "name": "Đồ án cơ sở 1 CE K21",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "330",
+        "name": "Đồ án chuyên ngành 1 (CE) K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "331",
+        "name": "Đồ án chuyên ngành 2 (CE) K20",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "332",
+        "name": "Luật kinh doanh K21",
+        "so_tin_chi": "2",
+        "tags": [
+            "business-law",
+            "business-regulations",
+            "law"
+        ]
+    },
+    {
+        "id": "333",
+        "name": "Đề án 1 K21",
+        "so_tin_chi": "1",
+        "tags": []
+    },
+    {
+        "id": "334",
+        "name": "Toán ứng dụng trong kinh tế K21",
+        "so_tin_chi": "3",
+        "tags": [
+            "applied-mathematics",
+            "mathematical-modeling",
+            "forecasting",
+            "financial-mathematics",
+            "risk-analysis"
+        ]
+    },
+    {
+        "id": "335",
+        "name": "Quản trị bán hàng",
+        "so_tin_chi": "2",
+        "tags": [
+            "sales-strategies",
+            "sales-techniques",
+            "customer-relationship-management",
+            "sales-forecasting",
+            "sales-planning"
+        ]
+    },
+    {
+        "id": "336",
+        "name": "Tiếng Nhật 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "japanese",
+            "language"
+        ]
+    },
+    {
+        "id": "337",
+        "name": "Tiếng Nhật 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "japanese",
+            "language"
+        ]
+    },
+    {
+        "id": "338",
+        "name": "Tiếng Nhật nâng cao 1",
+        "so_tin_chi": "2",
+        "tags": [
+            "japanese",
+            "language"
+        ]
+    },
+    {
+        "id": "339",
+        "name": "Tiếng Nhật nâng cao 2",
+        "so_tin_chi": "2",
+        "tags": [
+            "japanese",
+            "language"
+        ]
+    },
+    {
+        "id": "340",
+        "name": "Tiếng Nhật nâng cao 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "japanese",
+            "language"
+        ]
+    },
+    {
+        "id": "341",
+        "name": "Nhập môn E-logistics",
+        "so_tin_chi": "3",
+        "tags": [
+            "e-logistics"
+        ]
+    },
+    {
+        "id": "342",
+        "name": "Quản trị dự án",
+        "so_tin_chi": "2",
+        "tags": [
+            "project-planning",
+            "project-scheduling",
+            "project-budgeting",
+            "project-risk-management",
+            "project-communication"
+        ]
+    },
+    {
+        "id": "343",
+        "name": "Mua sắm điện tử",
+        "so_tin_chi": "2",
+        "tags": [
+            "online-shopping",
+            "e-commerce-platforms",
+            "digital-marketplaces",
+            "secure-transactions",
+            "payment-gateways"
+        ]
+    },
+    {
+        "id": "344",
+        "name": "Quản trị xuất nhập khẩu",
+        "so_tin_chi": "2",
+        "tags": [
+            "international-trade",
+            "customs-regulations",
+            "logistics-and-transportation",
+            "trade-agreements"
+        ]
+    },
+    {
+        "id": "345",
+        "name": "Quản trị kho hàng",
+        "so_tin_chi": "2",
+        "tags": [
+            "warehouse-management",
+            "inventory-control",
+            "stock-management",
+            "order-fulfillment",
+            "logistics",
+            "transportation"
+        ]
+    },
+    {
+        "id": "346",
+        "name": "Tổ chức vận tải đa phương thức",
+        "so_tin_chi": "2",
+        "tags": [
+            "multimodal-transportation",
+            "intermodal-transportation",
+            "freight-forwarding",
+            "logistics-coordination"
+        ]
+    },
+    {
+        "id": "347",
+        "name": "Nhà máy thông minh và Quản trị vận hành",
+        "so_tin_chi": "2",
+        "tags": [
+            "smart-factory",
+            "industrial-automation",
+            "iot",
+            "digitalization-in-production"
+        ]
+    },
+    {
+        "id": "348",
+        "name": "Quản trị nguyên vật liệu",
+        "so_tin_chi": "2",
+        "tags": [
+            "material-management",
+            "procurement",
+            "inventory-control",
+            "supplier-management"
+        ]
+    },
+    {
+        "id": "349",
+        "name": "Thực hành mô phỏng trong Logistics",
+        "so_tin_chi": "2",
+        "tags": [
+            "simulation-software",
+            "logistics-modeling",
+            "supply-chain-simulation",
+            "process-modeling",
+            "network-optimization"
+        ]
+    },
+    {
+        "id": "350",
+        "name": "Khai phá và lưu trữ dữ liệu Logistics",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-mining",
+            "data-warehousing",
+            "data-integration",
+            "regression-analysis",
+            "time-series-analysis",
+            "decision-trees"
+        ]
+    },
+    {
+        "id": "351",
+        "name": "An toàn và bảo mật trong E-logistics",
+        "so_tin_chi": "2",
+        "tags": [
+            "security",
+            "data-protection",
+            "risk-management",
+            "cybersecurity"
+        ]
+    },
+    {
+        "id": "352",
+        "name": "Tổng quan về du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "tour",
+            "travel",
+            "destinations"
+        ]
+    },
+    {
+        "id": "353",
+        "name": "Marketing du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "tour",
+            "marketing",
+            "travel-promotions",
+            "target-audience",
+            "digital-marketing"
+        ]
+    },
+    {
+        "id": "354",
+        "name": "Văn hóa du lịch",
+        "so_tin_chi": "3",
+        "tags": [
+            "diversity",
+            "cultural-heritage",
+            "cultural-exchange",
+            "cultural-appreciation",
+            "cultural-immersion",
+            "cultural-sensitivity"
+        ]
+    },
+    {
+        "id": "355",
+        "name": "Tuyến điểm du lịch Việt Nam",
+        "so_tin_chi": "2",
+        "tags": []
+    },
+    {
+        "id": "356",
+        "name": "Quản lý hệ thống thông tin du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "tourism-information-management",
+            "data-integration",
+            "information-technology",
+            "travel-databases",
+            "information-systems"
+        ]
+    },
+    {
+        "id": "357",
+        "name": "Quản trị kinh doanh lữ hành",
+        "so_tin_chi": "2",
+        "tags": [
+            "tourism-management",
+            "travel-management",
+            "business-administration",
+            "hospitality-industry",
+            "tour-operations"
+        ]
+    },
+    {
+        "id": "358",
+        "name": "Xúc tiến du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "tourism-promotion",
+            "destination-marketing",
+            "travel-advertising",
+            "tourism-campaigns",
+            "tourism-events"
+        ]
+    },
+    {
+        "id": "359",
+        "name": "Hành vi tiêu dùng du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "consumer-behavior",
+            "travel-decision-making",
+            "travel-motivations",
+            "travel-preferences",
+            "travel-trends"
+        ]
+    },
+    {
+        "id": "360",
+        "name": "Quản trị tổ chức sự kiện du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "event-management",
+            "event-planning"
+        ]
+    },
+    {
+        "id": "361",
+        "name": "Nghiệp vụ lữ hành",
+        "so_tin_chi": "2",
+        "tags": [
+            "tour-packaging",
+            "itinerary-planning",
+            "ticketing-and-reservations",
+            "transportation-logistics"
+        ]
+    },
+    {
+        "id": "362",
+        "name": "Quản trị bán hàng trực tuyến",
+        "so_tin_chi": "2",
+        "tags": [
+            "crm",
+            "online-sales-management",
+            "e-commerce"
+        ]
+    },
+    {
+        "id": "363",
+        "name": "Tâm lý và giao tiếp ứng xử trong kinh doanh du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "customer-service-skills",
+            "effective-communication",
+            "active-listening",
+            "empathy",
+            "conflict-resolution"
+        ]
+    },
+    {
+        "id": "364",
+        "name": "Quản trị chất lượng dịch vụ du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "quality-management-system",
+            "service-standards",
+            "customer-satisfaction",
+            "continuous-improvement"
+        ]
+    },
+    {
+        "id": "365",
+        "name": "Thiết kế website thương mại điện tử",
+        "so_tin_chi": "2",
+        "tags": [
+            "e-commerce-website-design",
+            "ux",
+            "ui"
+        ]
+    },
+    {
+        "id": "366",
+        "name": "Nghiệp vụ hướng dẫn du lịch",
+        "so_tin_chi": "2",
+        "tags": [
+            "tour-guiding",
+            "destination-knowledge",
+            "cultural-awareness",
+            "customer-service",
+            "communication-skills"
+        ]
+    },
+    {
+        "id": "367",
+        "name": "Tiếng Anh chuyên ngành 1 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "368",
+        "name": "Đồ án cơ sở 1 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "369",
+        "name": "Tiếng Anh chuyên ngành 2 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "370",
+        "name": "Đồ án cơ sở 2 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "371",
+        "name": "Đồ án cơ sở 3 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "372",
+        "name": "Thực tập thực tế (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "373",
+        "name": "Đồ án cơ sở 4 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "374",
+        "name": "Chuyên đề 1 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "375",
+        "name": "Tiếng Anh nâng cao 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "376",
+        "name": "Chuyên đề 2 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "377",
+        "name": "Đồ án chuyên ngành 1 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "378",
+        "name": "Tiếng Anh nâng cao 4",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "379",
+        "name": "Thực tập doanh nghiệp (IS)",
+        "so_tin_chi": "3",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "380",
+        "name": "Chuyên đề 3 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "381",
+        "name": "Đồ án chuyên ngành 2 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "382",
+        "name": "An toàn mạng không dây và di động",
+        "so_tin_chi": "2",
+        "tags": [
+            "network",
+            "security",
+            "wireless"
+        ]
+    },
+    {
+        "id": "383",
+        "name": "Chuyên đề 4 (IS)",
+        "so_tin_chi": "2",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "384",
+        "name": "Đồ án chuyên ngành 3 (IS)",
+        "so_tin_chi": "1",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "385",
+        "name": "Đồ án tốt nghiệp (IS)",
+        "so_tin_chi": "10",
+        "tags": [
+            "is",
+            "finnal"
+        ]
+    },
+    {
+        "id": "386",
+        "name": "Thực tập tốt nghiệp (IS)",
+        "so_tin_chi": "4",
+        "tags": [
+            "is"
+        ]
+    },
+    {
+        "id": "387",
+        "name": "Thực tập thực tế (IT)",
+        "so_tin_chi": "1",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "388",
+        "name": "Thực tập tốt nghiệp (ITCN)",
+        "so_tin_chi": "3",
+        "tags": [
+            "finnal",
+            "itcn"
+        ]
+    },
+    {
+        "id": "389",
+        "name": "Đồ án tốt nghiệp (ITCN)",
+        "so_tin_chi": "5",
+        "tags": [
+            "finnal",
+            "itcn"
+        ]
+    },
+    {
+        "id": "390",
+        "name": "Tiếng Anh chuyên ngành 1 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "391",
+        "name": "Đồ án cơ sở 1 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "base-project",
+            "ai"
+        ]
+    },
+    {
+        "id": "392",
+        "name": "Tiếng Anh chuyên ngành 2 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "english",
+            "language"
+        ]
+    },
+    {
+        "id": "393",
+        "name": "Đồ án cơ sở 2 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "base-project",
+            "ai"
+        ]
+    },
+    {
+        "id": "394",
+        "name": "Thực tập thực tế (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ai"
+        ]
+    },
+    {
+        "id": "395",
+        "name": "Đồ án cơ sở 3 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "base-project",
+            "ai"
+        ]
+    },
+    {
+        "id": "396",
+        "name": "Toán cho học máy",
+        "so_tin_chi": "3",
+        "tags": [
+            "ai",
+            "linear-algebra",
+            "calculus",
+            "probability-theory",
+            "statistics",
+            "optimization",
+            "numerical-methods",
+            "matrix-algebra"
+        ]
+    },
+    {
+        "id": "397",
+        "name": "Chuyên đề 1 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ai-thematic"
+        ]
+    },
+    {
+        "id": "398",
+        "name": "Đồ án cơ sở 4 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "base-project",
+            "ai"
+        ]
+    },
+    {
+        "id": "399",
+        "name": "Chuyên đề 2 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ai-thematic"
+        ]
+    },
+    {
+        "id": "400",
+        "name": "Đồ án chuyên ngành 1 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ai"
+        ]
+    },
+    {
+        "id": "401",
+        "name": "Thực tập doanh nghiệp (AI)",
+        "so_tin_chi": "3",
+        "tags": [
+            "ai"
+        ]
+    },
+    {
+        "id": "402",
+        "name": "Phân tích dữ liệu chuỗi thời gian",
+        "so_tin_chi": "2",
+        "tags": [
+            "time-series-analysis",
+            "trend-analysis",
+            "seasonal-decomposition",
+            "autocorrelation"
+        ]
+    },
+    {
+        "id": "403",
+        "name": "Khai phá dữ liệu web",
+        "so_tin_chi": "3",
+        "tags": [
+            "web-data-mining",
+            "web-scraping",
+            "web-crawling",
+            "data-extraction",
+            "data-preprocessing",
+            "text-mining"
+        ]
+    },
+    {
+        "id": "404",
+        "name": "Chuyên đề 3 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ai-thematic"
+        ]
+    },
+    {
+        "id": "405",
+        "name": "Đồ án chuyên ngành 2 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ai",
+            "specialized",
+            "project"
+        ]
+    },
+    {
+        "id": "406",
+        "name": "Học tăng cường",
+        "so_tin_chi": "3",
+        "tags": [
+            "reinforcement-learning",
+            "markov-decision-processes",
+            "q-learning"
+        ]
+    },
+    {
+        "id": "407",
+        "name": "Robotic",
+        "so_tin_chi": "3",
+        "tags": [
+            "robotics",
+            "robot-design",
+            "robot-control",
+            "robot-programming",
+            "robot-perception",
+            "robot-localization"
+        ]
+    },
+    {
+        "id": "408",
+        "name": "Chuyên đề 4 (AI)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ai"
+        ]
+    },
+    {
+        "id": "409",
+        "name": "Đồ án chuyên ngành 3 (AI)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ai",
+            "specialized",
+            "project"
+        ]
+    },
+    {
+        "id": "410",
+        "name": "Thực tập tốt nghiệp (AI)",
+        "so_tin_chi": "4",
+        "tags": [
+            "ai",
+            "internship",
+            "graduation"
+        ]
+    },
+    {
+        "id": "411",
+        "name": "Đồ án tốt nghiệp (AI)",
+        "so_tin_chi": "10",
+        "tags": [
+            "ai",
+            "graduation",
+            "project"
+        ]
+    },
+    {
+        "id": "412",
+        "name": "Chuyên đề 1 (DA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "da",
+            "thematic"
+        ]
+    },
+    {
+        "id": "413",
+        "name": "Đồ án chuyên ngành 1 (DA)",
+        "so_tin_chi": "1",
+        "tags": [
+            "da",
+            "specialized",
+            "project"
+        ]
+    },
+    {
+        "id": "414",
+        "name": "Chuyên đề 2 (DA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "da",
+            "thematic"
+        ]
+    },
+    {
+        "id": "415",
+        "name": "Đồ án chuyên ngành 2 (DA)",
+        "so_tin_chi": "1",
+        "tags": [
+            "da",
+            "specialized",
+            "project"
+        ]
+    },
+    {
+        "id": "416",
+        "name": "Thực tập doanh nghiệp (DA))",
+        "so_tin_chi": "3",
+        "tags": [
+            "da",
+            "corporate",
+            "nternship"
+        ]
+    },
+    {
+        "id": "417",
+        "name": "Chuyên đề 3 (DA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "da",
+            "thematic"
+        ]
+    },
+    {
+        "id": "418",
+        "name": "Đồ án chuyên ngành 3 (DA)",
+        "so_tin_chi": "1",
+        "tags": [
+            "da",
+            "specialized",
+            "project"
+        ]
+    },
+    {
+        "id": "419",
+        "name": "Chuyên đề 4 (DA)",
+        "so_tin_chi": "2",
+        "tags": [
+            "da",
+            "thematic"
+        ]
+    },
+    {
+        "id": "420",
+        "name": "Thực tập tốt nghiệp (DA)",
+        "so_tin_chi": "4",
+        "tags": [
+            "da",
+            "internship",
+            "graduation"
+        ]
+    },
+    {
+        "id": "421",
+        "name": "Đồ án tốt nghiệp (DA)",
+        "so_tin_chi": "10",
+        "tags": [
+            "da",
+            "graduation",
+            "project"
+        ]
+    },
+    {
+        "id": "422",
+        "name": "Tiếng Nhật 3",
+        "so_tin_chi": "2",
+        "tags": [
+            "japan",
+            "language"
+        ]
+    },
+    {
+        "id": "423",
+        "name": "Tiếng Nhật 4",
+        "so_tin_chi": "2",
+        "tags": [
+            "japan",
+            "language"
+        ]
+    },
+    {
+        "id": "424",
+        "name": "Thực tập doanh nghiệp (IT)",
+        "so_tin_chi": "3",
+        "tags": [
+            "it"
+        ]
+    },
+    {
+        "id": "425",
+        "name": "Thực tập thực tế (CE)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ce"
+        ]
+    },
+    {
+        "id": "426",
+        "name": "Thị giác máy tính (CN)",
+        "so_tin_chi": "2",
+        "tags": [
+            "cn"
+        ]
+    },
+    {
+        "id": "427",
+        "name": "Đồ án tốt nghiệp (CNCE)",
+        "so_tin_chi": "5",
+        "tags": [
+            "cnce"
+        ]
+    },
+    {
+        "id": "428",
+        "name": "Thực tập doanh nghiệp (CEKS)",
+        "so_tin_chi": "3",
+        "tags": [
+            "ceks"
+        ]
+    },
+    {
+        "id": "429",
+        "name": "Thực tập tốt nghiệp (CEKS)",
+        "so_tin_chi": "4",
+        "tags": [
+            "ceks"
+        ]
+    },
+    {
+        "id": "430",
+        "name": "Đề án 4_Digital Marketing",
+        "so_tin_chi": "1",
+        "tags": [
+            "dm",
+            "scheme"
+        ]
+    },
+    {
+        "id": "431",
+        "name": "Chuyên đề 1_Digital Marketing",
+        "so_tin_chi": "2",
+        "tags": [
+            "dm",
+            "thematic"
+        ]
+    },
+    {
+        "id": "432",
+        "name": "Đề án 5_Digital Marketing",
+        "so_tin_chi": "1",
+        "tags": [
+            "dm",
+            "scheme"
+        ]
+    },
+    {
+        "id": "433",
+        "name": "Chuyên đề 2_Digital Marketing",
+        "so_tin_chi": "2",
+        "tags": [
+            "dm",
+            "thematic"
+        ]
+    },
+    {
+        "id": "434",
+        "name": "Phân tích tài chính doanh nghiệp",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "financial-analysis",
+            "financial-statements",
+            "financial-ratios",
+            "profitability-analysis",
+            "roi",
+            "roa",
+            "roe",
+            "eps"
+        ]
+    },
+    {
+        "id": "435",
+        "name": "Nhập môn Tài chính số",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "digital-finance",
+            "financial-technology",
+            "online-banking",
+            "mobile-payments",
+            "digital-currencies",
+            "cryptocurrency"
+        ]
+    },
+    {
+        "id": "436",
+        "name": "Kế toán tài chính doanh nghiệp",
+        "so_tin_chi": "3",
+        "tags": [
+            "ef",
+            "corporate",
+            "financial",
+            "accounting"
+        ]
+    },
+    {
+        "id": "437",
+        "name": "Kế toán quản trị",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "management",
+            "accounting"
+        ]
+    },
+    {
+        "id": "438",
+        "name": "Phân tích báo cáo tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "financial",
+            "statement",
+            "analysis"
+        ]
+    },
+    {
+        "id": "439",
+        "name": "Cơ sở dữ liệu tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "database",
+            "finance"
+        ]
+    },
+    {
+        "id": "440",
+        "name": "Đề án 3_ QT Tài chính số",
+        "so_tin_chi": "1",
+        "tags": [
+            "ef",
+            "scheme"
+        ]
+    },
+    {
+        "id": "441",
+        "name": "Đầu tư tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "investment-analysis",
+            "portfolio-management",
+            "asset-allocation",
+            "risk-management",
+            "financial-markets"
+        ]
+    },
+    {
+        "id": "442",
+        "name": "Quản trị rủi ro tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "financial-risk-management",
+            "risk-assessment",
+            "risk-identification",
+            "risk-measurement",
+            "risk-mitigation"
+        ]
+    },
+    {
+        "id": "443",
+        "name": "Hệ thống thanh toán quốc tế",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "international-payment-system",
+            "cross-border-payment"
+        ]
+    },
+    {
+        "id": "444",
+        "name": "Phân tích dữ liệu lớn trong tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "bigdata",
+            "analytics",
+            "finance"
+        ]
+    },
+    {
+        "id": "445",
+        "name": "Quản trị ngân hàng thương mại",
+        "so_tin_chi": "2",
+        "tags": [
+            "commercial-banking",
+            "bank-management",
+            "banking-operations"
+        ]
+    },
+    {
+        "id": "446",
+        "name": "Đề án 4_QT Tài chính số",
+        "so_tin_chi": "1",
+        "tags": [
+            "ef",
+            "scheme"
+        ]
+    },
+    {
+        "id": "447",
+        "name": "Chuyên đề 1_QT Tài chính số",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "thematic"
+        ]
+    },
+    {
+        "id": "448",
+        "name": "Ứng dụng phần mềm tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "financial-planning-software",
+            "budgeting-software"
+        ]
+    },
+    {
+        "id": "449",
+        "name": "Đề án 5_QT Tài chính số",
+        "so_tin_chi": "1",
+        "tags": [
+            "ef",
+            "scheme"
+        ]
+    },
+    {
+        "id": "450",
+        "name": "Phân tích hoạt động kinh doanh",
+        "so_tin_chi": "2",
+        "tags": [
+            "business-performance-analysis",
+            "business-process-analysis",
+            "financial-analysis",
+            "market-analysis"
+        ]
+    },
+    {
+        "id": "451",
+        "name": "Kiểm toán căn bản",
+        "so_tin_chi": "2",
+        "tags": [
+            "audit-planning",
+            "risk-assessment",
+            "internal-control-evaluation"
+        ]
+    },
+    {
+        "id": "452",
+        "name": "Phát triển ứng dụng tài chính trên Python",
+        "so_tin_chi": "2",
+        "tags": [
+            "financial-data-analysis",
+            "financial-modeling",
+            "python",
+            "programing"
+        ]
+    },
+    {
+        "id": "453",
+        "name": "An toàn bảo mật thông tin tài chính",
+        "so_tin_chi": "2",
+        "tags": [
+            "data-encryption",
+            "secure-transmission-protocols",
+            "access-control-mechanisms",
+            "authentication",
+            "authorization-processes"
+        ]
+    },
+    {
+        "id": "454",
+        "name": "Quản trị tài chính quốc tế",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "international",
+            "finance",
+            "administration"
+        ]
+    },
+    {
+        "id": "455",
+        "name": "Chuyên đề 2_QT Tài chính số",
+        "so_tin_chi": "2",
+        "tags": [
+            "ef",
+            "thematic"
+        ]
+    },
+    {
+        "id": "456",
+        "name": "Nhập môn quản lý dự án",
+        "so_tin_chi": "2",
+        "tags": []
+    },
+    {
+        "id": "457",
+        "name": "Mô hình phát triển dự án",
+        "so_tin_chi": "2",
+        "tags": [
+            "agile",
+            "waterfall",
+            "scrum",
+            "kanban",
+            "spiral"
+        ]
+    },
+    {
+        "id": "458",
+        "name": "Lập dự án đầu tư",
+        "so_tin_chi": "2",
+        "tags": [
+            "project-planning",
+            "investment",
+            "market-analysis",
+            "feasibility-study"
+        ]
+    },
+    {
+        "id": "459",
+        "name": "Đề án 3_Quản trị dự án CNTT",
+        "so_tin_chi": "1",
+        "tags": [
+            "im",
+            "scheme"
+        ]
+    },
+    {
+        "id": "460",
+        "name": "Cơ sở lập trình",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "base",
+            "it",
+            "programming-fundamentals",
+            "algorithms",
+            "data-structures"
+        ]
+    },
+    {
+        "id": "461",
+        "name": "Quản lý truyền thông dự án",
+        "so_tin_chi": "2",
+        "tags": [
+            "project-communication-plan",
+            "stakeholder-communication"
+        ]
+    },
+    {
+        "id": "462",
+        "name": "Thiết kế website",
+        "so_tin_chi": "3",
+        "tags": [
+            "programing",
+            "website",
+            "responsive-design",
+            "wireframing",
+            "prototyping",
+            "html",
+            "css",
+            "javascript",
+            "front-end",
+            "ui",
+            "ux"
+        ]
+    },
+    {
+        "id": "463",
+        "name": "Đề án 4_Quản trị dự án CNTT",
+        "so_tin_chi": "1",
+        "tags": [
+            "im",
+            "scheme"
+        ]
+    },
+    {
+        "id": "464",
+        "name": "Quản lý rủi ro dự án",
+        "so_tin_chi": "3",
+        "tags": [
+            "risk-management",
+            "risk-identification",
+            "risk-assessment",
+            "risk-analysis",
+            "risk-mitigation",
+            "risk-monitoring"
+        ]
+    },
+    {
+        "id": "465",
+        "name": "Quản lý chất lượng dự án",
+        "so_tin_chi": "3",
+        "tags": [
+            "quality-management",
+            "quality-planning",
+            "quality-assurance",
+            "quality-control",
+            "quality-standards"
+        ]
+    },
+    {
+        "id": "466",
+        "name": "Đề án 5_Quản trị dự án CNTT",
+        "so_tin_chi": "1",
+        "tags": [
+            "im",
+            "scheme5"
+        ]
+    },
+    {
+        "id": "467",
+        "name": "Công nghệ website",
+        "so_tin_chi": "2",
+        "tags": [
+            "programing",
+            "web-development",
+            "website-design",
+            "front-end",
+            "back-end",
+            "responsive-design"
+        ]
+    },
+    {
+        "id": "468",
+        "name": "Chuyên đề 1_QT DACNTT",
+        "so_tin_chi": "2",
+        "tags": [
+            "im",
+            "thematic"
+        ]
+    },
+    {
+        "id": "469",
+        "name": "Quản trị đấu thầu dự án",
+        "so_tin_chi": "3",
+        "tags": [
+            "bid-management",
+            "procurement-process",
+            "rfp",
+            "rfq"
+        ]
+    },
+    {
+        "id": "470",
+        "name": "Quản lý dự án Công nghệ thông tin",
+        "so_tin_chi": "3",
+        "tags": [
+            "im",
+            "management",
+            "project-management",
+            "it-project-planning",
+            "project-scope-management"
+        ]
+    },
+    {
+        "id": "471",
+        "name": "Quản lý hợp đồng",
+        "so_tin_chi": "2",
+        "tags": [
+            "contract",
+            "management"
+        ]
+    },
+    {
+        "id": "472",
+        "name": "Chuyên đề 2_QT DACNTT",
+        "so_tin_chi": "2",
+        "tags": [
+            "im",
+            "thematic"
+        ]
+    },
+    {
+        "id": "473",
+        "name": "An toàn và bảo mật thông tin",
+        "so_tin_chi": "2",
+        "tags": [
+            "information",
+            "security",
+            "safety",
+            "information-security",
+            "cybersecurity",
+            "data-protection",
+            "risk-management"
+        ]
+    },
+    {
+        "id": "474",
+        "name": "Chuyên đề 1 (IR)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ir",
+            "thematic"
+        ]
+    },
+    {
+        "id": "475",
+        "name": "Chuyên đề 2 (IR)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ir",
+            "thematic"
+        ]
+    },
+    {
+        "id": "476",
+        "name": "Đồ án chuyên ngành 1 (IR)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ir",
+            "specialized",
+            "projects"
+        ]
+    },
+    {
+        "id": "477",
+        "name": "Chuyên đề 3 (IR)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ir",
+            "thematic"
+        ]
+    },
+    {
+        "id": "478",
+        "name": "Đồ án chuyên ngành 2 (IR)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ir",
+            "specialized",
+            "projects"
+        ]
+    },
+    {
+        "id": "479",
+        "name": "Chuyên đề 4 (IR)",
+        "so_tin_chi": "2",
+        "tags": [
+            "ir",
+            "thematic"
+        ]
+    },
+    {
+        "id": "480",
+        "name": "Đồ án chuyên ngành 3 (IR)",
+        "so_tin_chi": "1",
+        "tags": [
+            "ir",
+            "specialized",
+            "projects"
+        ]
+    },
+    {
+        "id": "481",
+        "name": "Đề án 3_Quản trị Logistics và Chuỗi cung ứng số",
+        "so_tin_chi": "1",
+        "tags": [
+            "el",
+            "scheme"
+        ]
+    },
+    {
+        "id": "482",
+        "name": "Đề án 4_Quản trị Logistics và Chuỗi cung ứng số",
+        "so_tin_chi": "1",
+        "tags": [
+            "el",
+            "scheme"
+        ]
+    },
+    {
+        "id": "483",
+        "name": "Đề án 5_Quản trị Logistics và Chuỗi cung ứng số",
+        "so_tin_chi": "1",
+        "tags": [
+            "el",
+            "scheme"
+        ]
+    },
+    {
+        "id": "484",
+        "name": "Chuyên đề 1_Quản trị Logistics và Chuỗi cung ứng số",
+        "so_tin_chi": "2",
+        "tags": [
+            "el",
+            "thematic"
+        ]
+    },
+    {
+        "id": "485",
+        "name": "Chuyên đề 2_Quản trị Logistics và Chuỗi cung ứng số",
+        "so_tin_chi": "2",
+        "tags": [
+            "el",
+            "thematic"
+        ]
+    },
+    {
+        "id": "486",
+        "name": "Đề án 3_Quản trị DVDL&LHS",
+        "so_tin_chi": "1",
+        "tags": [
+            "et",
+            "scheme"
+        ]
+    },
+    {
+        "id": "487",
+        "name": "Đề án 4_Quản trị DVDL&LHS",
+        "so_tin_chi": "1",
+        "tags": [
+            "et",
+            "scheme"
+        ]
+    },
+    {
+        "id": "488",
+        "name": "Đề án 5_Quản trị DVDL&LHS",
+        "so_tin_chi": "1",
+        "tags": [
+            "et",
+            "scheme"
+        ]
+    },
+    {
+        "id": "489",
+        "name": "Chuyên đề 1_Quản trị dịch vụ du lịch và lữ hành số",
+        "so_tin_chi": "2",
+        "tags": [
+            "et",
+            "thematic"
+        ]
+    },
+    {
+        "id": "490",
+        "name": "Chuyên đề 2_Quản trị dịch vụ du lịch và lữ hành số",
+        "so_tin_chi": "2",
+        "tags": [
+            "et",
+            "thematic"
+        ]
+    }
+]
