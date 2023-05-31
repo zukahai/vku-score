@@ -31,7 +31,7 @@ class Train:
             "index_subject_x": 0,
             "index_subject_y": 0,
             "sum_time_train": 0,
-            "time_train_on_last_train": 0,
+            "number_of_train": 0,
             "complete": False
         }
         self.index_train = {
@@ -40,6 +40,7 @@ class Train:
         }
         self.index_progress = 0
         self.sum_time_train = 0
+        self.number_of_train = 1
         Utils.create_forder("./result/" + str(self.name_fordel_train))
         with open("result/" + str(self.name_fordel_train) + "/info_train.json","w", encoding='utf-8') as jsonfile:
             json.dump(self.info_train, jsonfile,ensure_ascii=False)
@@ -60,6 +61,7 @@ class Train:
             }
             self.sum_time_train = obj["sum_time_train"]
             self.name_fordel_train = name_fordel_old_train
+            self.number_of_train = obj["number_of_train"] + 1
             self.index_progress = obj["index_subject_y"] * len(self.subjects) + obj["index_subject_x"]
 
     def add_new_data_train(self, new_data):
@@ -127,7 +129,7 @@ class Train:
             "index_subject_x": index_subject_x,
             "index_subject_y": index_subject_y,
             "sum_time_train": self.sum_time_train + time_train,
-            "time_train_on_last_train": time_train,
+            "number_of_train": self.number_of_train,
             "complete": False
         }
         
@@ -137,6 +139,7 @@ class Train:
 
     def done_train(self):
         self.info_train = {
+            "number_of_train": self.number_of_train,
             "number_of_subject_train": len(self.subjects),
             "number_of_data_train": self.lnr.number_of_file,
             "sum_time_train": self.sum_time_train + time.time() - self.start_time,
