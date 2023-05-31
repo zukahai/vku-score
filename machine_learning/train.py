@@ -91,8 +91,6 @@ class Train:
             slope, intercept, mse = 0, 0, 0
             try:
                 slope, intercept, r, p, std_err = stats.linregress(x, y)
-                if (name_subject_y == 'Tin học đại cương' and name_subject_x == 'Cấu trúc dữ liệu và giải thuật'):
-                    print(x, y, slope, intercept)
                 # check slope is Nan
                 if np.isnan(slope) or np.isnan(intercept):
                     slope, intercept = 0, 0
