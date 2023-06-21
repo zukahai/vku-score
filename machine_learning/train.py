@@ -146,8 +146,10 @@ class Train:
             "complete": True
         }
         with open("result/" + str(self.name_fordel_train) + "/info_train.json","w", encoding='utf-8') as jsonfile:
-          
             json.dump(self.info_train, jsonfile,ensure_ascii=False)
+
+         # convert result to json
+        Utils.csv_to_json("result/" + str(self.name_fordel_train) + "/result_train.csv", "result/" + str(self.name_fordel_train) + "/result_train.json")
         print("End train time:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.end_time)))
         
 

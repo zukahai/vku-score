@@ -3,7 +3,7 @@ import json
 
 class Utils:
     # print progress
-    def printProgressBar (self,iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
+    def printProgressBar (self,iteration, total, prefix = '', suffix = '', decimals = 2, length = 100, fill = '█', printEnd = "\r"):
         """
         Call in a loop to create terminal progress bar
         @params:
@@ -42,6 +42,16 @@ class Utils:
     # get all name files
     def get_all_name_files_in_fordel(dir_path):
         return [entry for entry in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, entry))]
+    
+    def get_all_name_fordel(folder_path):
+        return [name for name in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, name))]
+    
+    def create_forder(dir_path):
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+        
 
 # test
 # print(Utils.get_all_name_files_in_fordel('./result'))
+# Utils.create_forder('./result/abc')
+# print(Utils.get_all_name_fordel('./result/'))
