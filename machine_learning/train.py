@@ -74,7 +74,7 @@ class Train:
             writer = csv.writer(csv_file)
             # Nếu file chưa tồn tại, ghi dòng header
             if not file_exists:
-                header = ['name_subject_y', 'name_subject_y', 'slope', 'intercept', 'mean_squared_error' 'static']
+                header = ['name_subject_y', 'name_subject_x', 'slope', 'intercept', 'mean_squared_error', 'static']
                 writer.writerow(header)
             # Ghi các dòng dữ liệu mới
             writer.writerows(new_data)
@@ -97,7 +97,7 @@ class Train:
                 if np.isnan(slope) or np.isnan(intercept):
                     slope, intercept = 0, 0
                 #get MSE of linear regression
-                mse = np.mean((np.array(y) - slope * np.array(x) - intercept) ** 2)
+                mse = np.mean((np.array(y) - (slope * np.array(x) + intercept)) ** 2)
             except:
                 slope, intercept = 0, 0
             
