@@ -24,8 +24,13 @@ def excel_to_json(file_path):
 
     for sheet_name, sheet_data in json_data.items():
         json_file_path = f"output/{sheet_name}.json"
+
+        jon_data = {
+            "scoreAll": sheet_data
+        }
+
         with open(json_file_path, 'w', encoding='utf-8-sig') as json_file:
-            json.dump(sheet_data, json_file, ensure_ascii=False)
+            json.dump(jon_data, json_file, ensure_ascii=False)
 
     print("Chuyển đổi thành công ", file_path)
 
