@@ -1,6 +1,7 @@
 let scoreUserAll = scoreUser.scoreAll;
 
 let result = {}
+let recommendHocPhan = []
 
 for (let i = 0; i < scoreUserAll.length; i ++) {
     let count = 0
@@ -24,12 +25,30 @@ for (let i = 0; i < scoreUserAll.length; i ++) {
     }
     let meanScoreY = (count == 0) ? 0 : (sum / count);
     result[nameSujectY] = {
+        "name": scoreUserAll[i]['name'],
         "scorePredict" : meanScoreY,
         "scoreT10": scoreUserAll[i]['scoreT10'],
+        "difference": meanScoreY - scoreUserAll[i]['scoreT10'],
         "scoreCh": scoreUserAll[i]['scoreCh'],
-        "name": scoreUserAll[i]['name'],
         "countTC": scoreUserAll[i]['countTC'],
     }
 }
-console.log(result)
+
+// convert to array
+for (let subject in result)
+recommendHocPhan.push({
+    "name": subject,
+    "scorePredict" : result[subject]['scorePredict'],
+    "scoreT10": result[subject]['scoreT10'],
+    "difference": result[subject]['scorePredict'] - result[subject]['scoreT10'],
+    "scoreCh": result[subject]['scoreCh'],
+    "countTC": result[subject]['countTC'],
+})
+
+recommendHocPhan.sort((a, b) => {
+    return b.difference - a.difference
+})
+
+console.log(recommendHocPhan)
+
     
