@@ -8,17 +8,21 @@ for (let i = 0; i < scoreUserAll.length; i ++) {
     let sum = 0
     let nameSujectY = scoreUserAll[i]['name'];
 
-    for (let j = 1; j < scoreUserAll.length; j++) {
+    for (let j = 0; j < scoreUserAll.length; j++) {
         let nameSujectX = scoreUserAll[j]['name'];
         if (linear[nameSujectY] !== undefined) {
             if (linear[nameSujectY][nameSujectX] !== undefined) {
                 if (linear[nameSujectY][nameSujectX]['static'] ===  "True") {
                     let slope = linear[nameSujectY][nameSujectX]['slope']
                     let intercept = linear[nameSujectY][nameSujectX]['intercept']
-                    let scoreX =  scoreUserAll[i]['scoreT10']
+                    let scoreX =  scoreUserAll[j]['scoreT10']
                     let scoreY =  parseFloat(slope) * parseFloat(scoreX) + parseFloat(intercept);
                     count++;
                     sum = parseFloat(sum) + parseFloat(scoreY);
+
+                    // if (nameSujectY == 'Cấu trúc dữ liệu và giải thuật') {
+                    //     console.log(scoreY, scoreX, nameSujectX)
+                    // }
                 }
             }
         }
