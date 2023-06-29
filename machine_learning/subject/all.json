@@ -1,0 +1,697 @@
+﻿{
+    "Tiếng Anh chuyên ngành 1": {
+        "id": 7,
+        "name": "Tiếng Anh chuyên ngành 1",
+        "countTC": 2
+    },
+    "Đề án 1": {
+        "id": 5,
+        "name": "Đề án 1",
+        "countTC": 2
+    },
+    "Tin học đại cương": {
+        "id": 5,
+        "name": "Tin học đại cương",
+        "countTC": 3
+    },
+    "Tiếng Anh 1": {
+        "id": 13,
+        "name": "Tiếng Anh 1",
+        "countTC": 3
+    },
+    "Pháp luật đại cương": {
+        "id": 50,
+        "name": "Pháp luật đại cương",
+        "countTC": 2
+    },
+    "Luật kinh doanh": {
+        "id": 12,
+        "name": "Luật kinh doanh",
+        "countTC": 3
+    },
+    "Kinh tế học": {
+        "id": 11,
+        "name": "Kinh tế học",
+        "countTC": 4
+    },
+    "Tiếng Anh chuyên ngành 2": {
+        "id": 24,
+        "name": "Tiếng Anh chuyên ngành 2",
+        "countTC": 2
+    },
+    "Đề án 2": {
+        "id": 10,
+        "name": "Đề án 2",
+        "countTC": 2
+    },
+    "Tiếng Anh 2": {
+        "id": 13,
+        "name": "Tiếng Anh 2",
+        "countTC": 2
+    },
+    "Giao tiếp kinh doanh": {
+        "id": 26,
+        "name": "Giao tiếp kinh doanh",
+        "countTC": 3
+    },
+    "Marketing căn bản": {
+        "id": 13,
+        "name": "Marketing căn bản",
+        "countTC": 3
+    },
+    "Kỹ thuật đồ họa ứng dụng": {
+        "id": 28,
+        "name": "Kỹ thuật đồ họa ứng dụng",
+        "countTC": 3
+    },
+    "Nhập môn thương mại điện tử": {
+        "id": 17,
+        "name": "Nhập môn thương mại điện tử",
+        "countTC": 3
+    },
+    "Quản trị nguồn nhân lực": {
+        "id": 16,
+        "name": "Quản trị nguồn nhân lực",
+        "countTC": 3
+    },
+    "Tiếng Anh chuyên ngành 3": {
+        "id": 15,
+        "name": "Tiếng Anh chuyên ngành 3",
+        "countTC": 2
+    },
+    "Tiếng Anh 3": {
+        "id": 21,
+        "name": "Tiếng Anh 3",
+        "countTC": 2
+    },
+    "Đề án 3": {
+        "id": 29,
+        "name": "Đề án 3",
+        "countTC": 2
+    },
+    "Hành vi tổ chức": {
+        "id": 48,
+        "name": "Hành vi tổ chức",
+        "countTC": 0
+    },
+    "Marketing điện tử": {
+        "id": 18,
+        "name": "Marketing điện tử",
+        "countTC": 3
+    },
+    "Quản trị bán hàng": {
+        "id": 19,
+        "name": "Quản trị bán hàng",
+        "countTC": 3
+    },
+    "Quảng cáo xúc tiến bán hàng (MCI)": {
+        "id": 20,
+        "name": "Quảng cáo xúc tiến bán hàng (MCI)",
+        "countTC": 3
+    },
+    "Thiết kế website": {
+        "id": 22,
+        "name": "Thiết kế website",
+        "countTC": 2
+    },
+    "Đạo đức trong kinh doanh": {
+        "id": 45,
+        "name": "Đạo đức trong kinh doanh",
+        "countTC": 2
+    },
+    "Đề án 4": {
+        "id": 23,
+        "name": "Đề án 4",
+        "countTC": 2
+    },
+    "Đề án 5": {
+        "id": 30,
+        "name": "Đề án 5",
+        "countTC": 2
+    },
+    "Hệ thống thông tin quản lý": {
+        "id": 25,
+        "name": "Hệ thống thông tin quản lý",
+        "countTC": 2
+    },
+    "Quản trị chuỗi cung ứng": {
+        "id": 35,
+        "name": "Quản trị chuỗi cung ứng",
+        "countTC": 3
+    },
+    "Quản trị tài chính": {
+        "id": 31,
+        "name": "Quản trị tài chính",
+        "countTC": 3
+    },
+    "Toán ứng dụng trong kinh tế": {
+        "id": 25,
+        "name": "Toán ứng dụng trong kinh tế",
+        "countTC": 2
+    },
+    "Đề án 6": {
+        "id": 37,
+        "name": "Đề án 6",
+        "countTC": 2
+    },
+    "Chiến lược kinh doanh điện tử": {
+        "id": 34,
+        "name": "Chiến lược kinh doanh điện tử",
+        "countTC": 3
+    },
+    "Phương pháp nghiên cứu khoa học trong kinh tế": {
+        "id": 40,
+        "name": "Phương pháp nghiên cứu khoa học trong kinh tế",
+        "countTC": 2
+    },
+    "Thanh toán điện tử": {
+        "id": 46,
+        "name": "Thanh toán điện tử",
+        "countTC": 2
+    },
+    "Triết học Mác - Lênin": {
+        "id": 52,
+        "name": "Triết học Mác - Lênin",
+        "countTC": 3
+    },
+    "Lịch sử Đảng Cộng sản Việt Nam": {
+        "id": 62,
+        "name": "Lịch sử Đảng Cộng sản Việt Nam",
+        "countTC": 2
+    },
+    "Tiếng Anh chuyên ngành 4": {
+        "id": 33,
+        "name": "Tiếng Anh chuyên ngành 4",
+        "countTC": 2
+    },
+    "Đề án 7": {
+        "id": 42,
+        "name": "Đề án 7",
+        "countTC": 2
+    },
+    "Thống kê kinh doanh": {
+        "id": 36,
+        "name": "Thống kê kinh doanh",
+        "countTC": 2
+    },
+    "Quản trị quá trình đổi mới sáng tạo": {
+        "id": 44,
+        "name": "Quản trị quá trình đổi mới sáng tạo",
+        "countTC": 2
+    },
+    "Quản trị tác nghiệp thương mại điện tử": {
+        "id": 39,
+        "name": "Quản trị tác nghiệp thương mại điện tử",
+        "countTC": 3
+    },
+    "Kinh tế chính trị Mác - Lênin": {
+        "id": 63,
+        "name": "Kinh tế chính trị Mác - Lênin",
+        "countTC": 2
+    },
+    "Tư tưởng Hồ Chí Minh": {
+        "id": 56,
+        "name": "Tư tưởng Hồ Chí Minh",
+        "countTC": 2
+    },
+    "Chủ nghĩa xã hội khoa học": {
+        "id": 58,
+        "name": "Chủ nghĩa xã hội khoa học",
+        "countTC": 2
+    },
+    "Kế toán doanh nghiệp": {
+        "id": 24,
+        "name": "Kế toán doanh nghiệp",
+        "countTC": 2
+    },
+    "Khóa luận tốt nghiệp": {
+        "id": 47,
+        "name": "Khóa luận tốt nghiệp",
+        "countTC": 10
+    },
+    "Quản trị học": {
+        "id": 3,
+        "name": "Quản trị học",
+        "countTC": 3
+    },
+    "Nhập môn kinh doanh": {
+        "id": 6,
+        "name": "Nhập môn kinh doanh",
+        "countTC": 3
+    },
+    "Đồ án môn học Luật kinh doanh": {
+        "id": 36,
+        "name": "Đồ án môn học Luật kinh doanh",
+        "countTC": 1
+    },
+    "Đồ án môn học Quản trị bán hàng": {
+        "id": 39,
+        "name": "Đồ án môn học Quản trị bán hàng",
+        "countTC": 1
+    },
+    "Digital Marketing": {
+        "id": 41,
+        "name": "Digital Marketing",
+        "countTC": 2
+    },
+    "Đồ án môn học Digital Marketing": {
+        "id": 42,
+        "name": "Đồ án môn học Digital Marketing",
+        "countTC": 1
+    },
+    "Đại số": {
+        "id": 5,
+        "name": "Đại số",
+        "countTC": 2
+    },
+    "Nhập môn ngành và kỹ năng mềm": {
+        "id": 4,
+        "name": "Nhập môn ngành và kỹ năng mềm",
+        "countTC": 2
+    },
+    "Cơ sở dữ liệu": {
+        "id": 3,
+        "name": "Cơ sở dữ liệu",
+        "countTC": 2
+    },
+    "Nguyên lý hệ điều hành": {
+        "id": 14,
+        "name": "Nguyên lý hệ điều hành",
+        "countTC": 2
+    },
+    "Kiến trúc máy tính": {
+        "id": 11,
+        "name": "Kiến trúc máy tính",
+        "countTC": 2
+    },
+    "Cấu trúc dữ liệu và giải thuật": {
+        "id": 8,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "countTC": 3
+    },
+    "Công nghệ Web": {
+        "id": 9,
+        "name": "Công nghệ Web",
+        "countTC": 3
+    },
+    "Đồ án cơ sở 1": {
+        "id": 10,
+        "name": "Đồ án cơ sở 1",
+        "countTC": 2
+    },
+    "Phân tích và thiết kế hệ thống": {
+        "id": 19,
+        "name": "Phân tích và thiết kế hệ thống",
+        "countTC": 2
+    },
+    "Đồ án cơ sở 2   ????": {
+        "id": 16,
+        "name": "Đồ án cơ sở 2   ????",
+        "countTC": 2
+    },
+    "Chuyên đề 1 - Blockchain": {
+        "id": 15,
+        "name": "Chuyên đề 1 - Blockchain",
+        "countTC": 2
+    },
+    "Chuyên đề 2 - Agile": {
+        "id": 27,
+        "name": "Chuyên đề 2 - Agile",
+        "countTC": 2
+    },
+    "Tiếng Anh chuyên ngành & thực hành 2": {
+        "id": 30,
+        "name": "Tiếng Anh chuyên ngành & thực hành 2",
+        "countTC": 2
+    },
+    "Vi điều khiển": {
+        "id": 32,
+        "name": "Vi điều khiển",
+        "countTC": 3
+    },
+    "Trí tuệ nhân tạo": {
+        "id": 33,
+        "name": "Trí tuệ nhân tạo",
+        "countTC": 2
+    },
+    "Automat và Ngôn ngữ hình thức": {
+        "id": 34,
+        "name": "Automat và Ngôn ngữ hình thức",
+        "countTC": 2
+    },
+    "Chuyên đề 3 - Xe tự hành": {
+        "id": 36,
+        "name": "Chuyên đề 3 - Xe tự hành",
+        "countTC": 2
+    },
+    "Đồ họa máy tính": {
+        "id": 38,
+        "name": "Đồ họa máy tính",
+        "countTC": 2
+    },
+    "Quản lý dự án": {
+        "id": 40,
+        "name": "Quản lý dự án",
+        "countTC": 2
+    },
+    "Quản trị mạng": {
+        "id": 41,
+        "name": "Quản trị mạng",
+        "countTC": 2
+    },
+    "Bảo mật và An toàn hệ thống thông tin": {
+        "id": 42,
+        "name": "Bảo mật và An toàn hệ thống thông tin",
+        "countTC": 2
+    },
+    "Chuyên đề 4 - STEM": {
+        "id": 44,
+        "name": "Chuyên đề 4 - STEM",
+        "countTC": 2
+    },
+    "Kiểm thử phần mềm": {
+        "id": 43,
+        "name": "Kiểm thử phần mềm",
+        "countTC": 2
+    },
+    "Kỹ thuật truyền số liệu": {
+        "id": 47,
+        "name": "Kỹ thuật truyền số liệu",
+        "countTC": 2
+    },
+    "Xử lý ảnh": {
+        "id": 49,
+        "name": "Xử lý ảnh",
+        "countTC": 2
+    },
+    "Đồ án cơ sở 5": {
+        "id": 45,
+        "name": "Đồ án cơ sở 5",
+        "countTC": 2
+    },
+    "Chuyên đề 5 - Công nghệ Lifi": {
+        "id": 45,
+        "name": "Chuyên đề 5 - Công nghệ Lifi",
+        "countTC": 2
+    },
+    "Hệ thống nhúng": {
+        "id": 46,
+        "name": "Hệ thống nhúng",
+        "countTC": 3
+    },
+    "Tương tác người - máy": {
+        "id": 54,
+        "name": "Tương tác người - máy",
+        "countTC": 3
+    },
+    "Tiếng Anh chuyên ngành & thực hành 1": {
+        "id": 22,
+        "name": "Tiếng Anh chuyên ngành & thực hành 1",
+        "countTC": 2
+    },
+    "Vật lý": {
+        "id": 6,
+        "name": "Vật lý",
+        "countTC": 2
+    },
+    "Đồ án cơ sở 4": {
+        "id": 35,
+        "name": "Đồ án cơ sở 4",
+        "countTC": 2
+    },
+    "Đồ án chuyên ngành 1": {
+        "id": 53,
+        "name": "Đồ án chuyên ngành 1",
+        "countTC": 2
+    },
+    "Giải tích": {
+        "id": 28,
+        "name": "Giải tích",
+        "countTC": 2
+    },
+    "Hệ thống di động và cảm biến": {
+        "id": 56,
+        "name": "Hệ thống di động và cảm biến",
+        "countTC": 3
+    },
+    "Xử lý tín hiệu số": {
+        "id": 48,
+        "name": "Xử lý tín hiệu số",
+        "countTC": 2
+    },
+    "Lý thuyết điều khiển tự động": {
+        "id": 57,
+        "name": "Lý thuyết điều khiển tự động",
+        "countTC": 3
+    },
+    "Đồ án cơ sở 3": {
+        "id": 25,
+        "name": "Đồ án cơ sở 3",
+        "countTC": 2
+    },
+    "Đồ án chuyên ngành 2": {
+        "id": 59,
+        "name": "Đồ án chuyên ngành 2",
+        "countTC": 2
+    },
+    "Chuyên đề 6 - Nhà thông minh": {
+        "id": 53,
+        "name": "Chuyên đề 6 - Nhà thông minh",
+        "countTC": 2
+    },
+    "Lập trình Java nâng cao": {
+        "id": 12,
+        "name": "Lập trình Java nâng cao",
+        "countTC": 2
+    },
+    "Xác suất thống kê": {
+        "id": 31,
+        "name": "Xác suất thống kê",
+        "countTC": 2
+    },
+    "Lập trình di động": {
+        "id": 29,
+        "name": "Lập trình di động",
+        "countTC": 3
+    },
+    "Công nghệ phần mềm": {
+        "id": 26,
+        "name": "Công nghệ phần mềm",
+        "countTC": 2
+    },
+    "Công nghệ web nâng cao": {
+        "id": 16,
+        "name": "Công nghệ web nâng cao",
+        "countTC": 3
+    },
+    "Hệ thống số": {
+        "id": 18,
+        "name": "Hệ thống số",
+        "countTC": 2
+    },
+    "Toán rời rạc": {
+        "id": 20,
+        "name": "Toán rời rạc",
+        "countTC": 2
+    },
+    "Đồ án cơ sở 2": {
+        "id": 23,
+        "name": "Đồ án cơ sở 2",
+        "countTC": 2
+    },
+    "Đồ án tốt nghiệp": {
+        "id": 65,
+        "name": "Đồ án tốt nghiệp",
+        "countTC": 10
+    },
+    "Thực tập tốt nghiệp": {
+        "id": 64,
+        "name": "Thực tập tốt nghiệp",
+        "countTC": 3
+    },
+    "Thực tập doanh nghiệp": {
+        "id": 37,
+        "name": "Thực tập doanh nghiệp",
+        "countTC": 1
+    },
+    "Lập trình mạng": {
+        "id": 39,
+        "name": "Lập trình mạng",
+        "countTC": 2
+    },
+    "Trình biên dịch": {
+        "id": 46,
+        "name": "Trình biên dịch",
+        "countTC": 2
+    },
+    "Mạng máy tính": {
+        "id": 17,
+        "name": "Mạng máy tính",
+        "countTC": 2
+    },
+    "Lập trình hướng đối tượng và Java cơ bản": {
+        "id": 2,
+        "name": "Lập trình hướng đối tượng và Java cơ bản",
+        "countTC": 3
+    },
+    "Chuyên đề 3 - Drone": {
+        "id": 50,
+        "name": "Chuyên đề 3 - Drone",
+        "countTC": 2
+    },
+    "Thị giác máy tính": {
+        "id": 55,
+        "name": "Thị giác máy tính",
+        "countTC": 3
+    },
+    "Chuyên đề 5 - Phân tích dữ liệu với R": {
+        "id": 51,
+        "name": "Chuyên đề 5 - Phân tích dữ liệu với R",
+        "countTC": 2
+    },
+    "Hệ cơ sở dữ liệu phân tán": {
+        "id": 58,
+        "name": "Hệ cơ sở dữ liệu phân tán",
+        "countTC": 3
+    },
+    "Thương mại điện tử": {
+        "id": 53,
+        "name": "Thương mại điện tử",
+        "countTC": 3
+    },
+    "Chuyên đề 6 - Phát triển ứng dụng đa nền tảng": {
+        "id": 57,
+        "name": "Chuyên đề 6 - Phát triển ứng dụng đa nền tảng",
+        "countTC": 2
+    },
+    "Lập trình trong windows": {
+        "id": 61,
+        "name": "Lập trình trong windows",
+        "countTC": 3
+    },
+    "Công nghệ và lập trình web": {
+        "id": 50,
+        "name": "Công nghệ và lập trình web",
+        "countTC": 3
+    },
+    "Giải tích 1": {
+        "id": 41,
+        "name": "Giải tích 1",
+        "countTC": 2
+    },
+    "Tiếng Anh nâng cao 1": {
+        "id": 61,
+        "name": "Tiếng Anh nâng cao 1",
+        "countTC": 2
+    },
+    "Hành vi người tiêu dùng": {
+        "id": 27,
+        "name": "Hành vi người tiêu dùng",
+        "countTC": 2
+    },
+    "Kinh tế vi mô": {
+        "id": 24,
+        "name": "Kinh tế vi mô",
+        "countTC": 2
+    },
+    "Kinh tế vĩ mô": {
+        "id": 25,
+        "name": "Kinh tế vĩ mô",
+        "countTC": 2
+    },
+    "Cấu kiện điện tử": {
+        "id": 44,
+        "name": "Cấu kiện điện tử",
+        "countTC": 3
+    },
+    "Chuyên đề 5 - Công nghệ Lora": {
+        "id": 45,
+        "name": "Chuyên đề 5 - Công nghệ Lora",
+        "countTC": 2
+    },
+    "Chuyên đề 6 - Công nghệ vi mạch": {
+        "id": 55,
+        "name": "Chuyên đề 6 - Công nghệ vi mạch",
+        "countTC": 2
+    },
+    "Linux & phần mềm mã nguồn mở": {
+        "id": 64,
+        "name": "Linux & phần mềm mã nguồn mở",
+        "countTC": 3
+    },
+    "Đại số tuyến tính": {
+        "id": 61,
+        "name": "Đại số tuyến tính",
+        "countTC": 2
+    },
+    "Xử lý ngôn ngữ tự nhiên": {
+        "id": 56,
+        "name": "Xử lý ngôn ngữ tự nhiên",
+        "countTC": 3
+    },
+    "Mật mã học": {
+        "id": 57,
+        "name": "Mật mã học",
+        "countTC": 3
+    },
+    "Chuyên đề 6 - Hệ khuyến nghị": {
+        "id": 60,
+        "name": "Chuyên đề 6 - Hệ khuyến nghị",
+        "countTC": 2
+    },
+    "Mạng không dây và di động": {
+        "id": 63,
+        "name": "Mạng không dây và di động",
+        "countTC": 3
+    },
+    "Phân tích, thiết kế mạng": {
+        "id": 61,
+        "name": "Phân tích, thiết kế mạng",
+        "countTC": 3
+    },
+    "Chuyên đề 5 - Phân tích dữ liệu": {
+        "id": 64,
+        "name": "Chuyên đề 5 - Phân tích dữ liệu",
+        "countTC": 2
+    },
+    "Chuyên đề 6 - Big Data": {
+        "id": 60,
+        "name": "Chuyên đề 6 - Big Data",
+        "countTC": 2
+    },
+    "Lập trình Java": {
+        "id": 62,
+        "name": "Lập trình Java",
+        "countTC": 3
+    },
+    "Chuyên đề 2 - Ruby on rails": {
+        "id": 50,
+        "name": "Chuyên đề 2 - Ruby on rails",
+        "countTC": 2
+    },
+    "Chuyên đề 1 - Java web": {
+        "id": 60,
+        "name": "Chuyên đề 1 - Java web",
+        "countTC": 2
+    },
+    "Truyền số liệu": {
+        "id": 62,
+        "name": "Truyền số liệu",
+        "countTC": 2
+    },
+    "Chuyên đề 4 - Blockchain": {
+        "id": 49,
+        "name": "Chuyên đề 4 - Blockchain",
+        "countTC": 2
+    },
+    "Chuyên đề 5 - Phân tích dữ liệu (doanh nghiệp)": {
+        "id": 48,
+        "name": "Chuyên đề 5 - Phân tích dữ liệu (doanh nghiệp)",
+        "countTC": 2
+    },
+    "Thiết kế đồ họa động và hoạt hình": {
+        "id": 44,
+        "name": "Thiết kế đồ họa động và hoạt hình",
+        "countTC": 3
+    }
+}
