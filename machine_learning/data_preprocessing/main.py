@@ -20,6 +20,10 @@ def excel_to_json(file_path):
         column_names = ['id', 'maHP', 'name', 'countTC', 'scoreT10', 'scoreCh', 't4', 'group']
         sheet_data.columns = column_names[: len(sheet_data.columns)]
 
+        # Gán giá trị 0 cho cột 'maHP' hoặc 'group' nếu là NaN
+        sheet_data['maHP'] = sheet_data['maHP'].fillna(0)
+        sheet_data['group'] = sheet_data['group'].fillna(0)
+
         json_data[sheet_name] = sheet_data.to_dict(orient='records')
 
     for sheet_name, sheet_data in json_data.items():
@@ -41,7 +45,9 @@ def convert_folder_to_json(folder_path):
             excel_to_json(file_path)
 
 # Đường dẫn tới thư mục chứa các file Excel
-folder_path = "ScoreTN2023"
+folder_path = "./ScoreTN2023"
 
 # Gọi hàm để chuyển đổi từng file trong thư mục
 convert_folder_to_json(folder_path)
+
+# excel_to_json(folder_path)
