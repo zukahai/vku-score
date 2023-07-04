@@ -4,7 +4,7 @@ import numpy
 
 # Xoa het static trong linear regression bang False
 def remove_false():
-    old_json = Utils.load_json('./result/20230629-072656/result_train.json')
+    old_json = Utils.load_json('./result/20230704-164117/result_train.json')
 
     new_json = {}
 
@@ -15,7 +15,7 @@ def remove_false():
                 new_json[subject_y][subject_x] = old_json[subject_y][subject_x]
 
     # save file
-    with open('./result/20230629-072656/result_train_new.json', 'w', encoding='utf-8-sig') as f:
+    with open('./result/20230704-164117/result_train_new.json', 'w', encoding='utf-8-sig') as f:
         json.dump(new_json, f, ensure_ascii=False)
 
 # Lay danh sach mon hoc
