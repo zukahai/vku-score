@@ -4,11 +4,14 @@ let result = {}
 let recommendHocPhan = []
 
 for (let i = 0; i < scoreUserAll.length; i ++) {
+    if (scoreUserAll[i]['scoreT10'] === '') continue;
+    
     let count = 0
     let sum = 0
     let nameSujectY = scoreUserAll[i]['name'];
 
     for (let j = 0; j < scoreUserAll.length; j++) {
+        if (scoreUserAll[j]['scoreT10'] === '') continue;
         let nameSujectX = scoreUserAll[j]['name'];
         if (linear[nameSujectY] !== undefined) {
             if (linear[nameSujectY][nameSujectX] !== undefined) {
