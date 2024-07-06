@@ -1,0 +1,58 @@
+const validScoreCh = ["A", "B", "C", "D", "F"];
+const rows = document.querySelectorAll('.table-responsive table tbody tr');
+const scores = [];
+let currentSemester = '';
+
+rows.forEach(row => {
+    const cols = row.querySelectorAll('td');
+
+    if (cols.length === 1 && cols[0].colSpan === 13) {
+        currentSemester = cols[0].innerText.trim();
+    } else if (cols.length > 1) {
+        if (currentSemester === '') {
+            console.warn('Không tìm thấy kỳ học trước hàng điểm:', row);
+            return;
+        }
+
+        const convertEmptyToNull = (value) => value === "" ? null : value;
+
+        const score = {
+            value: convertEmptyToNull(cols[1].innerText.trim()),
+            key: null,
+            id: parseInt(cols[0].innerText.trim()),
+            name: convertEmptyToNull(cols[1].innerText.trim()),
+            countTC: cols[2].innerText.trim() === "" ? null : parseFloat(cols[2].innerText.trim()),
+            countLH: cols[3].innerText.trim() === "" ? null : parseFloat(cols[3].innerText.trim()),
+            scoreCC: cols[4].innerText.trim() === "" ? null : parseFloat(cols[4].innerText.trim()),
+            scoreBT: cols[5].innerText.trim() === "" ? null : parseFloat(cols[5].innerText.trim()),
+            scoreGK: cols[6].innerText.trim() === "" ? null : parseFloat(cols[6].innerText.trim()),
+            scoreCK: cols[7].innerText.trim() === "" ? null : parseFloat(cols[7].innerText.trim()),
+            scoreT10: cols[8].innerText.trim() === "" ? null : parseFloat(cols[8].innerText.trim()),
+            scoreCh: validScoreCh.includes(cols[9].innerText.trim()) ? cols[9].innerText.trim() : null,
+            scoreChChange: null,
+            semester: currentSemester
+        };
+
+        scores.push(score);
+    }
+});
+
+const highestScores = {};
+
+scores.forEach(score => {
+    const { name, scoreT10 } = score;
+    if (!highestScores[name] || (scoreT10 !== null && scoreT10 > highestScores[name].scoreT10)) {
+        highestScores[name] = score;
+    }
+});
+
+const filteredScores = Object.values(highestScores);
+const blob = new Blob([JSON.stringify(filteredScores, null, 2)], { type: 'application/json' });
+const url = URL.createObjectURL(blob);
+const a = document.createElement('a');
+a.href = url;
+a.download = 'scores.json';
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+URL.revokeObjectURL(url);
